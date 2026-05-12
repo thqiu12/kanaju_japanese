@@ -1,0 +1,1460 @@
+{
+  "meta": {
+    "siteTitle": "Kanagawa JLS · Japanese Language Department",
+    "siteDescription": "A MEXT-accredited Japanese language school operated by Hirai Gakuen, located in Sagamihara, Kanagawa. We support international students from Japanese language study through vocational-school admission to careers in Japan."
+  },
+  "common": {
+    "schoolName": "Kanagawa College of Judo Therapy and Acupuncture",
+    "departmentName": "Japanese Language Department",
+    "operator": "School Corporation Hirai Gakuen",
+    "address": "6-7 Matsugae-cho (Hirai Gakuen Kanagawa Judo Therapy College, Building 3), Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN",
+    "tel": "+81-42-740-7222",
+    "fax": "+81-42-740-7221",
+    "email": "gakuen@hirai-gakuen.ac.jp",
+    "yen": "JPY"
+  },
+  "nav": {
+    "about": "About",
+    "aboutSub": "ABOUT",
+    "programs": "Programs",
+    "programsSub": "PROGRAMS",
+    "campusLife": "Campus Life",
+    "campusLifeSub": "CAMPUS LIFE",
+    "admissions": "Admissions",
+    "admissionsSub": "ADMISSIONS",
+    "disclosure": "Disclosure",
+    "disclosureSub": "DISCLOSURE",
+    "contact": "Contact",
+    "contactSub": "CONTACT",
+    "news": "News & Topics",
+    "newsSub": "NEWS"
+  },
+  "noticeBar": {
+    "tag": "MEXT-Accredited Japanese Language Institution",
+    "info": "Operated by School Corporation Hirai Gakuen  ·  Opening October 2026"
+  },
+  "hero": {
+    "badge": "Opening October 2026  ·  Applications Now Open",
+    "titleLine1": "Begin again.",
+    "titleLine2": "Build your",
+    "titleAccent": "future",
+    "titleSuffix": ",",
+    "titleLine3": "in Japan.",
+    "sub": "Based in Sagamihara, Kanagawa, our Japanese Language Department prepares you for vocational-school admission and a career in Japan. As a MEXT-accredited school under a school corporation with 20+ years of history, we support each student's next step with care.",
+    "ctaPrimary": "View Admissions",
+    "ctaSecondary": "Our Three Programs",
+    "certMarkTitle": "MEXT-Accredited",
+    "certMarkSubtitle": "Japanese Language Institution",
+    "certMarkEn": "Nationally Accredited · Study in Japan",
+    "scroll": "SCROLL"
+  },
+  "strongPoints": {
+    "label": "STRONG POINTS",
+    "title": "Four reasons students choose us.",
+    "desc": "We do more than teach Japanese. From physical and mental wellbeing to career success and personal growth, we walk with every student.",
+    "items": [
+      {
+        "num": "01",
+        "title": "MEXT-Accredited",
+        "desc": "As a nationally accredited Japanese language institution, we offer a recognized curriculum and operational standard — a trusted pathway into Japan."
+      },
+      {
+        "num": "02",
+        "title": "20+ Years as a School Corporation",
+        "desc": "Hirai Gakuen, our parent school corporation, was founded in 2001. We bring two decades of educational expertise from judo therapy and acupuncture into language education."
+      },
+      {
+        "num": "03",
+        "title": "On-Campus Clinic and Acupuncture",
+        "desc": "A school doctor on staff and on-campus clinics for treatment. Our unique health-focused environment is something no other Japanese language school offers."
+      },
+      {
+        "num": "04",
+        "title": "English and Nepali Staff On-Site",
+        "desc": "Mother-tongue support from admission through graduation. We accompany you for housing, banking, healthcare, and every part of daily life."
+      }
+    ]
+  },
+  "programs": {
+    "label": "PROGRAMS",
+    "title": "Three pathways forward.",
+    "desc": "Entry in April, July, or October — three admission cycles per year. Choose the program that matches your Japanese level and goals. All programs target Japanese Proficiency Level B2 by graduation.",
+    "labels": {
+      "entryMonth": "ENTRY MONTH",
+      "duration": "Duration",
+      "entryLevel": "Required Japanese Level",
+      "exitLevel": "Exit Level",
+      "capacity": "Capacity",
+      "firstYearFee": "First-Year Tuition",
+      "taxIncluded": "(tax incl.)"
+    },
+    "items": [
+      {
+        "month": "04",
+        "name": "2-Year Program",
+        "nameEn": "2-YEAR PROGRAM",
+        "duration": "24 months",
+        "entryLevel": "A1.1 / 150+ hours of study",
+        "exitLevel": "B2",
+        "capacity": "40 seats",
+        "fee": "939,000"
+      },
+      {
+        "month": "07",
+        "name": "1-Year-9-Month Program",
+        "nameEn": "1.75-YEAR PROGRAM",
+        "duration": "21 months",
+        "entryLevel": "A1.2 equivalent",
+        "exitLevel": "B2",
+        "capacity": "40 seats",
+        "fee": "940,000"
+      },
+      {
+        "month": "10",
+        "name": "1-Year-6-Month Program",
+        "nameEn": "1.5-YEAR PROGRAM",
+        "duration": "18 months",
+        "entryLevel": "A2 equivalent",
+        "exitLevel": "B2",
+        "capacity": "20 seats",
+        "fee": "935,000"
+      }
+    ]
+  },
+  "education": {
+    "label": "EDUCATION PHILOSOPHY",
+    "title": "Language × Health × Self-Realization. Three pillars of our education.",
+    "intro": "Through Japanese language education, students gain the linguistic ability and cultural understanding needed for vocational-school studies. At the same time, we cultivate the mental and physical well-being and daily-life habits needed to thrive in Japan, ultimately supporting each student's future career.",
+    "items": [
+      {
+        "title": "① Japanese Language for Vocational Study",
+        "desc": "Target: CEFR-J B2 level. We strengthen all five skills — listening, reading, speaking, writing, and interaction — so you can fully engage in Japanese-language vocational classes."
+      },
+      {
+        "title": "② Health and Daily-Life Adaptation",
+        "desc": "School doctor on staff and on-campus clinics. Understanding Japanese culture and customs, and managing health through food — both mind and body are cared for during your study."
+      },
+      {
+        "title": "③ Self-Realization",
+        "desc": "One-on-one counseling, motivation-letter review, and interview practice. Personalized career guidance based on each student's ability and aptitude raises vocational-school admission rates."
+      },
+      {
+        "title": "④ A Multicultural Campus",
+        "desc": "Homeroom-teacher system plus mother-tongue (English / Nepali) supplementary classes. No student is ever left alone, in class or in life."
+      }
+    ]
+  },
+  "lifeSupport": {
+    "label": "STUDENT LIFE SUPPORT",
+    "title": "Not just learning — life, fully supported.",
+    "desc": "New to Japan? You won't be lost. From housing and work to hospitals, banking, and paperwork, mother-tongue staff are with you every step.",
+    "items": [
+      {
+        "title": "Housing Support",
+        "desc": "Partnered with Able real estate (Odakyū-Sagamihara branch). Nepali- and English-speaking staff assist with everything from apartment hunting to signing the contract. Wide selection of student-friendly properties."
+      },
+      {
+        "title": "Health Support",
+        "desc": "School doctor on staff and on-campus clinics for acupuncture and physical therapy. In emergencies, staff accompany you to nearby Kurokouchi Hospital."
+      },
+      {
+        "title": "Life Orientation",
+        "desc": "Three sessions per year covering everything you need: residence registration, bank accounts, garbage rules, traffic rules, emergency response, and more — explained carefully."
+      },
+      {
+        "title": "Part-Time Work Support",
+        "desc": "Help with the part-time work permit (Shikaku-gai Katsudō Kyoka). Introductions to legal part-time jobs (under 28 hrs/week), résumé writing, and interview practice."
+      },
+      {
+        "title": "One-on-One Counseling (4×/year)",
+        "desc": "Four 15-minute life-counseling sessions plus 2 hours of learning-goal counseling each year. Health, worries, work — we talk it all through with each student."
+      },
+      {
+        "title": "Mother-Tongue Supplementary Class",
+        "desc": "Supplementary classes in English or Nepali, especially right after enrollment. A 30-minute weekly review session helps you keep pace with the main curriculum."
+      }
+    ]
+  },
+  "career": {
+    "label": "CAREER PATHS",
+    "title": "Where our graduates go.",
+    "desc": "Primarily vocational schools in Kanagawa and Tokyo — across medical, welfare, business, IT, culinary, and many more fields. We open the door to a wide range of careers in Japan.",
+    "schools": [
+      "Kanagawa College of Economics",
+      "Kashiwagi Business College",
+      "International Electronic Accounting College",
+      "Tokyo International Business College",
+      "Yokohama System Engineering College",
+      "Arts College Yokohama",
+      "Tokyo Multi-AI College",
+      "Tokyo Technical College",
+      "Tokyo Culinary & Confectionery College",
+      "Sundai Travel & Hotel College",
+      "Yokohama Design College",
+      "Medical Business Health & Welfare College",
+      "Shōnan Medical Welfare College",
+      "New Tokyo Dental Technician School"
+    ],
+    "more": "Many more partners →"
+  },
+  "flow": {
+    "label": "ADMISSION FLOW",
+    "title": "From application to arrival.",
+    "desc": "Plan ahead — starting around 8 months before your intended entry date.",
+    "steps": [
+      {
+        "num": "01",
+        "when": "8 months prior",
+        "what": "Prepare application"
+      },
+      {
+        "num": "02",
+        "when": "7 months prior",
+        "what": "Document review"
+      },
+      {
+        "num": "03",
+        "when": "6 months prior",
+        "what": "Written exam · interview\nAcceptance notice"
+      },
+      {
+        "num": "04",
+        "when": "5 months prior",
+        "what": "COE application"
+      },
+      {
+        "num": "05",
+        "when": "2 months prior",
+        "what": "COE approved"
+      },
+      {
+        "num": "06",
+        "when": "1 month prior",
+        "what": "Pay tuition\nReceive permit"
+      },
+      {
+        "num": "07",
+        "when": "5 days prior → Day 1",
+        "what": "Arrive in Japan · enroll"
+      }
+    ]
+  },
+  "gallery": {
+    "label": "CAMPUS GALLERY",
+    "title": "Life on campus.",
+    "desc": "Entrance ceremonies, fieldwork, classrooms, the streets of Sagamihara — a glimpse of our everyday.",
+    "captions": {
+      "ceremony": "Entrance ceremony — together with classmates from across the world",
+      "interview": "Interview practice",
+      "admission": "Entrance examination day",
+      "classroom": "Classroom",
+      "entrance": "Campus entrance"
+    }
+  },
+  "access": {
+    "label": "ACCESS",
+    "title": "7 minutes' walk from Odakyū-Sagamihara Station.",
+    "desc": "A quiet residential area, just 45 minutes from central Tokyo. Affordable rent and daily costs make it one of the most livable areas for international students.",
+    "rows": {
+      "address": "Address",
+      "addressValue": "6-7 Matsugae-cho (Hirai Gakuen Kanagawa Judo Therapy College, Building 3), Minami-ku\nSagamihara, Kanagawa 252-0313, JAPAN",
+      "access": "Access",
+      "accessValue": "7-min walk from Odakyū-Sagamihara Station (Odakyū-Odawara Line)",
+      "tel": "Phone",
+      "fax": "FAX",
+      "email": "Email"
+    }
+  },
+  "cta": {
+    "title": "Let's begin your Japan journey, together.",
+    "desc": "Request a brochure or get in touch any time. Inquiries welcomed in 中文, English, or नेपाली.",
+    "primary": "Request Brochure",
+    "secondary": "Contact Us"
+  },
+  "footer": {
+    "schoolFull": "Kanagawa College of Judo Therapy & Acupuncture · Japanese Language Department",
+    "operator": "School Corporation Hirai Gakuen",
+    "certCaption": "Nationally Accredited · for Study in Japan",
+    "groups": {
+      "about": {
+        "title": "About",
+        "links": [
+          "About the School",
+          "Philosophy",
+          "History",
+          "About the Operator",
+          "Faculty & Staff"
+        ]
+      },
+      "applicants": {
+        "title": "For Applicants",
+        "links": [
+          "Three Programs",
+          "Admissions Guidelines",
+          "Application Flow",
+          "Tuition & Payment",
+          "FAQ"
+        ]
+      },
+      "disclosure": {
+        "title": "Public Disclosure",
+        "links": [
+          "School Regulations",
+          "Curriculum & Subjects",
+          "Faculty & Student Numbers",
+          "Tuition",
+          "Graduate Pathways"
+        ]
+      }
+    },
+    "copyright": "© 2026 School Corporation Hirai Gakuen · Kanagawa JLS",
+    "privacy": "Privacy Policy",
+    "sitemap": "Sitemap"
+  },
+  "mockup": {
+    "banner": "Design Mockup  ·  Preview Build"
+  },
+  "news": {
+    "title": "News & Topics",
+    "subtitle": "School announcements, admissions news, and event updates.",
+    "categories": {
+      "all": "All",
+      "announcement": "Announcement",
+      "event": "Event",
+      "press": "Press"
+    },
+    "viewAll": "View All",
+    "readMore": "Read more",
+    "back": "Back to list",
+    "empty": "No news yet.",
+    "sectionLabel": "NEWS & TOPICS",
+    "sectionTitle": "Latest updates."
+  },
+  "campusLife": {
+    "title": "Campus Life",
+    "subtitle": "Beyond the classroom — experience Japanese culture and society, in a study-abroad life wrapped in support.",
+    "annualTitle": "Annual Events (Year-Round Learning)",
+    "annualIntro": "Beyond classroom study, we build practical Japanese ability and a global mindset through events and experiences that bring students into Japanese society and culture.",
+    "seasons": [
+      {
+        "season": "Spring",
+        "title": "Spring",
+        "items": [
+          "2-Year Program entrance ceremony",
+          "Fieldwork — Oshino Hakkai (Mt. Fuji spring water tour)",
+          "Tea ceremony experience"
+        ]
+      },
+      {
+        "season": "Summer",
+        "title": "Summer",
+        "items": [
+          "1-Year-9-Month Program entrance ceremony",
+          "Tanabata festival",
+          "Evacuation drill",
+          "Health checkup",
+          "Summer break"
+        ]
+      },
+      {
+        "season": "Autumn",
+        "title": "Autumn",
+        "items": [
+          "1-Year-6-Month Program entrance ceremony",
+          "Halloween",
+          "1st-year fieldwork — Kamakura・Enoshima"
+        ]
+      },
+      {
+        "season": "Winter",
+        "title": "Winter",
+        "items": [
+          "Christmas party",
+          "Hatsumōde & Kakizome (New Year shrine visit & first calligraphy)",
+          "Vocational-school info session by field",
+          "1st-year fieldwork — Welfare facility visit"
+        ]
+      }
+    ],
+    "communityTitle": "Community Connection",
+    "communityIntro": "Not closed off — we connect closely with the local Sagamihara community, building your ability to live as a member of society.",
+    "community": [
+      "Participation in Sagamihara disaster drills",
+      "Volunteering (cleanup activities, etc.)",
+      "Partnership with Sagamihara International Lounge",
+      "Visits to welfare, medical, and public facilities"
+    ],
+    "supportTitle": "Academic & Life Support",
+    "supportIntro": "From mother-tongue support to the homeroom-teacher system — a dedicated support structure for every student.",
+    "support": [
+      {
+        "title": "Life Orientation",
+        "desc": "60 minutes, three times per year. Residence registration, bank accounts, garbage rules, traffic rules, emergency response, part-time work rules, and more."
+      },
+      {
+        "title": "Individual Life Counseling",
+        "desc": "15 minutes, four times per year. Health check-ins, worries, part-time work status."
+      },
+      {
+        "title": "Individual Learning Counseling",
+        "desc": "Two hours per student per year. Learning goals, progress, achievement, and self-evaluation — heard and advised on."
+      },
+      {
+        "title": "Mother-Tongue Supplementary Class",
+        "desc": "In English or Nepali. Eases first-day anxiety and helps late-arriving students catch up."
+      },
+      {
+        "title": "Weekly Tutorial",
+        "desc": "30 minutes weekly. For students who score below 60% on quizzes/midterms three times in a row."
+      },
+      {
+        "title": "Medical Support",
+        "desc": "School doctor on staff. On-site clinic and acupuncture facility. In emergencies, staff accompany you to Kurokouchi Hospital."
+      }
+    ],
+    "facilitiesTitle": "Facilities",
+    "facilitiesIntro": "A focused learning environment with comprehensive medical facilities.",
+    "facilities": [
+      {
+        "name": "3 General Classrooms",
+        "desc": "Flexible layout for pair and group work"
+      },
+      {
+        "name": "Self-Study Room",
+        "desc": "Space for outside-of-class learning"
+      },
+      {
+        "name": "Faculty Office / Admin Office",
+        "desc": "Staff easily accessible day-to-day"
+      },
+      {
+        "name": "Student Counseling Room",
+        "desc": "Privacy-respecting consultation space"
+      },
+      {
+        "name": "Library",
+        "desc": "Japanese-learning materials and general books"
+      },
+      {
+        "name": "Health Room",
+        "desc": "First-response space for when you're not feeling well"
+      },
+      {
+        "name": "On-Site Clinic & Acupuncture",
+        "desc": "1st floor of the campus. Treatment by the school doctor available"
+      },
+      {
+        "name": "Bike Parking",
+        "desc": "For students who bike to school"
+      }
+    ]
+  },
+  "programsPage": {
+    "title": "Programs & Curriculum",
+    "subtitle": "All programs target CEFR-J B2 by graduation. The curriculum advances step-by-step from A1, with each level taught in 10-week units.",
+    "structureTitle": "Our Three Programs",
+    "structureIntro": "Two daily sessions — Morning (09:00–12:30) and Afternoon (13:00–16:30). Total capacity 100 (5 classes).",
+    "structure": {
+      "head": [
+        "Session",
+        "Program",
+        "Duration",
+        "Entry",
+        "Capacity",
+        "Classes"
+      ],
+      "rows": [
+        [
+          "Morning",
+          "2-Year Program",
+          "24 months",
+          "April",
+          "20",
+          "1"
+        ],
+        [
+          "Morning",
+          "1-Year-9-Month Program",
+          "21 months",
+          "July",
+          "20",
+          "1"
+        ],
+        [
+          "Morning",
+          "1-Year-6-Month Program",
+          "18 months",
+          "October",
+          "20",
+          "1"
+        ],
+        [
+          "Afternoon",
+          "2-Year Program",
+          "24 months",
+          "April",
+          "20",
+          "1"
+        ],
+        [
+          "Afternoon",
+          "1-Year-6-Month Program",
+          "21 months",
+          "July",
+          "20",
+          "1"
+        ]
+      ]
+    },
+    "levelsTitle": "CEFR-Level Curriculum",
+    "levelsIntro": "Progressive advancement from A1. Each level: 10 weeks × 20 hours/week. All programs target B2.",
+    "levels": {
+      "head": [
+        "Level",
+        "Stage",
+        "Weeks",
+        "Hours/Week",
+        "Learning Outcomes"
+      ],
+      "rows": [
+        [
+          "A1",
+          "Beginner",
+          "10",
+          "20",
+          "Handle basic daily-life information and engage in basic communication, reading, and writing."
+        ],
+        [
+          "A2",
+          "Upper Beginner 1",
+          "10",
+          "20",
+          "Communicate and read/write sufficiently to meet daily-life needs."
+        ],
+        [
+          "B1",
+          "Upper Beginner 2",
+          "10",
+          "20",
+          "Develop communication skills to handle everyday problems."
+        ],
+        [
+          "B1",
+          "Intermediate 1",
+          "10",
+          "20",
+          "Communicate while citing evidence and reasons."
+        ],
+        [
+          "B1",
+          "Intermediate 2",
+          "10",
+          "20",
+          "Organize information to express opinions and discuss problem-solving."
+        ],
+        [
+          "B2",
+          "Intermediate 3",
+          "10",
+          "20",
+          "Understand abstract topics with some effort. Acquire basic presentation skills."
+        ],
+        [
+          "B2",
+          "Upper Intermediate 1",
+          "10",
+          "20",
+          "Understand a wide range of topics; cite or refute others' views to strengthen own arguments."
+        ],
+        [
+          "B2",
+          "Upper Intermediate 2",
+          "10",
+          "20",
+          "Communicate respectfully across cultures; ready for vocational-school lectures."
+        ]
+      ]
+    },
+    "approachTitle": "Our Teaching Approach",
+    "approach": [
+      {
+        "title": "① Task-First Learning",
+        "desc": "Tackle a task first, identify what you can and can't yet do, then build the language knowledge. Practical Japanese you can use right away."
+      },
+      {
+        "title": "② Project-Based Learning (PBL)",
+        "desc": "In the final term of Year 2, students split into 'Medical/Welfare Track' and 'General Track' — conducting professional interviews and public-facility visits."
+      },
+      {
+        "title": "③ Pair & Group Work",
+        "desc": "Lots of opportunity to speak and to listen. Interaction-centered classroom design."
+      },
+      {
+        "title": "④ All Five Skills, Balanced",
+        "desc": "Systematic development of listening, reading, speaking, writing, and interaction."
+      }
+    ],
+    "subjectsTitle": "Sample Subjects",
+    "subjects": [
+      {
+        "name": "Upper-Beginner Kanji & Vocabulary",
+        "level": "A2",
+        "hours": "50 unit hours",
+        "goal": "Read and write common kanji and vocabulary. Research kanji seen around school and town, then present.",
+        "material": "15-Minutes-a-Day Kanji Practice (Beginner–Upper-Beginner)"
+      },
+      {
+        "name": "Intermediate Integrated Japanese",
+        "level": "B1",
+        "hours": "120 unit hours",
+        "goal": "Express opinions backed by reasons and evidence. Topics: emergencies, local area, time management.",
+        "material": "Dekiru Nihongo (Intermediate) + Vocabulary & Expression Workbook"
+      },
+      {
+        "name": "Japanese Culture & Society",
+        "level": "B1",
+        "hours": "30 unit hours",
+        "goal": "Etiquette in public facilities, cultural comparison with home country. Multi-cuisine restaurant visits and factory tours.",
+        "material": "Cultural Experience in Japanese (Ch. 2-3)"
+      },
+      {
+        "name": "JLPT Preparation",
+        "level": "B2",
+        "hours": "20 unit hours",
+        "goal": "JLPT N2 grammar, vocabulary, reading, listening. Inferring test-question intent.",
+        "material": "First JLPT Practice Test N2"
+      },
+      {
+        "name": "Project Work",
+        "level": "B2",
+        "hours": "40 unit hours",
+        "goal": "Split into Medical/Welfare or General track; conduct professional interviews and public-facility field research.",
+        "material": "Task-Based Japanese (Intermediate 2 & 3 — Project sections)"
+      }
+    ],
+    "subjectsNote": "Representative examples. The full curriculum combines Integrated Japanese, Kanji & Vocabulary, Listening, Reading, Conversation, Grammar, Japanese Culture, JLPT Prep, and Project Work.",
+    "evaluationTitle": "Evaluation Methods",
+    "evaluation": [
+      "Self-assessment (end of term)",
+      "Weekly quizzes",
+      "Midterm and final exams",
+      "Individual & group presentations, role-plays",
+      "Compositions",
+      "Final presentation"
+    ],
+    "gradesTitle": "Grading",
+    "grades": [
+      [
+        "A",
+        "90% +"
+      ],
+      [
+        "B",
+        "80–89%"
+      ],
+      [
+        "C",
+        "65–79%"
+      ],
+      [
+        "D",
+        "Below 64%"
+      ],
+      [
+        "E",
+        "Not taken / cannot evaluate"
+      ]
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Request a brochure, ask about admissions, or inquire about your application — we're happy to hear from you.",
+    "channelsTitle": "Get in Touch",
+    "channels": [
+      {
+        "name": "Phone",
+        "value": "+81-42-740-7222",
+        "desc": "Weekdays 9:00–17:00 (JST)"
+      },
+      {
+        "name": "Email",
+        "value": "gakuen@hirai-gakuen.ac.jp",
+        "desc": "24/7. We reply within 3 business days."
+      },
+      {
+        "name": "FAX",
+        "value": "+81-42-740-7221",
+        "desc": "24/7"
+      }
+    ],
+    "langNote": "Inquiries are welcome in 中文, English, or नेपाली. Please let us know your preferred language.",
+    "agencyNote": "Applicants in Nepal can also apply through our partner agencies — see the Admissions page for details.",
+    "officeHoursTitle": "Office Hours",
+    "officeHours": [
+      [
+        "Weekdays",
+        "9:00 – 17:00"
+      ],
+      [
+        "Weekends & Holidays",
+        "Closed"
+      ],
+      [
+        "Summer Break",
+        "Aug 13 – Aug 16"
+      ],
+      [
+        "New Year Break",
+        "Dec 29 – Jan 3"
+      ]
+    ],
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "School Corporation Hirai Gakuen — Kanagawa College of Judo Therapy & Acupuncture, Japanese Language Department (the 'School') handles personal information of prospective students, current students, guardians, and other parties in accordance with applicable laws and guidelines.",
+      "sections": [
+        {
+          "title": "1. Information We Collect",
+          "body": "Through application forms, the inquiry form, and partner-agency applications, we collect information needed for our work — including name, address, contact, education and work history, sponsor information, and passport details."
+        },
+        {
+          "title": "2. Purpose of Use",
+          "body": "We use this information only for admissions screening, COE applications, student and career guidance, replying to inquiries, and emergency contact."
+        },
+        {
+          "title": "3. Third-Party Disclosure",
+          "body": "We do not share personal information with third parties without your consent, except when required by law (e.g. submission to the Immigration Services Agency) or with contracted partners (real estate, agencies) on a minimum-necessary basis."
+        },
+        {
+          "title": "4. Security",
+          "body": "We take appropriate physical, technical, and organizational measures to prevent unauthorized access, loss, alteration, or leakage of personal information."
+        },
+        {
+          "title": "5. Disclosure / Correction / Deletion",
+          "body": "Upon a verified request from the person concerned (or their legal representative), we will respond promptly within a reasonable scope to requests for disclosure, correction, or deletion of personal information."
+        },
+        {
+          "title": "6. Contact",
+          "body": "For inquiries about personal information, please contact the School's administrative office."
+        }
+      ],
+      "lastUpdated": "Last updated: May 2026"
+    },
+    "form": {
+      "title": "Inquiry Form",
+      "intro": "Send us a message directly. We reply within 3 business days.",
+      "fields": {
+        "name": "Name",
+        "namePlaceholder": "Your full name",
+        "email": "Email",
+        "emailPlaceholder": "name@example.com",
+        "country": "Country / Region",
+        "countryPlaceholder": "Nepal / China / Vietnam ...",
+        "topic": "Topic",
+        "topicOptions": {
+          "brochure": "Request a Brochure",
+          "admission": "Admission Counseling",
+          "application": "Application Question",
+          "agency": "Partner Agency Inquiry",
+          "other": "Other"
+        },
+        "message": "Message",
+        "messagePlaceholder": "Tell us what you'd like to know",
+        "preferredLang": "Preferred Reply Language",
+        "preferredLangOptions": {
+          "ja": "日本語",
+          "zh": "中文",
+          "en": "English",
+          "ne": "नेपाली"
+        },
+        "consent": "I agree to the Privacy Policy."
+      },
+      "submit": "Send",
+      "submitting": "Sending...",
+      "success": "Thanks for reaching out! We'll reply within 3 business days.",
+      "error": "Sorry, sending failed. Please email us directly.",
+      "required": "Required"
+    }
+  },
+  "about": {
+    "title": "About the School",
+    "subtitle": "A locally-rooted vocational school with 20+ years of history — supporting every international student's next step.",
+    "philosophyTitle": "Educational Philosophy",
+    "philosophy": "Through Japanese language education, students gain the linguistic ability and cultural understanding needed for vocational-school studies. At the same time, we cultivate the physical and mental well-being and daily-life habits needed to thrive in Japan, ultimately supporting each student's future career.",
+    "purposeTitle": "Three Purposes",
+    "purposes": [
+      {
+        "title": "① Japanese Language for Vocational Study",
+        "items": [
+          "Reach CEFR-J B2 level, ready to follow classes taught in Japanese.",
+          "Build all five skills (listening, reading, speaking, writing, interaction) in balance for academic learning."
+        ]
+      },
+      {
+        "title": "② Raising Health Awareness",
+        "items": [
+          "Lead a healthy study-abroad life and become independent.",
+          "Understand cultural and lifestyle differences to live comfortably in Japan.",
+          "Maintain health through food, building a balanced lifestyle that cares for body and mind."
+        ]
+      },
+      {
+        "title": "③ Self-Realization",
+        "items": [
+          "Through varied extracurricular experiences, clarify your own future direction.",
+          "Discover your abilities and aptitudes, raise learning motivation, and stay actively engaged.",
+          "Become an independent member of society, collaborate with others, and unleash your full potential."
+        ]
+      }
+    ],
+    "goalTitle": "Three Goals",
+    "goals": [
+      "Master CEFR-J B2 level Japanese — including logical writing and presentation skills",
+      "Cultivate health and daily-life adaptation — understanding Japanese culture, customs, and balanced nutrition",
+      "Build a structured admissions-support system — counseling, school selection, interview practice, motivation-letter review"
+    ],
+    "featuresTitle": "What Makes Us Different — A Medical-Sciences Parent School",
+    "featuresBody": "Since its founding, Kanagawa College of Judo Therapy & Acupuncture has been a locally-rooted vocational school, training judo therapists and acupuncturists with over 20 years of history. The school includes an on-site clinic and acupuncture facility where local residents receive treatment — giving students real-world observation opportunities.\nThe area around Odakyū-Sagamihara Station features many clinics and acupuncture practices — a clear sign of the community's strong interest in health and welfare. The fact that most of our graduates find placement at local medical and welfare facilities further demonstrates the bond between school and town.\nWe bring this educational environment fully into our Japanese Language Department, with a curriculum that emphasizes understanding of and empathy for the local community. By supporting international students in adapting to life in Japan and systematically acquiring the language ability and cultural understanding needed for vocational school, we aim to develop talent capable of contributing to society in medical, welfare, and many other fields.",
+    "operatorTitle": "Operating Body",
+    "operatorRows": [
+      [
+        "Corporation",
+        "School Corporation Hirai Gakuen"
+      ],
+      [
+        "Representative",
+        "Chairperson Wei-Hsuan Hsueh"
+      ],
+      [
+        "Address",
+        "1-34-12 Soubudai, Zama-shi, Kanagawa 252-0011, JAPAN"
+      ],
+      [
+        "Established",
+        "October 25, 2001"
+      ]
+    ],
+    "historyTitle": "History",
+    "history": [
+      {
+        "year": "Oct 25, 2001",
+        "event": "School Corporation Hirai Gakuen founded"
+      },
+      {
+        "year": "Apr 1, 2002",
+        "event": "Kanagawa College of Judo Therapy & Acupuncture opens (Judo Therapy / Acupuncture Departments)"
+      },
+      {
+        "year": "Apr 1, 2026",
+        "event": "Cultural Studies General Course (University Track) — opening (planned)"
+      },
+      {
+        "year": "Oct 1, 2026",
+        "event": "Cultural Studies Vocational Course — Japanese Language Department — opening (planned)"
+      }
+    ],
+    "facultyTitle": "Faculty & Staff",
+    "facultyRows": [
+      [
+        "Department Head",
+        "1"
+      ],
+      [
+        "Deputy Head",
+        "1"
+      ],
+      [
+        "Head Instructor",
+        "1"
+      ],
+      [
+        "Instructors (full-time / part-time)",
+        "8"
+      ],
+      [
+        "Office Director",
+        "1"
+      ],
+      [
+        "Administrative Staff",
+        "2"
+      ]
+    ],
+    "facultyNote": "We use a homeroom-teacher system. Beyond daily learning, we also handle career counseling, interview practice, and application document review.",
+    "facilitiesTitle": "Facilities",
+    "facilities": [
+      "3 general classrooms",
+      "1 self-study room",
+      "Faculty office and admin office",
+      "Student counseling room",
+      "Library",
+      "Health room",
+      "On-site clinic & acupuncture facility on the 1st floor",
+      "Bike parking available"
+    ]
+  },
+  "admissions": {
+    "title": "Admissions",
+    "subtitle": "Everything you need to know about applying, from the first step to your arrival in Japan.",
+    "eligibility": {
+      "title": "Eligibility",
+      "items": [
+        "Completed 12 years of formal education in your home country",
+        "18 years of age or older",
+        "Granted (or able to be granted) permission to enter Japan through proper procedures",
+        "Able to cover living expenses while in Japan, or have a guarantor who can",
+        "Willing to abide by the Department's regulations"
+      ],
+      "japaneseLevelTitle": "Japanese-Level Requirements by Program",
+      "japaneseLevelRows": [
+        [
+          "2-Year Program",
+          "A1.1 equivalent or 150+ hours of Japanese study"
+        ],
+        [
+          "1-Year-9-Month Program",
+          "A1.2 equivalent"
+        ],
+        [
+          "1-Year-6-Month Program",
+          "A2 equivalent"
+        ]
+      ]
+    },
+    "selection": {
+      "title": "Three-Stage Selection",
+      "intro": "Applicants are evaluated in three stages: document review, written exam, and interview. The Department Head makes the final decision.",
+      "stages": [
+        {
+          "stage": "Stage 1",
+          "name": "Document Review",
+          "method": "Verification of the five eligibility criteria, with strict review of financial capacity.",
+          "criteria": "Sponsor's identity, financial status, and ability to fund the studies"
+        },
+        {
+          "stage": "Stage 2",
+          "name": "Written Exam (Japanese)",
+          "method": "Held at a venue arranged by the local partner agency.",
+          "criteria": "2-Year Program: 50+ points to pass / 1-Year-9-Month & 1-Year-6-Month: 80+ points"
+        },
+        {
+          "stage": "Stage 3",
+          "name": "Interview",
+          "method": "In-person at the local site or online. Both the applicant and the financial sponsor are interviewed.",
+          "criteria": "Motivation, Japanese and English ability, character, feasibility of financial support — all evaluated holistically"
+        }
+      ]
+    },
+    "documents": {
+      "title": "Required Documents",
+      "intro": "Please submit your documents to the local partner agency by the deadline.",
+      "applicantTitle": "Applicant Documents (9 items)",
+      "applicant": [
+        [
+          "Application Form",
+          "Official form. Name must match passport exactly"
+        ],
+        [
+          "Résumé & Statement of Purpose",
+          "Official form. Fill out full education and work history with no gaps"
+        ],
+        [
+          "Final Diploma",
+          "Original"
+        ],
+        [
+          "Final Transcript",
+          "Original, covering full duration"
+        ],
+        [
+          "Certificate of Enrollment",
+          "Original (if currently enrolled in high school/university)"
+        ],
+        [
+          "Current Transcript",
+          "Original (if currently enrolled in high school/university)"
+        ],
+        [
+          "Japanese Study Certificate",
+          "Original, demonstrating required level/hours"
+        ],
+        [
+          "Passport Copy",
+          "Include entry/exit pages if you have visited Japan"
+        ],
+        [
+          "Photos × 8",
+          "4cm × 3cm, taken within 3 months. Write name, nationality, and DOB on the back."
+        ]
+      ],
+      "guarantorTitle": "Financial Sponsor Documents",
+      "guarantorCases": [
+        {
+          "title": "Overseas parent or relative as sponsor",
+          "items": [
+            "Sponsor's Affidavit (school form)",
+            "Bank balance certificate (original)",
+            "Bank passbook copies (past 3 years)",
+            "Employment certificate / business permit / corporate registry",
+            "Income certificate (original, past 3 years)",
+            "Tax payment certificate (original, past 3 years)",
+            "Relationship document (kinship affidavit, birth certificate, etc.)"
+          ]
+        },
+        {
+          "title": "Relative residing in Japan as sponsor",
+          "items": [
+            "Sponsor's Affidavit (school form)",
+            "Bank balance certificate (original)",
+            "Bank passbook copies (past 3 years)",
+            "Employment certificate / business permit / corporate registry",
+            "Income certificate (past 3 years) + tax or taxation certificate",
+            "Resident record (all household members)",
+            "Family register or kinship affidavit"
+          ]
+        },
+        {
+          "title": "Self-funded applicant",
+          "items": [
+            "Sponsor's Affidavit (school form)",
+            "Bank balance certificate (original)",
+            "Bank passbook copies (past 3 years)",
+            "Employment certificate / business permit / corporate registry",
+            "Income certificate (past 3 years) + tax or taxation certificate",
+            "Emergency contact (free format)"
+          ]
+        }
+      ],
+      "notes": [
+        "All documents must be originals dated within the past 3 months.",
+        "Forms must be filled out by the applicant / sponsor themselves.",
+        "If you want certificates returned, please notify us at the time of application.",
+        "Foreign-language documents must include Japanese translations."
+      ]
+    },
+    "feesPage": {
+      "title": "Fees & Payment",
+      "intro": "All amounts in Japanese Yen (JPY). No consumption tax. Remittance fees are borne by the applicant.",
+      "scheduleTitle": "Payment Schedule",
+      "scheduleItems": [
+        "After your COE is issued, pay the exam fee + admission fee + first-year tuition no later than 30 days before enrollment.",
+        "Pay the second-year tuition no later than 15 days before your one-year enrollment anniversary."
+      ],
+      "methodsTitle": "Payment Methods",
+      "methods": [
+        {
+          "name": "① Bank Transfer",
+          "desc": "Johnan Shinkin Bank (1344), Soubudai Branch (050) / Ordinary account 541211 / Account name: Hirai Gakuen / SWIFT: JSBKJPJT"
+        },
+        {
+          "name": "② QR Code Payment (NewAge)",
+          "desc": "Pay via the QR code issued by the school"
+        },
+        {
+          "name": "③ Flywire",
+          "desc": "Pay from overseas bank or credit card (lower fees than bank transfer)"
+        }
+      ],
+      "refundTitle": "Tuition Refund Policy",
+      "refundIntro": "If you must cancel your enrollment due to unavoidable circumstances, refunds follow the policy below.",
+      "refundRules": [
+        {
+          "case": "Before entry — cancellation after COE application submission",
+          "rule": "Exam fee and admission fee are non-refundable. Tuition refunded (less wire fees) upon return of admission permit."
+        },
+        {
+          "case": "Before entry — COE issued but no visa applied",
+          "rule": "Exam fee and admission fee are non-refundable. Tuition refunded upon return of COE and admission permit."
+        },
+        {
+          "case": "Before entry — visa rejected",
+          "rule": "Exam fee and admission fee are non-refundable. Tuition refunded after verification."
+        },
+        {
+          "case": "Before entry — cancellation after visa issued",
+          "rule": "Exam fee and admission fee are non-refundable. Tuition refunded less a cancellation fee (max ¥15,000)."
+        },
+        {
+          "case": "After entry — before classes start",
+          "rule": "Once exit from Japan and visa expiry are confirmed, tuition / activity / insurance / health fees refunded less a ¥15,000 cancellation fee."
+        },
+        {
+          "case": "After entry — after classes start",
+          "rule": "Tuition for the term after withdrawal refunded less a cancellation fee (20% or ¥50,000, whichever is lower)."
+        },
+        {
+          "case": "Expulsion",
+          "rule": "No refund."
+        }
+      ]
+    },
+    "agencies": {
+      "title": "Local Application Offices",
+      "intro": "You may also apply through one of our partner agencies in Nepal.",
+      "list": [
+        {
+          "name": "Gaps International Educational Consultancy Pvt. Ltd.",
+          "address": "Bagbazar, in front to Hotel Hardik, Kathmandu, Nepal",
+          "tel": "+977-01-536-3744",
+          "email": "info@gaps-int.com"
+        },
+        {
+          "name": "Mirai Abroad Study Center Pvt. Ltd.",
+          "address": "Gongabu Townplaning Samakhushi, Kathmandu, Nepal",
+          "tel": "+977-974-6421939",
+          "email": "miraiabroadstudy@gmail.com"
+        },
+        {
+          "name": "Kaizen Abroad Services Pvt. Ltd.",
+          "address": "Butwal-4, Palpa Road, Resunga Tower 4F, Rupandehi, Nepal",
+          "tel": "+977-071-535501",
+          "email": "kaizenabroad@gmail.com"
+        },
+        {
+          "name": "Frequency Global Education Hub Pvt. Ltd.",
+          "address": "Butwal-11, Kalikanagar, Rupandehi, Nepal",
+          "tel": "+977-071-590001",
+          "email": ""
+        },
+        {
+          "name": "Sakura Abroad Study and Training Center Pvt. Ltd.",
+          "address": "Butwal-10, Chauraha, Rupandehi, Nepal",
+          "tel": "+977-986-2413738",
+          "email": "sakurajapangroup123@gmail.com"
+        },
+        {
+          "name": "Saori Education and Training Centre Pvt. Ltd.",
+          "address": "Bhairahawa, Narayanpath, 2nd Floor Of Everest Bank, Rupandehi, Nepal",
+          "tel": "+977-984-9815638",
+          "email": "usuniru7788@gmail.com"
+        }
+      ]
+    }
+  },
+  "disclosure": {
+    "title": "Public Disclosure",
+    "subtitle": "As a MEXT-accredited Japanese language institution, we publish the following information in accordance with the disclosure requirements set by Japan's Ministry of Education, Culture, Sports, Science and Technology.",
+    "lastUpdated": "Last Updated",
+    "items": {
+      "setter": {
+        "title": "1. Name and Address of the Operating Body",
+        "rows": [
+          [
+            "Operator",
+            "School Corporation Hirai Gakuen"
+          ],
+          [
+            "Representative",
+            "Chairperson Wei-Hsuan Hsueh"
+          ],
+          [
+            "Address",
+            "1-34-12 Soubudai, Zama-shi, Kanagawa 252-0011, JAPAN"
+          ],
+          [
+            "Established",
+            "October 25, 2001"
+          ]
+        ]
+      },
+      "school": {
+        "title": "2. Name and Location of the Accredited Institution",
+        "rows": [
+          [
+            "Name",
+            "Kanagawa College of Judo Therapy & Acupuncture · Japanese Language Department"
+          ],
+          [
+            "Address",
+            "6-7 Matsugae-cho (Hirai Gakuen Kanagawa Judo Therapy College, Building 3), Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN"
+          ],
+          [
+            "Phone",
+            "+81-42-740-7222"
+          ],
+          [
+            "FAX",
+            "+81-42-740-7221"
+          ],
+          [
+            "Email",
+            "gakuen@hirai-gakuen.ac.jp"
+          ],
+          [
+            "Opening Date",
+            "October 1, 2026 (planned)"
+          ]
+        ]
+      },
+      "curriculum": {
+        "title": "3. Curriculum Subjects and Content",
+        "intro": "Based on the CEFR-J framework, the Department offers a structured curriculum from A1 to B2. Each level is taught in 10-week units, building all five skills (listening, reading, speaking, writing, interaction) in balance.",
+        "table": {
+          "head": [
+            "Level",
+            "Stage",
+            "Weeks",
+            "Hours/Week",
+            "Learning Outcomes"
+          ],
+          "rows": [
+            [
+              "A1",
+              "Beginner",
+              "10",
+              "20",
+              "Handle basic daily-life information and engage in basic communication, reading, and writing."
+            ],
+            [
+              "A2",
+              "Upper Beginner 1",
+              "10",
+              "20",
+              "Communicate and read/write sufficiently to meet daily-life needs."
+            ],
+            [
+              "B1",
+              "Upper Beginner 2",
+              "10",
+              "20",
+              "Develop communication skills to handle everyday problems."
+            ],
+            [
+              "B1",
+              "Intermediate 1",
+              "10",
+              "20",
+              "Communicate while citing evidence and reasons."
+            ],
+            [
+              "B1",
+              "Intermediate 2",
+              "10",
+              "20",
+              "Organize information to express opinions and discuss problem-solving."
+            ],
+            [
+              "B2",
+              "Intermediate 3",
+              "10",
+              "20",
+              "Understand abstract topics with some effort. Acquire basic presentation skills."
+            ],
+            [
+              "B2",
+              "Upper Intermediate 1",
+              "10",
+              "20",
+              "Understand a wide range of topics; cite or refute others' views to strengthen own arguments."
+            ],
+            [
+              "B2",
+              "Upper Intermediate 2",
+              "10",
+              "20",
+              "Communicate respectfully across cultures; ready for vocational-school lectures and study."
+            ]
+          ]
+        },
+        "subjects": "Core subjects include: Integrated Japanese, Kanji & Vocabulary, Listening, Reading, Conversation, Grammar, Japanese Culture, JLPT Preparation, and Project Work."
+      },
+      "people": {
+        "title": "4. Number of Students, Faculty, and Staff",
+        "rows": [
+          [
+            "Total Capacity",
+            "100 (Morning: 60 / Afternoon: 40)"
+          ],
+          [
+            "Department Head",
+            "1"
+          ],
+          [
+            "Deputy Head",
+            "1"
+          ],
+          [
+            "Head Instructor",
+            "1"
+          ],
+          [
+            "Instructors (full-time / part-time)",
+            "8"
+          ],
+          [
+            "Office Director",
+            "1"
+          ],
+          [
+            "Administrative Staff",
+            "2"
+          ]
+        ]
+      },
+      "fees": {
+        "title": "5. Tuition and Other Fees",
+        "intro": "All amounts in Japanese Yen (JPY). No consumption tax applies.",
+        "tableTitle1": "First-Year Fees",
+        "tableTitle2": "Second-Year Fees",
+        "firstYear": {
+          "head": [
+            "Program",
+            "Exam Fee",
+            "Admission",
+            "Tuition",
+            "Facilities",
+            "Equipment",
+            "Materials",
+            "Activities",
+            "Insurance",
+            "Health",
+            "Total"
+          ],
+          "rows": [
+            [
+              "2-Year Program",
+              "25,000",
+              "110,000",
+              "640,000",
+              "40,000",
+              "24,000",
+              "33,000",
+              "40,000",
+              "15,000",
+              "12,000",
+              "939,000"
+            ],
+            [
+              "1-Year-9-Month Program",
+              "25,000",
+              "110,000",
+              "640,000",
+              "40,000",
+              "24,000",
+              "34,000",
+              "40,000",
+              "15,000",
+              "12,000",
+              "940,000"
+            ],
+            [
+              "1-Year-6-Month Program",
+              "25,000",
+              "110,000",
+              "640,000",
+              "40,000",
+              "24,000",
+              "29,000",
+              "40,000",
+              "15,000",
+              "12,000",
+              "935,000"
+            ]
+          ]
+        },
+        "secondYear": {
+          "head": [
+            "Program",
+            "Tuition",
+            "Facilities",
+            "Equipment",
+            "Materials",
+            "Activities",
+            "Insurance",
+            "Health",
+            "Total"
+          ],
+          "rows": [
+            [
+              "2-Year Program",
+              "640,000",
+              "40,000",
+              "24,000",
+              "12,000",
+              "40,000",
+              "15,000",
+              "12,000",
+              "783,000"
+            ],
+            [
+              "1-Year-9-Month Program",
+              "480,000",
+              "30,000",
+              "18,000",
+              "9,000",
+              "30,000",
+              "11,250",
+              "12,000",
+              "590,250"
+            ],
+            [
+              "1-Year-6-Month Program",
+              "320,000",
+              "20,000",
+              "12,000",
+              "8,000",
+              "20,000",
+              "7,500",
+              "12,000",
+              "399,500"
+            ]
+          ]
+        }
+      },
+      "regulations": {
+        "title": "6. School Regulations",
+        "desc": "The Department's full school regulations are available as a PDF document.",
+        "link": "View Regulations (PDF)"
+      },
+      "features": {
+        "title": "7. Characteristics as a Japanese Language Institution",
+        "intro": "Since its founding, Kanagawa College of Judo Therapy & Acupuncture has been a locally-rooted vocational school, training judo therapists and acupuncturists with over 20 years of history. The school includes an on-site clinic and acupuncture facility where local residents receive treatment — providing students with real-world observation opportunities.",
+        "body": "We bring this educational environment fully into our Japanese Language Department, with a curriculum that emphasizes understanding of and empathy for the local community. By supporting international students in adapting to life in Japan and systematically acquiring the language ability and cultural understanding needed for vocational school, we aim to develop talent capable of contributing to society in medical, welfare, and many other fields."
+      },
+      "activities": {
+        "title": "8. Extracurricular Activities",
+        "intro": "Beyond the classroom, we cultivate practical Japanese ability and a global mindset through events and experiences that bring students into Japanese society and culture.",
+        "seasons": [
+          {
+            "title": "Spring",
+            "items": "2-Year Program entrance ceremony, fieldwork (Oshino Hakkai), tea ceremony"
+          },
+          {
+            "title": "Summer",
+            "items": "1-Year-9-Month Program entrance ceremony, Tanabata festival, evacuation drill, health checkup, summer break"
+          },
+          {
+            "title": "Autumn",
+            "items": "1-Year-6-Month Program entrance ceremony, Halloween, 1st-year fieldwork (Kamakura・Enoshima)"
+          },
+          {
+            "title": "Winter",
+            "items": "Christmas party, Hatsumōde & Kakizome, vocational-school info session by field, welfare facility visit"
+          }
+        ],
+        "external": "Community partnerships: Sagamihara disaster drills, cleanup volunteering, Sagamihara International Lounge cooperation, visits to welfare/medical/public facilities."
+      },
+      "career": {
+        "title": "9. Graduate Outcomes",
+        "intro": "Our graduates primarily advance to vocational schools in Kanagawa and Tokyo, pursuing careers in medical, welfare, business, IT, culinary, and many other fields.",
+        "schools": [
+          "Kanagawa College of Economics",
+          "Kashiwagi Business College",
+          "International Electronic Accounting College",
+          "Tokyo International Business College",
+          "Yokohama System Engineering College",
+          "Arts College Yokohama",
+          "Tokyo Multi-AI College",
+          "Tokyo Technical College",
+          "Tokyo Culinary & Confectionery College",
+          "Sundai Travel & Hotel College",
+          "Yokohama Design College",
+          "Medical Business Health & Welfare College",
+          "Shōnan Medical Welfare College",
+          "New Tokyo Dental Technician School"
+        ],
+        "note": "* As this is our inaugural year, graduate placement records will be published starting in fiscal year 2027."
+      }
+    },
+    "footer": "This page is published in accordance with the public-disclosure obligations for accredited Japanese language institutions (Article 15 of the Ministerial Ordinance on the Accreditation of Japanese Language Institutions)."
+  }
+}
