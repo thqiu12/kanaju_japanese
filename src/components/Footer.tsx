@@ -55,9 +55,6 @@ export default async function Footer() {
                 height={1000}
                 className="h-auto w-full"
               />
-              <p className="mt-3 text-center text-[10px] tracking-wide text-text-muted">
-                {t("footer.certCaption")}
-              </p>
             </div>
           </div>
 
