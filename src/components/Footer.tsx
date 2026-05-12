@@ -84,9 +84,9 @@ export default async function Footer() {
             <Link href="/privacy" className="hover:text-gold">
               {t("footer.privacy")}
             </Link>
-            <a href="/sitemap.xml" className="hover:text-gold">
+            <Link href="/sitemap" className="hover:text-gold">
               {t("footer.sitemap")}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -708,6 +708,56 @@
         "12/29 – 1/3"
       ]
     ],
+    "sitemap": {
+      "title": "网站地图",
+      "subtitle": "本站全部页面一览，快速找到您要的信息。",
+      "groups": [
+        {
+          "title": "学校介绍",
+          "links": [
+            { "label": "学校介绍首页", "href": "/about" },
+            { "label": "教育理念", "href": "/about#philosophy" },
+            { "label": "学校沿革", "href": "/about#history" },
+            { "label": "运营主体", "href": "/about#operator" },
+            { "label": "教职员", "href": "/about#faculty" }
+          ]
+        },
+        {
+          "title": "学习",
+          "links": [
+            { "label": "课程・教学大纲", "href": "/programs" },
+            { "label": "校园生活", "href": "/campus-life" }
+          ]
+        },
+        {
+          "title": "入学申请",
+          "links": [
+            { "label": "入学申请", "href": "/admissions" },
+            { "label": "选考流程", "href": "/admissions#flow" },
+            { "label": "学费・支付方式", "href": "/admissions#fees" }
+          ]
+        },
+        {
+          "title": "新闻・联系",
+          "links": [
+            { "label": "新闻列表", "href": "/news" },
+            { "label": "联系我们", "href": "/contact" }
+          ]
+        },
+        {
+          "title": "法定公开",
+          "links": [
+            { "label": "信息公开", "href": "/info-disclosure" },
+            { "label": "学则 PDF", "href": "/docs/school-regulations.pdf" },
+            { "label": "自我点检评价 PDF", "href": "/docs/self-evaluation-items.pdf" },
+            { "label": "隐私政策", "href": "/privacy" }
+          ]
+        }
+      ],
+      "xmlNote": "搜索引擎用的 XML 网站地图请",
+      "xmlLink": "点这里",
+      "xmlSuffix": "查看。"
+    },
     "privacy": {
       "title": "隐私政策",
       "intro": "学校法人平井学园 神奈川柔整针灸专门学校 日语学科(以下简称「本校」)依据相关法律法规与指南，妥善处理留学申请者、在校生、监护人及相关人员的个人信息。",

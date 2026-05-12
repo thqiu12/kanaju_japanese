@@ -708,6 +708,56 @@
         "Dec 29 – Jan 3"
       ]
     ],
+    "sitemap": {
+      "title": "Sitemap",
+      "subtitle": "A complete list of pages on this site. Find what you need quickly.",
+      "groups": [
+        {
+          "title": "About the School",
+          "links": [
+            { "label": "About — Overview", "href": "/about" },
+            { "label": "Philosophy", "href": "/about#philosophy" },
+            { "label": "History", "href": "/about#history" },
+            { "label": "Operator", "href": "/about#operator" },
+            { "label": "Faculty", "href": "/about#faculty" }
+          ]
+        },
+        {
+          "title": "Studies",
+          "links": [
+            { "label": "Programs & Curriculum", "href": "/programs" },
+            { "label": "Campus Life", "href": "/campus-life" }
+          ]
+        },
+        {
+          "title": "For Applicants",
+          "links": [
+            { "label": "Admissions", "href": "/admissions" },
+            { "label": "Selection Process", "href": "/admissions#flow" },
+            { "label": "Tuition & Payment", "href": "/admissions#fees" }
+          ]
+        },
+        {
+          "title": "News & Contact",
+          "links": [
+            { "label": "News & Topics", "href": "/news" },
+            { "label": "Contact", "href": "/contact" }
+          ]
+        },
+        {
+          "title": "Public Disclosure",
+          "links": [
+            { "label": "Disclosure", "href": "/info-disclosure" },
+            { "label": "School Regulations PDF", "href": "/docs/school-regulations.pdf" },
+            { "label": "Self-Evaluation Items PDF", "href": "/docs/self-evaluation-items.pdf" },
+            { "label": "Privacy Policy", "href": "/privacy" }
+          ]
+        }
+      ],
+      "xmlNote": "The XML sitemap for search engines is available ",
+      "xmlLink": "here",
+      "xmlSuffix": "."
+    },
     "privacy": {
       "title": "Privacy Policy",
       "intro": "School Corporation Hirai Gakuen — Kanagawa College of Judo Therapy & Acupuncture, Japanese Language Department (the 'School') handles personal information of prospective students, current students, guardians, and other parties in accordance with applicable laws and guidelines.",

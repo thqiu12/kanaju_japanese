@@ -708,6 +708,56 @@
         "12/29 – 1/3"
       ]
     ],
+    "sitemap": {
+      "title": "サイトマップ",
+      "subtitle": "本サイトの全ページ一覧です。お探しの情報がすぐに見つかります。",
+      "groups": [
+        {
+          "title": "学校紹介",
+          "links": [
+            { "label": "学校紹介トップ", "href": "/about" },
+            { "label": "教育理念", "href": "/about#philosophy" },
+            { "label": "沿革", "href": "/about#history" },
+            { "label": "設置者", "href": "/about#operator" },
+            { "label": "教職員", "href": "/about#faculty" }
+          ]
+        },
+        {
+          "title": "学習について",
+          "links": [
+            { "label": "課程・カリキュラム", "href": "/programs" },
+            { "label": "学生生活", "href": "/campus-life" }
+          ]
+        },
+        {
+          "title": "入学希望者へ",
+          "links": [
+            { "label": "入学案内", "href": "/admissions" },
+            { "label": "選考プロセス", "href": "/admissions#flow" },
+            { "label": "学費・支払方法", "href": "/admissions#fees" }
+          ]
+        },
+        {
+          "title": "お知らせ・お問合せ",
+          "links": [
+            { "label": "お知らせ一覧", "href": "/news" },
+            { "label": "お問合せ", "href": "/contact" }
+          ]
+        },
+        {
+          "title": "法令公開",
+          "links": [
+            { "label": "情報公開", "href": "/info-disclosure" },
+            { "label": "学則 PDF", "href": "/docs/school-regulations.pdf" },
+            { "label": "自己点検及び評価項目 PDF", "href": "/docs/self-evaluation-items.pdf" },
+            { "label": "プライバシーポリシー", "href": "/privacy" }
+          ]
+        }
+      ],
+      "xmlNote": "検索エンジン向けの XML サイトマップは",
+      "xmlLink": "こちら",
+      "xmlSuffix": "からご覧いただけます。"
+    },
     "privacy": {
       "title": "プライバシーポリシー",
       "intro": "学校法人平井学園 神奈川柔整鍼灸専門学校 日本語学科(以下「本校」)は、留学希望者・在校生・保護者・関係者の個人情報を、関連法令およびガイドラインに従い適切に取り扱います。",
