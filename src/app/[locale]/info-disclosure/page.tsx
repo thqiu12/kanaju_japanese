@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
+import DataTable from "@/components/DataTable";
 
 export async function generateMetadata({
   params,
@@ -286,37 +287,3 @@ function RowTable({ rows }: { rows: Row[] }) {
   );
 }
 
-function DataTable({ head, rows }: { head: string[]; rows: string[][] }) {
-  return (
-    <div className="overflow-x-auto rounded border border-border">
-      <table className="w-full text-sm">
-        <thead>
-          <tr className="bg-primary-dark text-white">
-            {head.map((h) => (
-              <th
-                key={h}
-                className="border-r border-white/20 px-3 py-3 text-left font-medium last:border-r-0"
-              >
-                {h}
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          {rows.map((row, i) => (
-            <tr key={i} className={i % 2 === 0 ? "bg-bg-card" : "bg-bg-warm"}>
-              {row.map((cell, j) => (
-                <td
-                  key={j}
-                  className="border-r border-border px-3 py-3 text-text last:border-r-0"
-                >
-                  {cell}
-                </td>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
-  );
-}

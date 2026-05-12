@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
 import SectionLabel from "@/components/SectionLabel";
+import DataTable from "@/components/DataTable";
 
 export async function generateMetadata({
   params,
@@ -59,6 +60,17 @@ export default async function AdmissionsPage({
   const grandTotalTitle = tFees("grandTotalTitle");
   const grandTotalNote = tFees("grandTotalNote");
   const grandTotal = tFees.raw("grandTotal") as [string, string][];
+  const firstYear = tFees.raw("firstYear") as {
+    head: string[];
+    rows: string[][];
+  };
+  const secondYear = tFees.raw("secondYear") as {
+    head: string[];
+    rows: string[][];
+  };
+  const tableTitle1 = tFees("tableTitle1");
+  const tableTitle2 = tFees("tableTitle2");
+  const feesIntro = tFees("intro");
 
   return (
     <>
@@ -254,6 +266,19 @@ export default async function AdmissionsPage({
                 </div>
               ))}
             </div>
+
+            {/* Detailed first-year breakdown */}
+            <h3 className="mt-12 mb-3 font-serif text-xl font-semibold text-primary-dark">
+              {tableTitle1}
+            </h3>
+            <p className="mb-5 text-sm text-text-muted">{feesIntro}</p>
+            <DataTable head={firstYear.head} rows={firstYear.rows} />
+
+            {/* Detailed second-year breakdown */}
+            <h3 className="mt-10 mb-5 font-serif text-xl font-semibold text-primary-dark">
+              {tableTitle2}
+            </h3>
+            <DataTable head={secondYear.head} rows={secondYear.rows} />
 
             {/* Grand total (full duration) */}
             <h3 className="mt-12 mb-3 font-serif text-xl font-semibold text-primary-dark">
