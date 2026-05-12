@@ -15,7 +15,7 @@ const APPLICANT_HREFS = [
   "/admissions",
   "/admissions#flow",
   "/admissions#fees",
-  "/contact",
+  "/faq",
 ] as const;
 
 const DISCLOSURE_HREFS = [

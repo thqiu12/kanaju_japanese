@@ -708,6 +708,133 @@
         "Dec 29 – Jan 3"
       ]
     ],
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Common questions about admissions, fees, visas, and life in Japan. If you don't see your question here, please contact us.",
+      "categories": [
+        {
+          "title": "Admissions",
+          "items": [
+            {
+              "q": "When can I start my application?",
+              "a": "We recommend starting about 8 months before your intended entry. For April entry, that's around the previous August; for July, the previous November; for October, the previous February."
+            },
+            {
+              "q": "Can I apply with no prior Japanese study?",
+              "a": "The 2-Year Program starts at A1.1 (with 150+ hours of prior Japanese study). We recommend basic Japanese preparation beforehand — feel free to ask us for guidance."
+            },
+            {
+              "q": "What is the selection process?",
+              "a": "Three stages: (1) document review, (2) Japanese written exam, (3) interview (in person or online). See the Admissions page for full details."
+            },
+            {
+              "q": "Should I apply through an agency?",
+              "a": "Applicants from Nepal are encouraged to work with our partner agencies, who provide hands-on support throughout the application. A full list is on the Admissions page."
+            }
+          ]
+        },
+        {
+          "title": "Fees & Payment",
+          "items": [
+            {
+              "q": "What is the total tuition?",
+              "a": "Full-duration totals: 2-Year ¥1,722,000 / 1-Year-9-Month ¥1,530,250 / 1-Year-6-Month ¥1,334,500 (includes exam and admission fees). See the Admissions or Disclosure page for details."
+            },
+            {
+              "q": "Are there other costs besides tuition?",
+              "a": "Living costs (rent, food, utilities, national health insurance) are about ¥150,000/month. Initial housing costs are separate; textbooks and activity fees are already in the tuition."
+            },
+            {
+              "q": "How can I pay?",
+              "a": "Three options: (1) bank transfer (Johnan Shinkin Bank), (2) QR code payment (NewAge), or (3) Flywire (lower fees, supports overseas cards)."
+            },
+            {
+              "q": "What if my visa is denied — do I get a refund?",
+              "a": "If your visa is denied, the exam fee and admission fee are non-refundable, but tuition and other fees are refunded in full (minus wire fees). See the Admissions page for the full refund policy."
+            },
+            {
+              "q": "Are scholarships available?",
+              "a": "We do not currently offer our own scholarship. Government and external scholarships (MEXT, JASSO, etc.) will be introduced individually after enrollment."
+            }
+          ]
+        },
+        {
+          "title": "Visa & Residency",
+          "items": [
+            {
+              "q": "How is the COE (Certificate of Eligibility) handled?",
+              "a": "After acceptance, the School applies for your COE on your behalf. You only need to submit the required documents."
+            },
+            {
+              "q": "Can I work part-time?",
+              "a": "Yes — with a Shikaku-gai Katsudō Kyoka (part-time work permit), up to 28 hrs/week during term and 8 hrs/day during long breaks. Adult entertainment industries are not allowed. We help you apply and explain the rules."
+            },
+            {
+              "q": "What about visa renewal?",
+              "a": "When renewal time comes, our office supports the process. Attendance and grades affect the review — please take your studies seriously."
+            }
+          ]
+        },
+        {
+          "title": "Studies",
+          "items": [
+            {
+              "q": "What is the daily schedule?",
+              "a": "4 hours/day (four 45-minute periods). Morning session 9:00–12:30 / Afternoon session 13:00–16:30. Five days/week (no weekends/holidays), 20 hours per week."
+            },
+            {
+              "q": "What if I fall behind?",
+              "a": "We offer supplementary classes in English or Nepali, a 30-min weekly tutorial, and 2 hours/year of one-on-one academic counseling."
+            },
+            {
+              "q": "Is there JLPT preparation?",
+              "a": "Yes. In Year 2 we run JLPT N2 preparation classes — covering grammar, vocabulary, reading, and listening."
+            },
+            {
+              "q": "How does career guidance work?",
+              "a": "Homeroom-teacher system plus one-on-one career counseling. School-selection advice, application/motivation-letter review, interview practice (individual and group), and JLPT classes — all the way through to acceptance."
+            }
+          ]
+        },
+        {
+          "title": "Life & Support",
+          "items": [
+            {
+              "q": "How is housing arranged?",
+              "a": "We partner with Able (Odakyū-Sagamihara branch). Nepali- and English-speaking staff help you from apartment hunting to signing the contract. Many student-friendly options available."
+            },
+            {
+              "q": "What if I get sick or injured?",
+              "a": "A school doctor is on staff, and our on-site clinic and acupuncture facility can treat you. In emergencies, staff accompany you to nearby Kurokouchi Hospital. Students enroll in national health insurance and an international-student plan."
+            },
+            {
+              "q": "Can I get support in my native language?",
+              "a": "Yes — English and Nepali-speaking staff are on-site. Residence registration, bank accounts, medical, government paperwork — we walk through everyday life with you."
+            },
+            {
+              "q": "What events does the school hold?",
+              "a": "Spring: tea ceremony, Oshino Hakkai trip. Summer: Tanabata festival. Autumn: Kamakura / Enoshima trip. Winter: Christmas party, New Year shrine visit, first calligraphy. Cultural experiences year-round."
+            }
+          ]
+        },
+        {
+          "title": "After Graduation",
+          "items": [
+            {
+              "q": "What are the typical career paths?",
+              "a": "Graduates primarily continue to vocational schools in Kanagawa and Tokyo (medical, welfare, business, IT, culinary, design, and more). See About or Disclosure for more on graduate pathways."
+            },
+            {
+              "q": "How do I choose a vocational school?",
+              "a": "Through one-on-one counseling we recommend schools based on your ability, aptitude, and goals. We also have referral arrangements with partner schools."
+            }
+          ]
+        }
+      ],
+      "ctaTitle": "Still have questions?",
+      "ctaDesc": "If your question isn't covered above, please reach out via the inquiry form. Inquiries in 中文, English, and नेपाली are all welcome.",
+      "ctaButton": "Go to Inquiry Form"
+    },
     "sitemap": {
       "title": "Sitemap",
       "subtitle": "A complete list of pages on this site. Find what you need quickly.",
@@ -734,7 +861,8 @@
           "links": [
             { "label": "Admissions", "href": "/admissions" },
             { "label": "Selection Process", "href": "/admissions#flow" },
-            { "label": "Tuition & Payment", "href": "/admissions#fees" }
+            { "label": "Tuition & Payment", "href": "/admissions#fees" },
+            { "label": "FAQ", "href": "/faq" }
           ]
         },
         {
