@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
+import MobileMenu from "./MobileMenu";
 
 export default async function Header() {
   const t = await getTranslations();
@@ -16,9 +17,9 @@ export default async function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-bg/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4 lg:px-8">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:gap-4 sm:px-6 sm:py-4 lg:gap-6 lg:px-8">
         <Link href="/" className="flex flex-col leading-tight">
-          <span className="text-base font-semibold text-primary-dark">
+          <span className="text-[13px] font-semibold text-primary-dark sm:text-base">
             {t("common.schoolName")}{" "}
             <span className="text-accent-warm">{t("common.departmentName")}</span>
           </span>
@@ -45,7 +46,10 @@ export default async function Header() {
           </ul>
         </nav>
 
-        <LanguageSwitcher />
+        <div className="flex items-center gap-2">
+          <LanguageSwitcher />
+          <MobileMenu items={navItems} />
+        </div>
       </div>
     </header>
   );

@@ -16,14 +16,14 @@ export default async function Hero() {
       />
       <div className="absolute inset-0 bg-gradient-to-b from-primary-dark/35 to-primary-dark/80" />
 
-      <div className="absolute right-6 top-6 z-10 rounded-md bg-white/95 p-3 shadow-xl backdrop-blur lg:right-8 lg:top-8">
+      <div className="absolute right-3 top-3 z-10 rounded-md bg-white/95 p-2 shadow-xl backdrop-blur sm:right-5 sm:top-5 sm:p-2.5 lg:right-8 lg:top-8 lg:p-3">
         <Image
           src="/cert/mark-full.jpg"
           alt="文部科学省 認定日本語教育機関 / Nationally Accredited Japanese language educational institutions for Study in Japan"
           width={1041}
           height={954}
           priority
-          className="h-32 w-auto lg:h-36"
+          className="h-20 w-auto sm:h-24 lg:h-36"
         />
       </div>
 
