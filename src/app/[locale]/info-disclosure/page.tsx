@@ -45,6 +45,7 @@ export default async function InfoDisclosurePage({
     title: string;
     desc: string;
     link: string;
+    url: string;
   };
   const features = t.raw("items.features") as {
     title: string;
@@ -62,6 +63,14 @@ export default async function InfoDisclosurePage({
     intro: string;
     schools: string[];
     note: string;
+  };
+  const selfEvaluation = t.raw("items.selfEvaluation") as {
+    title: string;
+    intro: string;
+    categories: string[];
+    publication: string;
+    link: string;
+    url: string;
   };
 
   return (
@@ -120,10 +129,14 @@ export default async function InfoDisclosurePage({
 
           <Block id="regulations" title={regulations.title}>
             <p className="leading-[1.9] text-text-muted">{regulations.desc}</p>
-            <span className="mt-6 inline-flex items-center gap-2 rounded border border-border bg-bg-warm px-6 py-3 text-sm text-text-muted">
-              📄 {regulations.link} — {""}
-              <span className="italic">PDF coming soon</span>
-            </span>
+            <a
+              href={regulations.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center gap-2 rounded border border-primary bg-primary-pale px-6 py-3 text-sm font-medium text-primary-dark transition-colors hover:bg-primary hover:text-white"
+            >
+              📄 {regulations.link} →
+            </a>
           </Block>
 
           <Block id="features" title={features.title}>
@@ -169,6 +182,36 @@ export default async function InfoDisclosurePage({
               ))}
             </ul>
             <p className="mt-6 text-sm text-text-light">{career.note}</p>
+          </Block>
+
+          <Block id="self-evaluation" title={selfEvaluation.title}>
+            <p className="leading-[1.9] text-text-muted">
+              {selfEvaluation.intro}
+            </p>
+            <ul className="mt-8 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+              {selfEvaluation.categories.map((c) => (
+                <li
+                  key={c}
+                  className="flex items-center gap-2.5 rounded border border-border bg-bg-card px-4 py-3 text-sm"
+                >
+                  <span className="text-xs text-primary">◆</span>
+                  {c}
+                </li>
+              ))}
+            </ul>
+            <div className="mt-8 flex flex-wrap items-center gap-4">
+              <span className="rounded-full bg-accent-warm/10 px-4 py-1.5 text-xs font-medium text-accent-warm">
+                {selfEvaluation.publication}
+              </span>
+              <a
+                href={selfEvaluation.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded border border-primary bg-primary-pale px-6 py-3 text-sm font-medium text-primary-dark transition-colors hover:bg-primary hover:text-white"
+              >
+                📄 {selfEvaluation.link} →
+              </a>
+            </div>
           </Block>
 
           <footer className="mt-16 border-t border-border pt-8 text-sm leading-[1.85] text-text-light">

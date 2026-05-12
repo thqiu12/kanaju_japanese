@@ -1402,8 +1402,9 @@
       },
       "regulations": {
         "title": "6. School Regulations",
-        "desc": "The Department's full school regulations are available as a PDF document.",
-        "link": "View Regulations (PDF)"
+        "desc": "Our complete School Regulations — 24 articles across 9 chapters, from General Provisions to Miscellaneous.",
+        "link": "Open Regulations PDF",
+        "url": "/docs/school-regulations.pdf"
       },
       "features": {
         "title": "7. Characteristics as a Japanese Language Institution",
@@ -1453,6 +1454,30 @@
           "New Tokyo Dental Technician School"
         ],
         "note": "* As this is our inaugural year, graduate placement records will be published starting in fiscal year 2027."
+      },
+      "selfEvaluation": {
+        "title": "10. Self-Assessment & Evaluation",
+        "intro": "As an accredited Japanese language institution, we conduct an annual self-assessment across 15 categories and ~110 indicators to continually improve operations and educational quality. Results are published on this site each April.",
+        "categories": [
+          "1. Philosophy & Educational Goals",
+          "2. School Operations",
+          "3. Planning of Educational Activities",
+          "4. Implementation of Educational Activities",
+          "5. Grading & Evaluation",
+          "6. Faculty & Staff",
+          "7. Educational Outcomes",
+          "8. Student Support",
+          "9. Career & Admissions Support",
+          "10. Immigration & Residency Support",
+          "11. Educational Environment",
+          "12. Student Recruitment & Selection",
+          "13. Finance",
+          "14. Legal Compliance",
+          "15. Regional & Social Contribution"
+        ],
+        "publication": "Publication: every April",
+        "link": "Open Self-Assessment Items PDF",
+        "url": "/docs/self-evaluation-items.pdf"
       }
     },
     "footer": "This page is published in accordance with the public-disclosure obligations for accredited Japanese language institutions (Article 15 of the Ministerial Ordinance on the Accreditation of Japanese Language Institutions)."
