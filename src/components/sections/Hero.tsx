@@ -16,22 +16,15 @@ export default async function Hero() {
       />
       <div className="absolute inset-0 bg-gradient-to-b from-primary-dark/35 to-primary-dark/80" />
 
-      <div className="absolute right-6 top-6 z-10 flex items-center gap-3 rounded-md bg-white/94 px-4 py-3 shadow-xl backdrop-blur lg:right-8 lg:top-8">
+      <div className="absolute right-6 top-6 z-10 rounded-md bg-white/95 p-3 shadow-xl backdrop-blur lg:right-8 lg:top-8">
         <Image
-          src="/cert/mark-symbol.png"
-          alt={t("hero.certMarkTitle")}
-          width={56}
-          height={56}
-          className="h-14 w-auto"
+          src="/cert/mark-full.jpg"
+          alt="文部科学省 認定日本語教育機関 / Nationally Accredited Japanese language educational institutions for Study in Japan"
+          width={1041}
+          height={954}
+          priority
+          className="h-32 w-auto lg:h-36"
         />
-        <div className="text-[11px] font-semibold leading-tight text-cert-red tracking-wide">
-          {t("hero.certMarkTitle")}
-          <br />
-          {t("hero.certMarkSubtitle")}
-          <span className="mt-1 block text-[9px] font-normal text-text-muted">
-            {t("hero.certMarkEn")}
-          </span>
-        </div>
       </div>
 
       <div className="relative z-[2] mx-auto flex h-full max-w-7xl flex-col justify-center px-6 py-24 text-white lg:px-8">

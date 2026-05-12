@@ -35,11 +35,11 @@
   },
   "hero": {
     "badge": "Opening October 2026  ·  Applications Now Open",
-    "titleLine1": "Begin again.",
-    "titleLine2": "Build your",
+    "titleLine1": "Your",
+    "titleLine2": "",
     "titleAccent": "future",
     "titleSuffix": ",",
-    "titleLine3": "in Japan.",
+    "titleLine3": "begins in Japan.",
     "sub": "Based in Sagamihara, Kanagawa, our Japanese Language Department prepares you for vocational-school admission and a career in Japan. As a MEXT-accredited school under a school corporation with 20+ years of history, we support each student's next step with care.",
     "ctaPrimary": "View Admissions",
     "ctaSecondary": "Our Three Programs",
@@ -56,7 +56,7 @@
       {
         "num": "01",
         "title": "MEXT-Accredited",
-        "desc": "As a nationally accredited Japanese language institution, we offer a recognized curriculum and operational standard — a trusted pathway into Japan."
+        "desc": "As a nationally accredited Japanese language institution, we offer a recognized curriculum and operational standard you can trust."
       },
       {
         "num": "02",
@@ -66,7 +66,7 @@
       {
         "num": "03",
         "title": "On-Campus Clinic and Acupuncture",
-        "desc": "A school doctor on staff and on-campus clinics for treatment. Our unique health-focused environment is something no other Japanese language school offers."
+        "desc": "On-campus clinics for acupuncture and physical therapy. In emergencies, staff accompany you to nearby Kurokouchi Hospital. Our unique health-focused environment is something no other Japanese language school offers."
       },
       {
         "num": "04",
@@ -132,7 +132,7 @@
       },
       {
         "title": "② Health and Daily-Life Adaptation",
-        "desc": "School doctor on staff and on-campus clinics. Understanding Japanese culture and customs, and managing health through food — both mind and body are cared for during your study."
+        "desc": "On-campus clinic and acupuncture facility, working with nearby Kurokouchi Hospital. Understanding Japanese culture and customs, and managing health through food — both mind and body are cared for during your study."
       },
       {
         "title": "③ Self-Realization",
@@ -155,7 +155,7 @@
       },
       {
         "title": "Health Support",
-        "desc": "School doctor on staff and on-campus clinics for acupuncture and physical therapy. In emergencies, staff accompany you to nearby Kurokouchi Hospital."
+        "desc": "On-site clinics for acupuncture and physical therapy on campus. Treatable in-house for minor issues. In emergencies, staff accompany you to nearby Kurokouchi Hospital."
       },
       {
         "title": "Life Orientation",
@@ -441,7 +441,7 @@
       },
       {
         "name": "On-Site Clinic & Acupuncture",
-        "desc": "1st floor of the campus. Treatment by the school doctor available"
+        "desc": "1st floor of the campus. Attached to the vocational school — open to local residents for treatment as well"
       },
       {
         "name": "Bike Parking",
@@ -917,7 +917,7 @@
             },
             {
               "q": "What if I get sick or injured?",
-              "a": "A school doctor is on staff, and our on-site clinic and acupuncture facility can treat you. In emergencies, staff accompany you to nearby Kurokouchi Hospital. Students enroll in national health insurance and an international-student plan."
+              "a": "Our on-site clinic and acupuncture facility can treat you. In emergencies, staff accompany you to nearby Kurokouchi Hospital. Students enroll in national health insurance and an international-student plan."
             },
             {
               "q": "Can I get support in my native language?",
