@@ -22,8 +22,8 @@ export default async function Header() {
             {t("common.schoolName")}{" "}
             <span className="text-accent-warm">{t("common.departmentName")}</span>
           </span>
-          <span className="mt-0.5 text-[10px] tracking-[0.15em] text-text-muted">
-            KANAGAWA JLS · HIRAI GAKUEN
+          <span className="mt-0.5 hidden text-[10px] tracking-[0.1em] text-text-muted sm:block">
+            Department of Japanese Language · Kanagawa Jusei Shinkyu School
           </span>
         </Link>
 

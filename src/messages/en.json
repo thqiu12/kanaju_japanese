@@ -1,13 +1,13 @@
 {
   "meta": {
-    "siteTitle": "Kanagawa JLS · Japanese Language Department",
-    "siteDescription": "A MEXT-accredited Japanese language school operated by Hirai Gakuen, located in Sagamihara, Kanagawa. We support international students from Japanese language study through vocational-school admission to careers in Japan."
+    "siteTitle": "Department of Japanese Language, Kanagawa Jusei Shinkyu School",
+    "siteDescription": "A MEXT-accredited Japanese language school operated by HIRAI-GAKUEN, located in Sagamihara, Kanagawa. We support international students from Japanese language study through vocational-school admission to careers in Japan."
   },
   "common": {
-    "schoolName": "Kanagawa College of Judo Therapy and Acupuncture",
-    "departmentName": "Japanese Language Department",
-    "operator": "School Corporation Hirai Gakuen",
-    "address": "6-7 Matsugae-cho (Hirai Gakuen Kanagawa Judo Therapy College, Building 3), Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN",
+    "schoolName": "Kanagawa Jusei Shinkyu School",
+    "departmentName": "Department of Japanese Language",
+    "operator": "Incorporated Educational Institution HIRAI-GAKUEN",
+    "address": "6-7 Matsugae-cho (HIRAI-GAKUEN Kanagawa Jusei Shinkyu School, Building 3), Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN",
     "tel": "+81-42-705-3076",
     "fax": "+81-42-740-7221",
     "email": "gakuen@hirai-gakuen.ac.jp",
@@ -31,7 +31,7 @@
   },
   "noticeBar": {
     "tag": "MEXT-Accredited Japanese Language Institution",
-    "info": "Operated by School Corporation Hirai Gakuen  ·  Opening October 2026"
+    "info": "Operated by Incorporated Educational Institution HIRAI-GAKUEN  ·  Opening October 2026"
   },
   "hero": {
     "badge": "Opening October 2026  ·  Applications Now Open",
@@ -61,7 +61,7 @@
       {
         "num": "02",
         "title": "20+ Years as a School Corporation",
-        "desc": "Hirai Gakuen, our parent school corporation, was founded in 2001. We bring two decades of educational expertise from judo therapy and acupuncture into language education."
+        "desc": "HIRAI-GAKUEN, our parent school corporation, was founded in 2001. We bring two decades of educational expertise from judo therapy and acupuncture into language education."
       },
       {
         "num": "03",
@@ -257,7 +257,7 @@
     "desc": "A quiet residential area, just 45 minutes from central Tokyo. Affordable rent and daily costs make it one of the most livable areas for international students.",
     "rows": {
       "address": "Address",
-      "addressValue": "6-7 Matsugae-cho (Hirai Gakuen Kanagawa Judo Therapy College, Building 3), Minami-ku\nSagamihara, Kanagawa 252-0313, JAPAN",
+      "addressValue": "6-7 Matsugae-cho (HIRAI-GAKUEN Kanagawa Jusei Shinkyu School, Building 3), Minami-ku\nSagamihara, Kanagawa 252-0313, JAPAN",
       "access": "Access",
       "accessValue": "7-min walk from Odakyū-Sagamihara Station (Odakyū-Odawara Line)",
       "tel": "Phone",
@@ -272,8 +272,8 @@
     "secondary": "Contact Us"
   },
   "footer": {
-    "schoolFull": "Kanagawa College of Judo Therapy & Acupuncture · Japanese Language Department",
-    "operator": "School Corporation Hirai Gakuen",
+    "schoolFull": "Department of Japanese Language, Kanagawa Jusei Shinkyu School",
+    "operator": "Incorporated Educational Institution HIRAI-GAKUEN",
     "certCaption": "Nationally Accredited · for Study in Japan",
     "groups": {
       "about": {
@@ -307,7 +307,7 @@
         ]
       }
     },
-    "copyright": "© 2026 School Corporation Hirai Gakuen · Kanagawa JLS",
+    "copyright": "© 2026 Incorporated Educational Institution HIRAI-GAKUEN · Kanagawa Jusei Shinkyu School",
     "privacy": "Privacy Policy",
     "sitemap": "Sitemap"
   },
@@ -714,7 +714,7 @@
       "whyItems": [
         {
           "title": "Stable Operation by an Established School Corporation",
-          "desc": "Backed by School Corporation Hirai Gakuen with over 20 years of educational history. MEXT-accredited — a stable workplace for the long term."
+          "desc": "Backed by Incorporated Educational Institution HIRAI-GAKUEN with over 20 years of educational history. MEXT-accredited — a stable workplace for the long term."
         },
         {
           "title": "Multicultural Workplace",
@@ -791,7 +791,7 @@
       "commonRows": [
         [
           "Location",
-          "7-5 Matsugae-cho, Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN (Hirai Gakuen Building 3)"
+          "7-5 Matsugae-cho, Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN (HIRAI-GAKUEN Building 3)"
         ],
         [
           "Access",
@@ -1055,7 +1055,7 @@
     },
     "privacy": {
       "title": "Privacy Policy",
-      "intro": "School Corporation Hirai Gakuen — Kanagawa College of Judo Therapy & Acupuncture, Japanese Language Department (the 'School') handles personal information of prospective students, current students, guardians, and other parties in accordance with applicable laws and guidelines.",
+      "intro": "Incorporated Educational Institution HIRAI-GAKUEN — Department of Japanese Language, Kanagawa Jusei Shinkyu School (the 'School') handles personal information of prospective students, current students, guardians, and other parties in accordance with applicable laws and guidelines.",
       "sections": [
         {
           "title": "1. Information We Collect",
@@ -1157,12 +1157,12 @@
       "Build a structured admissions-support system — counseling, school selection, interview practice, motivation-letter review"
     ],
     "featuresTitle": "What Makes Us Different — A Medical-Sciences Parent School",
-    "featuresBody": "Since its founding, Kanagawa College of Judo Therapy & Acupuncture has been a locally-rooted vocational school, training judo therapists and acupuncturists with over 20 years of history. The school includes an on-site clinic and acupuncture facility where local residents receive treatment — giving students real-world observation opportunities.\nThe area around Odakyū-Sagamihara Station features many clinics and acupuncture practices — a clear sign of the community's strong interest in health and welfare. The fact that most of our graduates find placement at local medical and welfare facilities further demonstrates the bond between school and town.\nWe bring this educational environment fully into our Japanese Language Department, with a curriculum that emphasizes understanding of and empathy for the local community. By supporting international students in adapting to life in Japan and systematically acquiring the language ability and cultural understanding needed for vocational school, we aim to develop talent capable of contributing to society in medical, welfare, and many other fields.",
+    "featuresBody": "Since its founding, Kanagawa Jusei Shinkyu School has been a locally-rooted vocational school, training judo therapists and acupuncturists with over 20 years of history. The school includes an on-site clinic and acupuncture facility where local residents receive treatment — giving students real-world observation opportunities.\nThe area around Odakyū-Sagamihara Station features many clinics and acupuncture practices — a clear sign of the community's strong interest in health and welfare. The fact that most of our graduates find placement at local medical and welfare facilities further demonstrates the bond between school and town.\nWe bring this educational environment fully into our Japanese Language Department, with a curriculum that emphasizes understanding of and empathy for the local community. By supporting international students in adapting to life in Japan and systematically acquiring the language ability and cultural understanding needed for vocational school, we aim to develop talent capable of contributing to society in medical, welfare, and many other fields.",
     "operatorTitle": "Operating Body",
     "operatorRows": [
       [
         "Corporation",
-        "School Corporation Hirai Gakuen"
+        "Incorporated Educational Institution HIRAI-GAKUEN"
       ],
       [
         "Representative",
@@ -1181,11 +1181,11 @@
     "history": [
       {
         "year": "Oct 25, 2001",
-        "event": "School Corporation Hirai Gakuen founded"
+        "event": "Incorporated Educational Institution HIRAI-GAKUEN founded"
       },
       {
         "year": "Apr 1, 2002",
-        "event": "Kanagawa College of Judo Therapy & Acupuncture opens (Judo Therapy / Acupuncture Departments)"
+        "event": "Kanagawa Jusei Shinkyu School opens (Judo Therapy / Acupuncture Departments)"
       },
       {
         "year": "Apr 1, 2026",
@@ -1442,7 +1442,7 @@
         "rows": [
           [
             "Operator",
-            "School Corporation Hirai Gakuen"
+            "Incorporated Educational Institution HIRAI-GAKUEN"
           ],
           [
             "Representative",
@@ -1463,11 +1463,11 @@
         "rows": [
           [
             "Name",
-            "Kanagawa College of Judo Therapy & Acupuncture · Japanese Language Department"
+            "Department of Japanese Language, Kanagawa Jusei Shinkyu School"
           ],
           [
             "Address",
-            "6-7 Matsugae-cho (Hirai Gakuen Kanagawa Judo Therapy College, Building 3), Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN"
+            "6-7 Matsugae-cho (HIRAI-GAKUEN Kanagawa Jusei Shinkyu School, Building 3), Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN"
           ],
           [
             "Phone",
@@ -1726,7 +1726,7 @@
       },
       "features": {
         "title": "7. Characteristics as a Japanese Language Institution",
-        "intro": "Since its founding, Kanagawa College of Judo Therapy & Acupuncture has been a locally-rooted vocational school, training judo therapists and acupuncturists with over 20 years of history. The school includes an on-site clinic and acupuncture facility where local residents receive treatment — providing students with real-world observation opportunities.",
+        "intro": "Since its founding, Kanagawa Jusei Shinkyu School has been a locally-rooted vocational school, training judo therapists and acupuncturists with over 20 years of history. The school includes an on-site clinic and acupuncture facility where local residents receive treatment — providing students with real-world observation opportunities.",
         "body": "We bring this educational environment fully into our Japanese Language Department, with a curriculum that emphasizes understanding of and empathy for the local community. By supporting international students in adapting to life in Japan and systematically acquiring the language ability and cultural understanding needed for vocational school, we aim to develop talent capable of contributing to society in medical, welfare, and many other fields."
       },
       "activities": {
