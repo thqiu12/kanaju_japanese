@@ -1,5 +1,7 @@
 # 神奈川柔整鍼灸専門学校 日本語学科 — 公式サイト
 
+> 🚀 Live: https://hirai-jls.vercel.app — auto-deploys from `main`.
+
 文部科学省認定日本語教育機関の公式ウェブサイト。Next.js 16 (App Router) + next-intl で構築。
 
 - **本番ドメイン (予定):** `https://jls.hirai-gakuen.ac.jp`
