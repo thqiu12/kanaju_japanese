@@ -1,13 +1,19 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { Link, usePathname } from "@/i18n/navigation";
 
 type NavItem = { href: string; label: string; sub: string };
 
 export default function MobileMenu({ items }: { items: NavItem[] }) {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Close on route change
   useEffect(() => {
@@ -55,56 +61,61 @@ export default function MobileMenu({ items }: { items: NavItem[] }) {
         </span>
       </button>
 
-      {/* Overlay */}
-      <div
-        className={`fixed inset-0 z-40 bg-black/40 transition-opacity lg:hidden ${
-          open ? "opacity-100" : "pointer-events-none opacity-0"
-        }`}
-        onClick={() => setOpen(false)}
-        aria-hidden
-      />
-
-      {/* Slide-in panel */}
-      <aside
-        className={`fixed inset-y-0 right-0 z-50 w-[min(360px,85vw)] bg-bg-card shadow-2xl transition-transform duration-300 lg:hidden ${
-          open ? "translate-x-0" : "translate-x-full"
-        }`}
-        aria-hidden={!open}
-      >
-        <div className="flex items-center justify-between border-b border-border px-6 py-4">
-          <span className="text-xs uppercase tracking-[0.2em] text-text-muted">
-            Menu
-          </span>
-          <button
-            type="button"
-            onClick={() => setOpen(false)}
-            aria-label="Close menu"
-            className="flex h-9 w-9 items-center justify-center rounded text-text-muted transition-colors hover:bg-bg-warm hover:text-primary"
-          >
-            ✕
-          </button>
-        </div>
-        <nav className="overflow-y-auto px-2 py-4">
-          <ul className="space-y-1">
-            {items.map((item) => (
-              <li key={item.href}>
-                <Link
-                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                  href={item.href as any}
-                  className="block rounded px-4 py-3 transition-colors hover:bg-primary-pale"
+      {/* Overlay + panel — portaled to body so backdrop-blur ancestor (Header)
+          doesn't create a containing block that traps the fixed elements. */}
+      {mounted &&
+        createPortal(
+          <>
+            <div
+              className={`fixed inset-0 z-[60] bg-black/40 transition-opacity lg:hidden ${
+                open ? "opacity-100" : "pointer-events-none opacity-0"
+              }`}
+              onClick={() => setOpen(false)}
+              aria-hidden
+            />
+            <aside
+              className={`fixed inset-y-0 right-0 z-[70] w-[min(360px,85vw)] bg-bg-card shadow-2xl transition-transform duration-300 lg:hidden ${
+                open ? "translate-x-0" : "translate-x-full"
+              }`}
+              aria-hidden={!open}
+            >
+              <div className="flex items-center justify-between border-b border-border px-6 py-4">
+                <span className="text-xs uppercase tracking-[0.2em] text-text-muted">
+                  Menu
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setOpen(false)}
+                  aria-label="Close menu"
+                  className="flex h-9 w-9 items-center justify-center rounded text-text-muted transition-colors hover:bg-bg-warm hover:text-primary"
                 >
-                  <span className="block text-base font-medium text-primary-dark">
-                    {item.label}
-                  </span>
-                  <span className="mt-0.5 block text-[10px] uppercase tracking-[0.15em] text-text-light">
-                    {item.sub}
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </aside>
+                  ✕
+                </button>
+              </div>
+              <nav className="overflow-y-auto px-2 py-4">
+                <ul className="space-y-1">
+                  {items.map((item) => (
+                    <li key={item.href}>
+                      <Link
+                        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                        href={item.href as any}
+                        className="block rounded px-4 py-3 transition-colors hover:bg-primary-pale"
+                      >
+                        <span className="block text-base font-medium text-primary-dark">
+                          {item.label}
+                        </span>
+                        <span className="mt-0.5 block text-[10px] uppercase tracking-[0.15em] text-text-light">
+                          {item.sub}
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </aside>
+          </>,
+          document.body,
+        )}
     </>
   );
 }
