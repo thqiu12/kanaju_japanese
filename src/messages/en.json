@@ -707,6 +707,119 @@
         "Dec 29 – Jan 3"
       ]
     ],
+    "careers": {
+      "title": "Careers — Join Our Team",
+      "subtitle": "We are hiring faculty and staff to launch the Japanese Language Department in October 2026.",
+      "whyTitle": "Why Work With Us",
+      "whyItems": [
+        {
+          "title": "Stable Operation by an Established School Corporation",
+          "desc": "Backed by School Corporation Hirai Gakuen with over 20 years of educational history. MEXT-accredited — a stable workplace for the long term."
+        },
+        {
+          "title": "Multicultural Workplace",
+          "desc": "Daily interaction with international students primarily from Nepal and China. A stimulating, multilingual environment where non-native Japanese speakers also thrive."
+        },
+        {
+          "title": "Build a Brand-New Department Together",
+          "desc": "We open in October 2026. Curriculum, operations, events — you'll help shape it all from day one."
+        },
+        {
+          "title": "Convenient Access",
+          "desc": "7-min walk from Odakyū-Sagamihara Station, 45 min to Shinjuku. On-site clinic and acupuncture facility on the 1st floor."
+        }
+      ],
+      "positionsTitle": "Open Positions",
+      "positions": [
+        {
+          "name": "Japanese Teacher (Full-Time)",
+          "type": "Full-time",
+          "deadline": "Open-ended",
+          "desc": "Teaching across the 2-year / 1-year-9-month / 1-year-6-month programs. Homeroom duties, material preparation, career counseling.",
+          "requirements": [
+            "Meet one of: (1) majored or minored in Japanese language education at university/grad school, (2) passed the Japanese Language Teaching Competency Test, (3) completed 420+ hours of teacher training",
+            "1+ year of Japanese-teaching experience preferred",
+            "Basic English, Chinese, or Nepali communication skills welcome"
+          ]
+        },
+        {
+          "name": "Japanese Teacher (Part-Time)",
+          "type": "Part-time",
+          "deadline": "Open-ended",
+          "desc": "Teach a few classes per week. Work at a comfortable pace under our experienced head instructor.",
+          "requirements": [
+            "Same qualifications as full-time teachers",
+            "Available 2+ days/week",
+            "Current undergraduate or graduate students welcome (if qualified)"
+          ]
+        },
+        {
+          "name": "Head Instructor",
+          "type": "Full-time",
+          "deadline": "Open-ended",
+          "desc": "Curriculum design, mentoring other teachers, lesson evaluation, syllabus management. Central to the academic department.",
+          "requirements": [
+            "5+ years of Japanese-teaching experience",
+            "Experience with homeroom duties, career guidance, and faculty mentoring",
+            "Leadership and management skills"
+          ]
+        },
+        {
+          "name": "Student Life Counselor (English / Nepali)",
+          "type": "Full-time or Part-time",
+          "deadline": "Open-ended",
+          "desc": "Support international students with housing, banking, medical, paperwork, part-time jobs, etc. Attendance tracking and residency-related work.",
+          "requirements": [
+            "Japanese + English or Nepali (native English or Nepali speakers especially welcome)",
+            "Experience supporting international students a plus",
+            "Authorized immigration application proxy qualification a plus"
+          ]
+        },
+        {
+          "name": "Administrative Staff",
+          "type": "Full-time",
+          "deadline": "Open-ended",
+          "desc": "Handle applications, tuition management, student records, communication with external agencies, document preparation — general school operations.",
+          "requirements": [
+            "Basic PC skills (Word / Excel / Google Workspace)",
+            "Accurate clerical ability",
+            "English, Chinese, or Nepali communication skills welcome"
+          ]
+        }
+      ],
+      "commonTitle": "Common Working Conditions",
+      "commonRows": [
+        [
+          "Location",
+          "7-5 Matsugae-cho, Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN (Hirai Gakuen Building 3)"
+        ],
+        [
+          "Access",
+          "7-min walk from Odakyū-Sagamihara Station (Odakyū-Odawara Line)"
+        ],
+        [
+          "Hours",
+          "8:30 – 17:30 (60-min break). Varies by position."
+        ],
+        [
+          "Days Off",
+          "Weekends, public holidays, summer break, New Year break, paid leave"
+        ],
+        [
+          "Benefits",
+          "Full social insurance, full commuting allowance, health checkups, training programs"
+        ],
+        [
+          "Salary",
+          "Based on experience, qualifications, and ability, per our internal pay regulations (negotiable)"
+        ]
+      ],
+      "applyTitle": "Apply / Inquire",
+      "applyDesc": "Please send your résumé and cover letter by email. We respond within 3 business days.",
+      "applyEmailLabel": "Email:",
+      "applyEmail": "gakuen@hirai-gakuen.ac.jp",
+      "applyButton": "Apply via Email"
+    },
     "faq": {
       "title": "Frequently Asked Questions",
       "subtitle": "Common questions about admissions, fees, visas, and life in Japan. If you don't see your question here, please contact us.",
@@ -924,6 +1037,10 @@
             {
               "label": "Self-Evaluation Items PDF",
               "href": "/docs/self-evaluation-items.pdf"
+            },
+            {
+              "label": "Careers",
+              "href": "/careers"
             },
             {
               "label": "Privacy Policy",

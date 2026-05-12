@@ -80,7 +80,10 @@ export default async function Footer() {
 
         <div className="mt-8 flex flex-col items-start justify-between gap-3 text-[12px] sm:flex-row sm:items-center">
           <div>{t("footer.copyright")}</div>
-          <div className="flex gap-6">
+          <div className="flex flex-wrap gap-6">
+            <Link href="/careers" className="hover:text-gold">
+              {t("contact.careers.title")}
+            </Link>
             <Link href="/privacy" className="hover:text-gold">
               {t("footer.privacy")}
             </Link>
