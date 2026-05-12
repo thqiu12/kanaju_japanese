@@ -68,38 +68,22 @@ export default async function CampusLifePage({
             </p>
 
             <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-              {seasons.map((s, i) => (
+              {seasons.map((s) => (
                 <div
                   key={s.season}
-                  className={`relative overflow-hidden rounded-lg p-7 ${
-                    i % 4 === 0
-                      ? "bg-gradient-to-br from-primary-pale to-bg-card"
-                      : i % 4 === 1
-                        ? "bg-gradient-to-br from-bg-warm to-bg-card"
-                        : i % 4 === 2
-                          ? "bg-gradient-to-br from-primary-pale to-bg-warm"
-                          : "bg-gradient-to-br from-primary-dark to-primary text-white"
-                  } border border-border`}
+                  className="relative overflow-hidden rounded-lg border border-border bg-gradient-to-br from-primary-pale to-bg-card p-7 transition-shadow hover:shadow-[0_8px_24px_rgba(14,160,130,0.1)]"
                 >
-                  <div
-                    className={`text-xs uppercase tracking-[0.3em] ${i % 4 === 3 ? "text-gold" : "text-primary"}`}
-                  >
+                  <div className="text-xs uppercase tracking-[0.3em] text-primary">
                     {s.title}
                   </div>
-                  <h3
-                    className={`mt-2 font-serif text-3xl font-semibold ${i % 4 === 3 ? "text-white" : "text-primary-dark"}`}
-                  >
+                  <h3 className="mt-2 font-serif text-3xl font-semibold text-primary-dark">
                     {s.season}
                   </h3>
                   <ul className="mt-6 space-y-2.5">
                     {s.items.map((item) => (
                       <li
                         key={item}
-                        className={`flex gap-2 text-sm leading-[1.7] ${
-                          i % 4 === 3 ? "text-white/85" : "text-text"
-                        } before:mt-2 before:block before:h-1 before:w-1 before:shrink-0 before:rounded-full ${
-                          i % 4 === 3 ? "before:bg-gold" : "before:bg-primary"
-                        }`}
+                        className="flex gap-2 text-sm leading-[1.7] text-text before:mt-2 before:block before:h-1 before:w-1 before:shrink-0 before:rounded-full before:bg-primary"
                       >
                         {item}
                       </li>
