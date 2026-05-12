@@ -109,6 +109,9 @@ function isoDaysAgo(d: number) {
   t.setDate(t.getDate() - d);
   return t.toISOString();
 }
+function isoDate(yyyy: number, mm: number, dd: number) {
+  return new Date(Date.UTC(yyyy, mm - 1, dd, 9, 0, 0)).toISOString();
+}
 
 const MOCK_NEWS: RawNews[] = [
   {
@@ -157,22 +160,22 @@ const MOCK_NEWS: RawNews[] = [
     id: "mock-1",
     slug: "mext-accreditation",
     category: "announcement",
-    publishedAt: isoDaysAgo(25),
+    publishedAt: isoDate(2026, 4, 30),
     title_ja: "文部科学省 認定日本語教育機関に認定されました",
     title_zh: "本校已通过文部科学省认定日语教育机构认证",
     title_en: "Accredited as a MEXT Japanese Language Institution",
     title_ne: "MEXT जापानी भाषा संस्थाको रूपमा मान्यता प्राप्त",
     content_ja:
-      "<p>本学科は、文部科学省より「認定日本語教育機関」として認定を受けました。質の高い教育課程と運営体制のもと、留学生の皆さんを安心してお迎えできる体制が整いました。</p>",
+      "<p>令和8年4月30日付で、本学科は文部科学大臣 松本洋平氏より、日本語教育の適正かつ確実な実施を図るための日本語教育機関の認定等に関する法律(令和5年法律第41号)第2条に基づき、「認定日本語教育機関」として正式に認定を受けました。</p><ul><li><strong>認定番号:</strong> 20252140077</li><li><strong>認定機関名:</strong> 神奈川柔整鍼灸専門学校 日本語学科</li><li><strong>設置者:</strong> 学校法人平井学園</li><li><strong>通知文書番号:</strong> 8文科教第285号</li></ul><p>質の高い教育課程と運営体制のもと、留学生の皆さんを安心してお迎えできる体制が整いました。引き続き、留学生一人ひとりのキャリア実現を全力でサポートしてまいります。</p>",
     content_zh:
-      "<p>本学科已获得文部科学省「认定日语教育机构」资格。我们将以高品质的教学课程和运营体系，为留学生提供放心的留学环境。</p>",
+      "<p>2026 年 4 月 30 日，本学科获文部科学大臣松本洋平先生根据《关于推进日语教育适当且确实实施的日语教育机构认定等的法律》(令和 5 年法律第 41 号)第 2 条，正式认定为「认定日语教育机构」。</p><ul><li><strong>认定番号:</strong> 20252140077</li><li><strong>认定机构名:</strong> 神奈川柔整针灸专门学校 日语学科</li><li><strong>设置者:</strong> 学校法人 平井学园</li><li><strong>通知文書番号:</strong> 8 文科教第 285 号</li></ul><p>我们将以高品质的教学课程和运营体系，为留学生提供放心的留学环境，并继续全力支持每一位学生实现职业目标。</p>",
     content_en:
-      "<p>We are pleased to announce that our Department has been officially accredited as a 'Recognized Japanese Language Institution' by Japan's MEXT. With a quality curriculum and operational framework in place, we are ready to welcome international students.</p>",
+      "<p>On April 30, 2026, our Department was officially accredited by MEXT Minister Yohei Matsumoto as a 'Recognized Japanese Language Institution' under Article 2 of the Act on the Accreditation of Japanese Language Institutions for Ensuring Proper and Reliable Provision of Japanese Language Education (Act No. 41 of 2023).</p><ul><li><strong>Accreditation No.:</strong> 20252140077</li><li><strong>Institution:</strong> Kanagawa College of Judo Therapy & Acupuncture, Japanese Language Department</li><li><strong>Operator:</strong> School Corporation Hirai Gakuen</li><li><strong>Notification ID:</strong> 8 Bunka Kyō No. 285</li></ul><p>With a quality curriculum and operational framework now formally recognized, we are fully prepared to welcome international students and continue supporting each student's career path.</p>",
     content_ne:
-      "<p>हाम्रो विभागलाई जापानको MEXT बाट 'मान्यताप्राप्त जापानी भाषा संस्था' को आधिकारिक मान्यता प्राप्त भएको छ। गुणस्तरीय पाठ्यक्रम र सञ्चालन ढाँचाका साथ, हामी विदेशी विद्यार्थीहरूलाई स्वागत गर्न तयार छौं।</p>",
-    createdAt: isoDaysAgo(25),
-    updatedAt: isoDaysAgo(25),
-    revisedAt: isoDaysAgo(25),
+      "<p>अप्रिल ३०, २०२६ का दिन, हाम्रो विभागले जापानको शिक्षा मन्त्री Yohei Matsumoto (मात्सुमोतो योहेइ) बाट 'जापानी भाषा शिक्षणको उचित र भरपर्दो कार्यान्वयनका लागि जापानी भाषा संस्थाहरूको मान्यता सम्बन्धी ऐन' (२०२३ सालको ऐन नं. ४१) को धारा २ अन्तर्गत 'मान्यताप्राप्त जापानी भाषा संस्था' को आधिकारिक मान्यता प्राप्त गर्‍यो।</p><ul><li><strong>मान्यता नम्बर:</strong> 20252140077</li><li><strong>संस्था:</strong> कानागावा जुसेइ शिङ्क्यू सेन्मोङ्गाक्कौ — जापानी भाषा विभाग</li><li><strong>सञ्चालक:</strong> विद्यालय निगम हिराइ गाकुएन</li><li><strong>सूचना नम्बर:</strong> 8 Bunka Kyō No. 285</li></ul><p>गुणस्तरीय पाठ्यक्रम र सञ्चालन ढाँचाका साथ हामी विदेशी विद्यार्थीहरूलाई स्वागत गर्न पूर्ण रूपमा तयार छौं र हरेक विद्यार्थीको करिअर यात्रामा निरन्तर साथ दिनेछौं।</p>",
+    createdAt: isoDate(2026, 4, 30),
+    updatedAt: isoDate(2026, 4, 30),
+    revisedAt: isoDate(2026, 4, 30),
   },
 ];
 
