@@ -40,6 +40,9 @@ export default async function InfoDisclosurePage({
     tableTitle2: string;
     firstYear: { head: string[]; rows: string[][] };
     secondYear: { head: string[]; rows: string[][] };
+    grandTotalTitle: string;
+    grandTotalNote: string;
+    grandTotal: [string, string][];
   };
   const regulations = t.raw("items.regulations") as {
     title: string;
@@ -125,6 +128,28 @@ export default async function InfoDisclosurePage({
               {fees.tableTitle2}
             </h3>
             <DataTable head={fees.secondYear.head} rows={fees.secondYear.rows} />
+
+            <h3 className="mt-10 mb-3 font-serif text-lg font-semibold text-primary-dark">
+              {fees.grandTotalTitle}
+            </h3>
+            <p className="mb-4 text-sm text-text-muted">{fees.grandTotalNote}</p>
+            <div className="overflow-hidden rounded border-2 border-primary bg-gradient-to-br from-primary-pale to-bg-card">
+              {fees.grandTotal.map(([course, amount], i) => (
+                <div
+                  key={course}
+                  className={`grid grid-cols-1 gap-3 px-6 py-4 sm:grid-cols-[1.4fr_1fr] sm:items-baseline ${
+                    i === fees.grandTotal.length - 1
+                      ? ""
+                      : "border-b border-primary/20"
+                  }`}
+                >
+                  <div className="font-medium text-primary-dark">{course}</div>
+                  <div className="font-serif text-2xl font-semibold text-primary-dark sm:text-right">
+                    ¥{amount}
+                  </div>
+                </div>
+              ))}
+            </div>
           </Block>
 
           <Block id="regulations" title={regulations.title}>

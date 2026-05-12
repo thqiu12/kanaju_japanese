@@ -1448,7 +1448,14 @@
               "399,500"
             ]
           ]
-        }
+        },
+        "grandTotalTitle": "Total Tuition (full duration)",
+        "grandTotalNote": "Includes exam fee, admission fee, and all charges for the entire duration of study.",
+        "grandTotal": [
+          ["2-Year Program (24 months)", "1,722,000"],
+          ["1-Year-9-Month Program (21 months)", "1,530,250"],
+          ["1-Year-6-Month Program (18 months)", "1,334,500"]
+        ]
       },
       "regulations": {
         "title": "6. School Regulations",
