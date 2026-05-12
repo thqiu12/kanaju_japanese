@@ -8,7 +8,7 @@
     "departmentName": "Japanese Language Department",
     "operator": "School Corporation Hirai Gakuen",
     "address": "6-7 Matsugae-cho (Hirai Gakuen Kanagawa Judo Therapy College, Building 3), Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN",
-    "tel": "+81-42-740-7222",
+    "tel": "+81-42-705-3076",
     "fax": "+81-42-740-7221",
     "email": "gakuen@hirai-gakuen.ac.jp",
     "yen": "JPY"
@@ -673,7 +673,7 @@
     "channels": [
       {
         "name": "Phone",
-        "value": "+81-42-740-7222",
+        "value": "+81-42-705-3076",
         "desc": "Weekdays 9:00–17:00 (JST)"
       },
       {
@@ -1471,7 +1471,7 @@
           ],
           [
             "Phone",
-            "+81-42-740-7222"
+            "+81-42-705-3076"
           ],
           [
             "FAX",
