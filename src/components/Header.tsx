@@ -28,15 +28,15 @@ export default async function Header() {
         </Link>
 
         <nav className="hidden lg:block" aria-label="Primary">
-          <ul className="flex items-center gap-8">
+          <ul className="flex items-center gap-6 xl:gap-8">
             {navItems.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="group block text-sm text-text transition-colors hover:text-accent-warm"
+                  className="group block whitespace-nowrap text-sm text-text transition-colors hover:text-accent-warm"
                 >
                   {item.label}
-                  <span className="mt-0.5 block text-[10px] tracking-[0.1em] text-text-light">
+                  <span className="mt-0.5 block whitespace-nowrap text-[10px] tracking-[0.1em] text-text-light">
                     {item.sub}
                   </span>
                 </Link>
