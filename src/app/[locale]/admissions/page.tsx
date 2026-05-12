@@ -46,12 +46,6 @@ export default async function AdmissionsPage({
     case: string;
     rule: string;
   }[];
-  const agencies = t.raw("agencies.list") as {
-    name: string;
-    address: string;
-    tel: string;
-    email: string;
-  }[];
   const programItems = tProg.raw("items") as {
     month: string;
     name: string;
@@ -366,37 +360,6 @@ export default async function AdmissionsPage({
           </div>
         </section>
 
-        {/* Agencies */}
-        <section className="px-6 py-20 lg:px-8">
-          <div className="mx-auto max-w-6xl">
-            <h2 className="font-serif text-3xl font-semibold text-primary-dark">
-              {t("agencies.title")}
-            </h2>
-            <p className="mt-6 max-w-3xl text-base leading-[1.9] text-text-muted">
-              {t("agencies.intro")}
-            </p>
-
-            <div className="mt-10 grid gap-5 md:grid-cols-2">
-              {agencies.map((a) => (
-                <div
-                  key={a.name}
-                  className="rounded border border-border bg-bg-card p-6"
-                >
-                  <h4 className="text-base font-semibold text-primary-dark">
-                    {a.name}
-                  </h4>
-                  <div className="mt-3 space-y-1 text-sm text-text-muted">
-                    <div>📍 {a.address}</div>
-                    <div>📞 {a.tel}</div>
-                    {a.email && (
-                      <div className="break-all">✉ {a.email}</div>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
       </main>
       <Footer />
     </>

@@ -688,7 +688,6 @@
       }
     ],
     "langNote": "支持 中文・English・नेपाली 咨询。联系时请告知希望使用的语言。",
-    "agencyNote": "尼泊尔学生可通过合作代理处申请，详情请参考「入学申请」页面。",
     "officeHoursTitle": "受理时间",
     "officeHours": [
       [
@@ -728,8 +727,8 @@
               "a": "书面审查(1 次)・笔试(2 次・日语)・面试(3 次・对面或在线)共 3 个阶段。详情请参考「入学申请」页的「选考流程」。"
             },
             {
-              "q": "通过代理处申请更好吗?",
-              "a": "尼泊尔学生建议通过我校合作的当地代理处申请。他们能熟练协助资料准备与选考流程。合作代理一览请见「入学申请」页。"
+              "q": "可以使用代理处吗? 也可以直接申请吗?",
+              "a": "目前本校未设合作代理处。请直接向本校事务局提交申请。如对资料准备有任何疑问，请通过咨询表单与我们联系。"
             }
           ]
         },
@@ -842,43 +841,94 @@
         {
           "title": "学校介绍",
           "links": [
-            { "label": "学校介绍首页", "href": "/about" },
-            { "label": "教育理念", "href": "/about#philosophy" },
-            { "label": "学校沿革", "href": "/about#history" },
-            { "label": "运营主体", "href": "/about#operator" },
-            { "label": "教职员", "href": "/about#faculty" }
+            {
+              "label": "学校介绍首页",
+              "href": "/about"
+            },
+            {
+              "label": "教育理念",
+              "href": "/about#philosophy"
+            },
+            {
+              "label": "学校沿革",
+              "href": "/about#history"
+            },
+            {
+              "label": "运营主体",
+              "href": "/about#operator"
+            },
+            {
+              "label": "教职员",
+              "href": "/about#faculty"
+            }
           ]
         },
         {
           "title": "学习",
           "links": [
-            { "label": "课程・教学大纲", "href": "/programs" },
-            { "label": "校园生活", "href": "/campus-life" }
+            {
+              "label": "课程・教学大纲",
+              "href": "/programs"
+            },
+            {
+              "label": "校园生活",
+              "href": "/campus-life"
+            }
           ]
         },
         {
           "title": "入学申请",
           "links": [
-            { "label": "入学申请", "href": "/admissions" },
-            { "label": "选考流程", "href": "/admissions#flow" },
-            { "label": "学费・支付方式", "href": "/admissions#fees" },
-            { "label": "常见问题", "href": "/faq" }
+            {
+              "label": "入学申请",
+              "href": "/admissions"
+            },
+            {
+              "label": "选考流程",
+              "href": "/admissions#flow"
+            },
+            {
+              "label": "学费・支付方式",
+              "href": "/admissions#fees"
+            },
+            {
+              "label": "常见问题",
+              "href": "/faq"
+            }
           ]
         },
         {
           "title": "新闻・联系",
           "links": [
-            { "label": "新闻列表", "href": "/news" },
-            { "label": "联系我们", "href": "/contact" }
+            {
+              "label": "新闻列表",
+              "href": "/news"
+            },
+            {
+              "label": "联系我们",
+              "href": "/contact"
+            }
           ]
         },
         {
           "title": "法定公开",
           "links": [
-            { "label": "信息公开", "href": "/info-disclosure" },
-            { "label": "学则 PDF", "href": "/docs/school-regulations.pdf" },
-            { "label": "自我点检评价 PDF", "href": "/docs/self-evaluation-items.pdf" },
-            { "label": "隐私政策", "href": "/privacy" }
+            {
+              "label": "信息公开",
+              "href": "/info-disclosure"
+            },
+            {
+              "label": "学则 PDF",
+              "href": "/docs/school-regulations.pdf"
+            },
+            {
+              "label": "自我点检评价 PDF",
+              "href": "/docs/self-evaluation-items.pdf"
+            },
+            {
+              "label": "隐私政策",
+              "href": "/privacy"
+            }
           ]
         }
       ],
@@ -892,7 +942,7 @@
       "sections": [
         {
           "title": "1. 获取的个人信息",
-          "body": "本校通过入学申请、咨询表单、合作代理处申请等途径，获取姓名、地址、联系方式、学历、工作经历、经费支弁者信息、护照信息等必要范围内的个人信息。"
+          "body": "本校通过入学申请、咨询表单等途径，获取姓名、地址、联系方式、学历、工作经历、经费支弁者信息、护照信息等必要范围内的个人信息。"
         },
         {
           "title": "2. 使用目的",
@@ -900,7 +950,7 @@
         },
         {
           "title": "3. 第三方提供",
-          "body": "未经本人同意，不会将个人信息提供给第三方。但依据法律法规向出入国在留管理厅等行政机关提交时，及向本校业务委托的合作不动产、代理处等在必要最小范围内披露时除外。"
+          "body": "未经本人同意，不会将个人信息提供给第三方。但依据法律法规向出入国在留管理厅等行政机关提交时，及向本校业务委托的合作不动产等在必要最小范围内披露时除外。"
         },
         {
           "title": "4. 安全管理措施",
@@ -932,7 +982,6 @@
           "brochure": "索取资料",
           "admission": "入学咨询",
           "application": "申请相关问题",
-          "agency": "代理机构咨询",
           "other": "其他"
         },
         "message": "留言内容",
@@ -1111,7 +1160,7 @@
         {
           "stage": "2 次试验",
           "name": "笔试 (日语)",
-          "method": "由当地代理处提供考场进行。",
+          "method": "由本校指定的会场(含在线方式)进行。",
           "criteria": "升学 2 年课程：50 分以上合格 / 1 年 9 个月・1 年 6 个月课程：80 分以上合格"
         },
         {
@@ -1124,7 +1173,7 @@
     },
     "documents": {
       "title": "提交材料",
-      "intro": "请在申请截止日期前，提交至当地合作代理处。",
+      "intro": "请在申请截止日期前，提交至本校事务局。",
       "applicantTitle": "本人提交材料 (9 项)",
       "applicant": [
         [
@@ -1262,48 +1311,6 @@
         {
           "case": "除籍",
           "rule": "不予退还。"
-        }
-      ]
-    },
-    "agencies": {
-      "title": "申请窗口 (当地合作代理)",
-      "intro": "也可通过尼泊尔的合作代理申请。",
-      "list": [
-        {
-          "name": "Gaps International Educational Consultancy Pvt. Ltd.",
-          "address": "Bagbazar, in front to Hotel Hardik, Kathmandu, Nepal",
-          "tel": "+977-01-536-3744",
-          "email": "info@gaps-int.com"
-        },
-        {
-          "name": "Mirai Abroad Study Center Pvt. Ltd.",
-          "address": "Gongabu Townplaning Samakhushi, Kathmandu, Nepal",
-          "tel": "+977-974-6421939",
-          "email": "miraiabroadstudy@gmail.com"
-        },
-        {
-          "name": "Kaizen Abroad Services Pvt. Ltd.",
-          "address": "Butwal-4, Palpa Road, Resunga Tower 4F, Rupandehi, Nepal",
-          "tel": "+977-071-535501",
-          "email": "kaizenabroad@gmail.com"
-        },
-        {
-          "name": "Frequency Global Education Hub Pvt. Ltd.",
-          "address": "Butwal-11, Kalikanagar, Rupandehi, Nepal",
-          "tel": "+977-071-590001",
-          "email": ""
-        },
-        {
-          "name": "Sakura Abroad Study and Training Center Pvt. Ltd.",
-          "address": "Butwal-10, Chauraha, Rupandehi, Nepal",
-          "tel": "+977-986-2413738",
-          "email": "sakurajapangroup123@gmail.com"
-        },
-        {
-          "name": "Saori Education and Training Centre Pvt. Ltd.",
-          "address": "Bhairahawa, Narayanpath, 2nd Floor Of Everest Bank, Rupandehi, Nepal",
-          "tel": "+977-984-9815638",
-          "email": "usuniru7788@gmail.com"
         }
       ]
     }
@@ -1580,9 +1587,18 @@
         "grandTotalTitle": "在学期间总额",
         "grandTotalNote": "包含入学考试费及入学金，全部学习期间的学费总和。",
         "grandTotal": [
-          ["升学 2 年课程（24 个月）", "1,722,000"],
-          ["升学 1 年 9 个月课程（21 个月）", "1,530,250"],
-          ["升学 1 年 6 个月课程（18 个月）", "1,334,500"]
+          [
+            "升学 2 年课程（24 个月）",
+            "1,722,000"
+          ],
+          [
+            "升学 1 年 9 个月课程（21 个月）",
+            "1,530,250"
+          ],
+          [
+            "升学 1 年 6 个月课程（18 个月）",
+            "1,334,500"
+          ]
         ]
       },
       "regulations": {

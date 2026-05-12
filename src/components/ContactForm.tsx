@@ -17,7 +17,7 @@ export default function ContactForm() {
     INITIAL,
   );
 
-  const topicKeys = ["brochure", "admission", "application", "agency", "other"];
+  const topicKeys = ["brochure", "admission", "application", "other"];
   const langKeys = ["ja", "zh", "en", "ne"];
 
   if (state.status === "success") {

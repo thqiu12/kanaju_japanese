@@ -688,7 +688,6 @@
       }
     ],
     "langNote": "中文・English・नेपाली での対応も可能です。お問合せの際にご希望の言語をお伝えください。",
-    "agencyNote": "ネパールからの出願は、提携代理店経由でも承ります。詳細は「入学案内」ページをご覧ください。",
     "officeHoursTitle": "受付時間",
     "officeHours": [
       [
@@ -728,8 +727,8 @@
               "a": "書類審査(1次)・筆記試験(2次・日本語)・面接(3次・対面またはオンライン)の3段階で実施します。詳細は「入学案内」ページの「選考プロセス」をご覧ください。"
             },
             {
-              "q": "代理店経由で出願した方が良いですか?",
-              "a": "ネパールからの出願者には、当校と提携している現地代理店の利用をお勧めします。書類準備・選考手続きを丁寧にサポートします。提携代理店一覧は「入学案内」ページにあります。"
+              "q": "代理店は使えますか? 直接出願もできますか?",
+              "a": "現在、本校では提携代理店を設けておりません。本校事務局へ直接ご出願ください。書類準備に不安がある方は、お問合せフォームよりご相談いただけます。"
             }
           ]
         },
@@ -842,43 +841,94 @@
         {
           "title": "学校紹介",
           "links": [
-            { "label": "学校紹介トップ", "href": "/about" },
-            { "label": "教育理念", "href": "/about#philosophy" },
-            { "label": "沿革", "href": "/about#history" },
-            { "label": "設置者", "href": "/about#operator" },
-            { "label": "教職員", "href": "/about#faculty" }
+            {
+              "label": "学校紹介トップ",
+              "href": "/about"
+            },
+            {
+              "label": "教育理念",
+              "href": "/about#philosophy"
+            },
+            {
+              "label": "沿革",
+              "href": "/about#history"
+            },
+            {
+              "label": "設置者",
+              "href": "/about#operator"
+            },
+            {
+              "label": "教職員",
+              "href": "/about#faculty"
+            }
           ]
         },
         {
           "title": "学習について",
           "links": [
-            { "label": "課程・カリキュラム", "href": "/programs" },
-            { "label": "学生生活", "href": "/campus-life" }
+            {
+              "label": "課程・カリキュラム",
+              "href": "/programs"
+            },
+            {
+              "label": "学生生活",
+              "href": "/campus-life"
+            }
           ]
         },
         {
           "title": "入学希望者へ",
           "links": [
-            { "label": "入学案内", "href": "/admissions" },
-            { "label": "選考プロセス", "href": "/admissions#flow" },
-            { "label": "学費・支払方法", "href": "/admissions#fees" },
-            { "label": "よくある質問", "href": "/faq" }
+            {
+              "label": "入学案内",
+              "href": "/admissions"
+            },
+            {
+              "label": "選考プロセス",
+              "href": "/admissions#flow"
+            },
+            {
+              "label": "学費・支払方法",
+              "href": "/admissions#fees"
+            },
+            {
+              "label": "よくある質問",
+              "href": "/faq"
+            }
           ]
         },
         {
           "title": "お知らせ・お問合せ",
           "links": [
-            { "label": "お知らせ一覧", "href": "/news" },
-            { "label": "お問合せ", "href": "/contact" }
+            {
+              "label": "お知らせ一覧",
+              "href": "/news"
+            },
+            {
+              "label": "お問合せ",
+              "href": "/contact"
+            }
           ]
         },
         {
           "title": "法令公開",
           "links": [
-            { "label": "情報公開", "href": "/info-disclosure" },
-            { "label": "学則 PDF", "href": "/docs/school-regulations.pdf" },
-            { "label": "自己点検及び評価項目 PDF", "href": "/docs/self-evaluation-items.pdf" },
-            { "label": "プライバシーポリシー", "href": "/privacy" }
+            {
+              "label": "情報公開",
+              "href": "/info-disclosure"
+            },
+            {
+              "label": "学則 PDF",
+              "href": "/docs/school-regulations.pdf"
+            },
+            {
+              "label": "自己点検及び評価項目 PDF",
+              "href": "/docs/self-evaluation-items.pdf"
+            },
+            {
+              "label": "プライバシーポリシー",
+              "href": "/privacy"
+            }
           ]
         }
       ],
@@ -892,7 +942,7 @@
       "sections": [
         {
           "title": "1. 取得する個人情報",
-          "body": "本校は、入学願書、お問合せフォーム、提携代理店経由の出願時等を通じて、氏名・住所・連絡先・学歴・職歴・経費支弁者情報・パスポート情報など、必要な範囲の個人情報を取得します。"
+          "body": "本校は、入学願書、お問合せフォーム等を通じて、氏名・住所・連絡先・学歴・職歴・経費支弁者情報・パスポート情報など、必要な範囲の個人情報を取得します。"
         },
         {
           "title": "2. 利用目的",
@@ -900,7 +950,7 @@
         },
         {
           "title": "3. 第三者提供",
-          "body": "ご本人の同意なく第三者に個人情報を提供することはありません。ただし、出入国在留管理庁などの行政機関に法令に基づき提出する場合、および本校が業務委託する提携不動産・代理店等に必要最小限の範囲で開示する場合を除きます。"
+          "body": "ご本人の同意なく第三者に個人情報を提供することはありません。ただし、出入国在留管理庁などの行政機関に法令に基づき提出する場合、および本校が業務委託する提携不動産等に必要最小限の範囲で開示する場合を除きます。"
         },
         {
           "title": "4. 安全管理措置",
@@ -932,7 +982,6 @@
           "brochure": "資料請求",
           "admission": "入学相談",
           "application": "出願に関する質問",
-          "agency": "代理店からの問合せ",
           "other": "その他"
         },
         "message": "メッセージ",
@@ -1111,7 +1160,7 @@
         {
           "stage": "2次試験",
           "name": "筆記試験 (日本語)",
-          "method": "現地の紹介業者が手配するスペースにて実施。",
+          "method": "本校が定める会場(オンライン含む)にて筆記試験を実施。",
           "criteria": "進学2年課程:50点以上 / 1年9か月・1年6か月課程:80点以上で合格"
         },
         {
@@ -1124,7 +1173,7 @@
     },
     "documents": {
       "title": "提出書類",
-      "intro": "出願期限までに、出願先(現地紹介業者)へ提出してください。",
+      "intro": "出願期限までに、本校事務局へ提出してください。",
       "applicantTitle": "本人提出書類 (9点)",
       "applicant": [
         [
@@ -1262,48 +1311,6 @@
         {
           "case": "除籍",
           "rule": "返還なし。"
-        }
-      ]
-    },
-    "agencies": {
-      "title": "出願先 (現地紹介業者)",
-      "intro": "ネパールの提携代理店経由でも出願可能です。",
-      "list": [
-        {
-          "name": "Gaps International Educational Consultancy Pvt. Ltd.",
-          "address": "Bagbazar, in front to Hotel Hardik, Kathmandu, Nepal",
-          "tel": "+977-01-536-3744",
-          "email": "info@gaps-int.com"
-        },
-        {
-          "name": "Mirai Abroad Study Center Pvt. Ltd.",
-          "address": "Gongabu Townplaning Samakhushi, Kathmandu, Nepal",
-          "tel": "+977-974-6421939",
-          "email": "miraiabroadstudy@gmail.com"
-        },
-        {
-          "name": "Kaizen Abroad Services Pvt. Ltd.",
-          "address": "Butwal-4, Palpa Road, Resunga Tower 4F, Rupandehi, Nepal",
-          "tel": "+977-071-535501",
-          "email": "kaizenabroad@gmail.com"
-        },
-        {
-          "name": "Frequency Global Education Hub Pvt. Ltd.",
-          "address": "Butwal-11, Kalikanagar, Rupandehi, Nepal",
-          "tel": "+977-071-590001",
-          "email": ""
-        },
-        {
-          "name": "Sakura Abroad Study and Training Center Pvt. Ltd.",
-          "address": "Butwal-10, Chauraha, Rupandehi, Nepal",
-          "tel": "+977-986-2413738",
-          "email": "sakurajapangroup123@gmail.com"
-        },
-        {
-          "name": "Saori Education and Training Centre Pvt. Ltd.",
-          "address": "Bhairahawa, Narayanpath, 2nd Floor Of Everest Bank, Rupandehi, Nepal",
-          "tel": "+977-984-9815638",
-          "email": "usuniru7788@gmail.com"
         }
       ]
     }
@@ -1580,9 +1587,18 @@
         "grandTotalTitle": "在学期間中の総額",
         "grandTotalNote": "入学検定料・入学金を含む、修業期間全体の学費総額です。",
         "grandTotal": [
-          ["進学2年課程 (24か月)", "1,722,000"],
-          ["進学1年9か月課程 (21か月)", "1,530,250"],
-          ["進学1年6か月課程 (18か月)", "1,334,500"]
+          [
+            "進学2年課程 (24か月)",
+            "1,722,000"
+          ],
+          [
+            "進学1年9か月課程 (21か月)",
+            "1,530,250"
+          ],
+          [
+            "進学1年6か月課程 (18か月)",
+            "1,334,500"
+          ]
         ]
       },
       "regulations": {

@@ -73,17 +73,10 @@ export default async function ContactPage({
               ))}
             </div>
 
-            <div className="mt-10 grid gap-5 lg:grid-cols-2">
-              <div className="rounded-lg border-l-4 border-accent-warm bg-bg-warm px-6 py-5">
-                <p className="text-sm leading-[1.85] text-text">
-                  🌐 {t("langNote")}
-                </p>
-              </div>
-              <div className="rounded-lg border-l-4 border-primary bg-primary-pale px-6 py-5">
-                <p className="text-sm leading-[1.85] text-primary-dark">
-                  📋 {t("agencyNote")}
-                </p>
-              </div>
+            <div className="mt-10 rounded-lg border-l-4 border-accent-warm bg-bg-warm px-6 py-5">
+              <p className="text-sm leading-[1.85] text-text">
+                🌐 {t("langNote")}
+              </p>
             </div>
           </div>
         </section>

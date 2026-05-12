@@ -15,7 +15,6 @@ const TOPIC_LABELS: Record<string, string> = {
   brochure: "資料請求 / Brochure",
   admission: "入学相談 / Admission counseling",
   application: "出願質問 / Application question",
-  agency: "代理店問合せ / Agency inquiry",
   other: "その他 / Other",
 };
 

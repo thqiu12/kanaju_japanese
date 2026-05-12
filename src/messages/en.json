@@ -688,7 +688,6 @@
       }
     ],
     "langNote": "Inquiries are welcome in 中文, English, or नेपाली. Please let us know your preferred language.",
-    "agencyNote": "Applicants in Nepal can also apply through our partner agencies — see the Admissions page for details.",
     "officeHoursTitle": "Office Hours",
     "officeHours": [
       [
@@ -728,8 +727,8 @@
               "a": "Three stages: (1) document review, (2) Japanese written exam, (3) interview (in person or online). See the Admissions page for full details."
             },
             {
-              "q": "Should I apply through an agency?",
-              "a": "Applicants from Nepal are encouraged to work with our partner agencies, who provide hands-on support throughout the application. A full list is on the Admissions page."
+              "q": "Can I apply through an agency, or do I apply directly?",
+              "a": "We currently have no partner agencies. Please apply directly to our office. If you need help preparing your application, feel free to reach out via the inquiry form."
             }
           ]
         },
@@ -842,43 +841,94 @@
         {
           "title": "About the School",
           "links": [
-            { "label": "About — Overview", "href": "/about" },
-            { "label": "Philosophy", "href": "/about#philosophy" },
-            { "label": "History", "href": "/about#history" },
-            { "label": "Operator", "href": "/about#operator" },
-            { "label": "Faculty", "href": "/about#faculty" }
+            {
+              "label": "About — Overview",
+              "href": "/about"
+            },
+            {
+              "label": "Philosophy",
+              "href": "/about#philosophy"
+            },
+            {
+              "label": "History",
+              "href": "/about#history"
+            },
+            {
+              "label": "Operator",
+              "href": "/about#operator"
+            },
+            {
+              "label": "Faculty",
+              "href": "/about#faculty"
+            }
           ]
         },
         {
           "title": "Studies",
           "links": [
-            { "label": "Programs & Curriculum", "href": "/programs" },
-            { "label": "Campus Life", "href": "/campus-life" }
+            {
+              "label": "Programs & Curriculum",
+              "href": "/programs"
+            },
+            {
+              "label": "Campus Life",
+              "href": "/campus-life"
+            }
           ]
         },
         {
           "title": "For Applicants",
           "links": [
-            { "label": "Admissions", "href": "/admissions" },
-            { "label": "Selection Process", "href": "/admissions#flow" },
-            { "label": "Tuition & Payment", "href": "/admissions#fees" },
-            { "label": "FAQ", "href": "/faq" }
+            {
+              "label": "Admissions",
+              "href": "/admissions"
+            },
+            {
+              "label": "Selection Process",
+              "href": "/admissions#flow"
+            },
+            {
+              "label": "Tuition & Payment",
+              "href": "/admissions#fees"
+            },
+            {
+              "label": "FAQ",
+              "href": "/faq"
+            }
           ]
         },
         {
           "title": "News & Contact",
           "links": [
-            { "label": "News & Topics", "href": "/news" },
-            { "label": "Contact", "href": "/contact" }
+            {
+              "label": "News & Topics",
+              "href": "/news"
+            },
+            {
+              "label": "Contact",
+              "href": "/contact"
+            }
           ]
         },
         {
           "title": "Public Disclosure",
           "links": [
-            { "label": "Disclosure", "href": "/info-disclosure" },
-            { "label": "School Regulations PDF", "href": "/docs/school-regulations.pdf" },
-            { "label": "Self-Evaluation Items PDF", "href": "/docs/self-evaluation-items.pdf" },
-            { "label": "Privacy Policy", "href": "/privacy" }
+            {
+              "label": "Disclosure",
+              "href": "/info-disclosure"
+            },
+            {
+              "label": "School Regulations PDF",
+              "href": "/docs/school-regulations.pdf"
+            },
+            {
+              "label": "Self-Evaluation Items PDF",
+              "href": "/docs/self-evaluation-items.pdf"
+            },
+            {
+              "label": "Privacy Policy",
+              "href": "/privacy"
+            }
           ]
         }
       ],
@@ -892,7 +942,7 @@
       "sections": [
         {
           "title": "1. Information We Collect",
-          "body": "Through application forms, the inquiry form, and partner-agency applications, we collect information needed for our work — including name, address, contact, education and work history, sponsor information, and passport details."
+          "body": "Through application forms and the inquiry form, we collect information needed for our work — including name, address, contact, education and work history, sponsor information, and passport details."
         },
         {
           "title": "2. Purpose of Use",
@@ -900,7 +950,7 @@
         },
         {
           "title": "3. Third-Party Disclosure",
-          "body": "We do not share personal information with third parties without your consent, except when required by law (e.g. submission to the Immigration Services Agency) or with contracted partners (real estate, agencies) on a minimum-necessary basis."
+          "body": "We do not share personal information with third parties without your consent, except when required by law (e.g. submission to the Immigration Services Agency) or with contracted partners (real estate) on a minimum-necessary basis."
         },
         {
           "title": "4. Security",
@@ -932,7 +982,6 @@
           "brochure": "Request a Brochure",
           "admission": "Admission Counseling",
           "application": "Application Question",
-          "agency": "Partner Agency Inquiry",
           "other": "Other"
         },
         "message": "Message",
@@ -1111,7 +1160,7 @@
         {
           "stage": "Stage 2",
           "name": "Written Exam (Japanese)",
-          "method": "Held at a venue arranged by the local partner agency.",
+          "method": "Held at a venue arranged by the School (including online).",
           "criteria": "2-Year Program: 50+ points to pass / 1-Year-9-Month & 1-Year-6-Month: 80+ points"
         },
         {
@@ -1124,7 +1173,7 @@
     },
     "documents": {
       "title": "Required Documents",
-      "intro": "Please submit your documents to the local partner agency by the deadline.",
+      "intro": "Please submit your documents to the School's office by the deadline.",
       "applicantTitle": "Applicant Documents (9 items)",
       "applicant": [
         [
@@ -1262,48 +1311,6 @@
         {
           "case": "Expulsion",
           "rule": "No refund."
-        }
-      ]
-    },
-    "agencies": {
-      "title": "Local Application Offices",
-      "intro": "You may also apply through one of our partner agencies in Nepal.",
-      "list": [
-        {
-          "name": "Gaps International Educational Consultancy Pvt. Ltd.",
-          "address": "Bagbazar, in front to Hotel Hardik, Kathmandu, Nepal",
-          "tel": "+977-01-536-3744",
-          "email": "info@gaps-int.com"
-        },
-        {
-          "name": "Mirai Abroad Study Center Pvt. Ltd.",
-          "address": "Gongabu Townplaning Samakhushi, Kathmandu, Nepal",
-          "tel": "+977-974-6421939",
-          "email": "miraiabroadstudy@gmail.com"
-        },
-        {
-          "name": "Kaizen Abroad Services Pvt. Ltd.",
-          "address": "Butwal-4, Palpa Road, Resunga Tower 4F, Rupandehi, Nepal",
-          "tel": "+977-071-535501",
-          "email": "kaizenabroad@gmail.com"
-        },
-        {
-          "name": "Frequency Global Education Hub Pvt. Ltd.",
-          "address": "Butwal-11, Kalikanagar, Rupandehi, Nepal",
-          "tel": "+977-071-590001",
-          "email": ""
-        },
-        {
-          "name": "Sakura Abroad Study and Training Center Pvt. Ltd.",
-          "address": "Butwal-10, Chauraha, Rupandehi, Nepal",
-          "tel": "+977-986-2413738",
-          "email": "sakurajapangroup123@gmail.com"
-        },
-        {
-          "name": "Saori Education and Training Centre Pvt. Ltd.",
-          "address": "Bhairahawa, Narayanpath, 2nd Floor Of Everest Bank, Rupandehi, Nepal",
-          "tel": "+977-984-9815638",
-          "email": "usuniru7788@gmail.com"
         }
       ]
     }
@@ -1580,9 +1587,18 @@
         "grandTotalTitle": "Total Tuition (full duration)",
         "grandTotalNote": "Includes exam fee, admission fee, and all charges for the entire duration of study.",
         "grandTotal": [
-          ["2-Year Program (24 months)", "1,722,000"],
-          ["1-Year-9-Month Program (21 months)", "1,530,250"],
-          ["1-Year-6-Month Program (18 months)", "1,334,500"]
+          [
+            "2-Year Program (24 months)",
+            "1,722,000"
+          ],
+          [
+            "1-Year-9-Month Program (21 months)",
+            "1,530,250"
+          ],
+          [
+            "1-Year-6-Month Program (18 months)",
+            "1,334,500"
+          ]
         ]
       },
       "regulations": {

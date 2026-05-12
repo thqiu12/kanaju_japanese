@@ -136,27 +136,6 @@ const MOCK_NEWS: RawNews[] = [
     revisedAt: isoDaysAgo(2),
   },
   {
-    id: "mock-2",
-    slug: "nepal-partner-agencies",
-    category: "press",
-    publishedAt: isoDaysAgo(10),
-    title_ja: "ネパールの提携代理店6社のご紹介",
-    title_zh: "尼泊尔合作代理 6 家介绍",
-    title_en: "Introducing our 6 partner agencies in Nepal",
-    title_ne: "नेपालमा हाम्रा ६ साझेदार एजेन्सीहरूको परिचय",
-    content_ja:
-      "<p>本学科では、ネパールから安心して出願いただけるよう、Kathmandu・Rupandehi 地域の6社の現地代理店と提携しています。詳細は「入学案内」ページの「出願先」をご覧ください。</p>",
-    content_zh:
-      "<p>为方便尼泊尔学生顺利申请，本学科已与 Kathmandu、Rupandehi 地区的 6 家当地代理建立合作。详情请参考「入学申请」页的「申请窗口」一节。</p>",
-    content_en:
-      "<p>To make applying from Nepal easier, we've partnered with 6 local agencies in the Kathmandu and Rupandehi regions. See the 'Local Offices' section of the Admissions page for details.</p>",
-    content_ne:
-      "<p>नेपालबाट सहज आवेदनका लागि, हामीले काठमाडौँ र रूपन्देही क्षेत्रका ६ स्थानीय एजेन्सीहरूसँग साझेदारी गरेका छौं। थप विवरणका लागि 'भर्ना' पृष्ठको 'स्थानीय कार्यालय' खण्ड हेर्नुहोस्।</p>",
-    createdAt: isoDaysAgo(10),
-    updatedAt: isoDaysAgo(10),
-    revisedAt: isoDaysAgo(10),
-  },
-  {
     id: "mock-1",
     slug: "mext-accreditation",
     category: "announcement",
