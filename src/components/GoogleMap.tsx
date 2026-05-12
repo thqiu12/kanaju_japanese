@@ -12,7 +12,7 @@ type Props = {
 export default function GoogleMap({
   className = "h-[420px]",
   title,
-  query = "〒252-0313 神奈川県相模原市南区松が枝町 6-7 平井学園神奈川柔道整復専門学校 3号館",
+  query = "〒252-0313 神奈川県相模原市南区松が枝町 6-7",
 }: Props) {
   const src = `https://maps.google.com/maps?q=${encodeURIComponent(query)}&output=embed&hl=ja`;
   return (
