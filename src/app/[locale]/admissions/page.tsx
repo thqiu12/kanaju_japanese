@@ -23,6 +23,7 @@ export default async function AdmissionsPage({
   setRequestLocale(locale);
   const t = await getTranslations("admissions");
   const tProg = await getTranslations("programs");
+  const tFees = await getTranslations("disclosure.items.fees");
 
   const eligibilityItems = t.raw("eligibility.items") as string[];
   const jpLevelRows = t.raw("eligibility.japaneseLevelRows") as string[][];
@@ -55,6 +56,9 @@ export default async function AdmissionsPage({
     name: string;
     fee: string;
   }[];
+  const grandTotalTitle = tFees("grandTotalTitle");
+  const grandTotalNote = tFees("grandTotalNote");
+  const grandTotal = tFees.raw("grandTotal") as [string, string][];
 
   return (
     <>
@@ -243,6 +247,32 @@ export default async function AdmissionsPage({
                   </div>
                   <div className="mt-4 font-serif text-3xl font-semibold text-primary">
                     ¥{p.fee}
+                  </div>
+                  <div className="mt-1 text-[11px] text-text-muted">
+                    {tFees("tableTitle1")}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Grand total (full duration) */}
+            <h3 className="mt-12 mb-3 font-serif text-xl font-semibold text-primary-dark">
+              {grandTotalTitle}
+            </h3>
+            <p className="mb-5 text-sm text-text-muted">{grandTotalNote}</p>
+            <div className="overflow-hidden rounded-lg border-2 border-primary bg-gradient-to-br from-primary-pale to-bg-card">
+              {grandTotal.map(([course, amount], i) => (
+                <div
+                  key={course}
+                  className={`grid grid-cols-1 gap-3 px-6 py-5 sm:grid-cols-[1.4fr_1fr] sm:items-baseline ${
+                    i === grandTotal.length - 1
+                      ? ""
+                      : "border-b border-primary/20"
+                  }`}
+                >
+                  <div className="font-medium text-primary-dark">{course}</div>
+                  <div className="font-serif text-2xl font-semibold text-primary-dark sm:text-right">
+                    ¥{amount}
                   </div>
                 </div>
               ))}
