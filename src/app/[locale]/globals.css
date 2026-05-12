@@ -51,9 +51,9 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
+/* Note: scroll-behavior intentionally omitted on html — Next.js App Router
+   anchor hash navigation breaks with smooth scrolling because the page may
+   not be fully laid out when the browser attempts to scroll. */
 
 body {
   background: var(--color-bg);
