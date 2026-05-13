@@ -809,7 +809,9 @@
       "applyDesc": "Please send your résumé and cover letter by email. We respond within 3 business days.",
       "applyEmailLabel": "Email:",
       "applyEmail": "gakuen@hirai-gakuen.ac.jp",
-      "applyButton": "Apply via Email"
+      "applyButton": "Apply via Email",
+      "applyCopied": "Email address copied!",
+      "applyHint": "Clicking the button copies the email address to your clipboard and attempts to open your default mail app. If no app opens, paste the copied address into your preferred mail service (Gmail, etc.)."
     },
     "faq": {
       "title": "Frequently Asked Questions",

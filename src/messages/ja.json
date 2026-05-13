@@ -809,7 +809,9 @@
       "applyDesc": "ご応募・ご質問は、メールに履歴書を添付してお送りください。3営業日以内にご返信いたします。",
       "applyEmailLabel": "メール:",
       "applyEmail": "gakuen@hirai-gakuen.ac.jp",
-      "applyButton": "メールで応募する"
+      "applyButton": "メールで応募する",
+      "applyCopied": "メールアドレスをコピーしました",
+      "applyHint": "ボタンを押すとメールアドレスをコピーし、メールアプリを起動します。コピーした内容をご利用のメールアプリ(Gmail等)に貼り付けてもご応募いただけます。"
     },
     "faq": {
       "title": "よくある質問",

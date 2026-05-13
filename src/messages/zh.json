@@ -809,7 +809,9 @@
       "applyDesc": "应聘或咨询请通过邮件发送简历。3 个工作日内回复。",
       "applyEmailLabel": "邮箱:",
       "applyEmail": "gakuen@hirai-gakuen.ac.jp",
-      "applyButton": "通过邮件应聘"
+      "applyButton": "通过邮件应聘",
+      "applyCopied": "邮箱已复制",
+      "applyHint": "点击按钮将自动复制邮箱地址并尝试唤起邮件客户端。如果未自动打开邮件 App,可直接将已复制的地址粘贴到您常用的邮箱(Gmail 等)中发送。"
     },
     "faq": {
       "title": "常见问题",

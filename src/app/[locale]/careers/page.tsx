@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
 import SectionLabel from "@/components/SectionLabel";
+import ApplyByEmailButton from "@/components/ApplyByEmailButton";
 
 export async function generateMetadata({
   params,
@@ -161,12 +162,15 @@ export default async function CareersPage({
                 {t("applyEmail")}
               </a>
             </p>
-            <a
-              href={`mailto:${t("applyEmail")}?subject=${encodeURIComponent("Career application — " + t("title"))}`}
-              className="mt-8 inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/30 transition-all hover:-translate-y-0.5 hover:bg-[#C56544]"
-            >
-              {t("applyButton")} →
-            </a>
+            <ApplyByEmailButton
+              email={t("applyEmail")}
+              subject={`Career application — ${t("title")}`}
+              label={t("applyButton")}
+              copiedLabel={t("applyCopied")}
+            />
+            <p className="mx-auto mt-5 max-w-2xl text-xs leading-[1.85] text-white/70">
+              {t("applyHint")}
+            </p>
           </div>
         </section>
       </main>
