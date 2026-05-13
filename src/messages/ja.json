@@ -27,7 +27,9 @@
     "contact": "お問合せ",
     "contactSub": "CONTACT",
     "news": "お知らせ",
-    "newsSub": "NEWS"
+    "newsSub": "NEWS",
+    "careers": "採用情報",
+    "careersSub": "CAREERS"
   },
   "noticeBar": {
     "tag": "文部科学省 認定日本語教育機関",

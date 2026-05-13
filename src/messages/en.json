@@ -27,7 +27,9 @@
     "contact": "Contact",
     "contactSub": "CONTACT",
     "news": "News & Topics",
-    "newsSub": "NEWS"
+    "newsSub": "NEWS",
+    "careers": "Careers",
+    "careersSub": "CAREERS"
   },
   "noticeBar": {
     "tag": "MEXT-Accredited Japanese Language Institution",
