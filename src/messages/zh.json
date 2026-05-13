@@ -449,7 +449,28 @@
         "name": "停车场",
         "desc": "供自行车通学者使用"
       }
-    ]
+    ],
+    "neighborhoodTitle": "周边环境",
+    "neighborhoodIntro": "最近车站为小田急小田原线「小田急相模原站」。步行 7 分钟,前往新宿约 45 分钟。站前超市、便利店、餐饮、药店、银行、邮局等留学生日常所需一应俱全,全部都在步行可达范围内。",
+    "neighborhoodPhotos": [
+      {
+        "caption": "小田急相模原站 北口",
+        "author": "Nyao148",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "caption": "小田急相模原站 南口",
+        "author": "Nyao148",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "caption": "站前广场",
+        "author": "キャノーラ油",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "neighborhoodCreditPrefix": "摄影",
+    "neighborhoodCreditNote": "周边照片来自 Wikimedia Commons。"
   },
   "programsPage": {
     "title": "课程・教学大纲",

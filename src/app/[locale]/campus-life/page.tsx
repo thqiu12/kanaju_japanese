@@ -29,6 +29,16 @@ export default async function CampusLifePage({
   const community = t.raw("community") as string[];
   const support = t.raw("support") as { title: string; desc: string }[];
   const facilities = t.raw("facilities") as { name: string; desc: string }[];
+  const neighborhoodPhotos = t.raw("neighborhoodPhotos") as {
+    caption: string;
+    author: string;
+    license: string;
+  }[];
+  const neighborhoodFiles = [
+    "/photos/neighborhood/station-north.jpg",
+    "/photos/neighborhood/station-south.jpg",
+    "/photos/neighborhood/station-rotary.jpg",
+  ];
 
   return (
     <>
@@ -198,6 +208,48 @@ export default async function CampusLifePage({
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Neighborhood */}
+        <section className="px-6 py-20 lg:px-8">
+          <div className="mx-auto max-w-6xl">
+            <h2 className="font-serif text-3xl font-semibold text-primary-dark">
+              {t("neighborhoodTitle")}
+            </h2>
+            <p className="mt-6 max-w-3xl text-base leading-[1.9] text-text-muted">
+              {t("neighborhoodIntro")}
+            </p>
+
+            <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+              {neighborhoodPhotos.map((p, i) => (
+                <figure
+                  key={p.caption}
+                  className="overflow-hidden rounded-lg border border-border bg-bg-card"
+                >
+                  <div className="relative aspect-[4/3]">
+                    <Image
+                      src={neighborhoodFiles[i]}
+                      alt={p.caption}
+                      fill
+                      sizes="(min-width:1024px) 33vw, (min-width:768px) 50vw, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <figcaption className="space-y-1 px-5 py-4">
+                    <div className="text-sm font-medium text-primary-dark">
+                      {p.caption}
+                    </div>
+                    <div className="text-[11px] text-text-light">
+                      {t("neighborhoodCreditPrefix")}: {p.author} · {p.license}
+                    </div>
+                  </figcaption>
+                </figure>
+              ))}
+            </div>
+            <p className="mt-6 text-[11px] text-text-light">
+              {t("neighborhoodCreditNote")}
+            </p>
           </div>
         </section>
       </main>

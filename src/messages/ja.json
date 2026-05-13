@@ -449,7 +449,28 @@
         "name": "駐輪場",
         "desc": "自転車通学者向け"
       }
-    ]
+    ],
+    "neighborhoodTitle": "周辺環境",
+    "neighborhoodIntro": "最寄りは小田急小田原線「小田急相模原駅」。徒歩7分の好立地で、新宿まで約45分。駅前にはスーパー・コンビニ・飲食店・薬局・銀行・郵便局など、留学生の生活に必要なものはすべて徒歩圏内に揃っています。",
+    "neighborhoodPhotos": [
+      {
+        "caption": "小田急相模原駅 北口",
+        "author": "Nyao148",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "caption": "小田急相模原駅 南口",
+        "author": "Nyao148",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "caption": "駅前ロータリー",
+        "author": "キャノーラ油",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "neighborhoodCreditPrefix": "撮影",
+    "neighborhoodCreditNote": "周辺写真は Wikimedia Commons より引用しています。"
   },
   "programsPage": {
     "title": "課程・カリキュラム",
