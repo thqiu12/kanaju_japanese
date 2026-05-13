@@ -811,7 +811,105 @@
       "applyEmail": "gakuen@hirai-gakuen.ac.jp",
       "applyButton": "Apply via Email",
       "applyCopied": "Email address copied!",
-      "applyHint": "Clicking the button copies the email address to your clipboard and attempts to open your default mail app. If no app opens, paste the copied address into your preferred mail service (Gmail, etc.)."
+      "applyHint": "Clicking the button copies the email address to your clipboard and attempts to open your default mail app. If no app opens, paste the copied address into your preferred mail service (Gmail, etc.).",
+      "recruit": {
+        "siteName": "RECRUIT",
+        "siteSub": "Careers at Our School",
+        "navHub": "Home",
+        "navMessage": "Message",
+        "navInterview": "Interview",
+        "navPositions": "Positions",
+        "navEntry": "Entry",
+        "hubTagline": "TEACHERS WANTED — Opening October 2026",
+        "hubTitle": "Help international students\ntake their next step in Japan.",
+        "hubLead": "In October 2026, the Department of Japanese Language at Kanagawa Jusei Shinkyu School will open its doors. We are looking for colleagues who will help us shape the new program from day one — alongside HIRAI-GAKUEN, an educational institution with 40+ years of history in vocational education.",
+        "hubCards": [
+          {
+            "key": "message",
+            "tag": "MESSAGE",
+            "title": "Message",
+            "desc": "Our history as an institution and what we hope to build with this new department."
+          },
+          {
+            "key": "interview",
+            "tag": "INTERVIEW",
+            "title": "Faculty Interviews",
+            "desc": "Voices of the teachers on the ground — coming soon."
+          },
+          {
+            "key": "positions",
+            "tag": "POSITIONS",
+            "title": "Open Positions",
+            "desc": "Japanese teachers (full-time / part-time), student-life coordinator, administrative staff."
+          },
+          {
+            "key": "entry",
+            "tag": "ENTRY",
+            "title": "How to Apply",
+            "desc": "Send your résumé by email. We respond within 3 business days."
+          }
+        ],
+        "hubCardCta": "View details →",
+        "hubAboutTitle": "About Us",
+        "hubAboutText": "HIRAI-GAKUEN has been delivering vocational health-care education in Sagamihara, Kanagawa, for over 40 years. In October 2026, as a MEXT-accredited Japanese language institution, we open a Department of Japanese Language offering end-to-end support for students aiming at vocational school admissions or employment in Japan.",
+        "hubAboutCta": "Learn about the institution →",
+        "messagePageTitle": "Message from the Institution",
+        "messagePageLead": "Building a new department, with new colleagues.",
+        "messageParagraphs": [
+          "HIRAI-GAKUEN was founded in 1985 with Kanagawa College of Judo Therapy, and has built four decades of experience in vocational health-care education. Through years of receiving international students into our existing programs, we became convinced that an integrated path — starting with Japanese language education before admission — best serves both the students' ambitions and the future of our region and industries. That conviction led to the new Department of Japanese Language opening in October 2026.",
+          "The new department is designed to build two things in parallel: the Japanese-language competency to take the next step toward vocational school or employment, and the everyday-life skills to thrive in Japan. Beyond the classroom — through career counseling, life-support consultations, volunteer activities, and community exchange — the whole institution will walk alongside each student.",
+          "We are looking for colleagues who see learners not as students to be taught, but as partners to grow with. We value the willingness to engage sincerely with the students in front of you, and to help build new systems together, more than any particular years of experience. If you would like to help us bring this October-2026 opening to life — inside the classroom, in the staff room, and in the corridors in between — we look forward to hearing from you."
+        ],
+        "messageSignature": "Incorporated Educational Institution HIRAI-GAKUEN\nDepartment of Japanese Language, Kanagawa Jusei Shinkyu School — Opening Preparation Office",
+        "interviewPageTitle": "Faculty Interviews",
+        "interviewPageLead": "We will be publishing conversations with our teaching staff on this page — covering teaching philosophy, what classes look like day-to-day, and how they relate to students. Currently in preparation.",
+        "interviewComingSoonTag": "COMING SOON",
+        "interviewComingSoonTitle": "In Preparation",
+        "interviewComingSoonDesc": "Interviews with faculty joining the opening team are currently in production. We will publish them on this page as they become ready.",
+        "interviewPlaceholders": [
+          {
+            "role": "Japanese Teacher (full-time)",
+            "timing": "Publishing in 2026"
+          },
+          {
+            "role": "Japanese Teacher (full-time)",
+            "timing": "Publishing in 2026"
+          },
+          {
+            "role": "Student-Life Coordinator",
+            "timing": "Publishing in 2026"
+          }
+        ],
+        "positionsPageTitle": "Open Positions",
+        "positionsPageLead": "We are recruiting for multiple roles ahead of our October 2026 opening. Please see each role for eligibility and responsibilities.",
+        "entryPageTitle": "How to Apply",
+        "entryPageLead": "Please email your résumé (with photo) as an attachment to the address below. We respond within 3 business days.",
+        "entryFlowTitle": "Application Flow",
+        "entryFlowSteps": [
+          {
+            "num": "STEP 1",
+            "title": "Send application",
+            "desc": "Attach your résumé (with photo), work history, and a copy of any teaching credentials to an email."
+          },
+          {
+            "num": "STEP 2",
+            "title": "Document review",
+            "desc": "We review your materials and reply within 3 business days with the result and next steps."
+          },
+          {
+            "num": "STEP 3",
+            "title": "Interview",
+            "desc": "In-person interview at our campus (online possible). We discuss your teaching philosophy and approach to classes."
+          },
+          {
+            "num": "STEP 4",
+            "title": "Offer & joining",
+            "desc": "After the offer, we finalize working conditions and you join the team."
+          }
+        ],
+        "entryQuestionsTitle": "Questions before applying",
+        "entryQuestionsDesc": "Feel free to send pre-application questions to the same address — we are happy to answer."
+      }
     },
     "faq": {
       "title": "Frequently Asked Questions",

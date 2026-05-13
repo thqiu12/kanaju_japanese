@@ -4,7 +4,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
 import SectionLabel from "@/components/SectionLabel";
-import ApplyByEmailButton from "@/components/ApplyByEmailButton";
+import CareersNav from "@/components/CareersNav";
+import { Link } from "@/i18n/navigation";
 
 export async function generateMetadata({
   params,
@@ -14,137 +15,91 @@ export async function generateMetadata({
   return { title: t("title"), description: t("subtitle") };
 }
 
-type Why = { title: string; desc: string };
-type Position = {
-  name: string;
-  type: string;
-  deadline: string;
-  desc: string;
-  requirements: string[];
-};
-type Row = [string, string];
+type Card = { key: string; tag: string; title: string; desc: string };
 
-export default async function CareersPage({
+const HREFS: Record<string, string> = {
+  message: "/careers/message",
+  interview: "/careers/interview",
+  positions: "/careers/positions",
+  entry: "/careers/entry",
+};
+
+export default async function CareersHubPage({
   params,
 }: PageProps<"/[locale]/careers">) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("contact.careers");
-
-  const whyItems = t.raw("whyItems") as Why[];
-  const positions = t.raw("positions") as Position[];
-  const commonRows = t.raw("commonRows") as Row[];
+  const cards = t.raw("recruit.hubCards") as Card[];
 
   return (
     <>
       <Header />
       <NoticeBar />
+      <CareersNav active="hub" />
       <main className="flex-1 bg-bg">
         {/* Hero */}
-        <section className="bg-gradient-to-br from-primary-dark to-primary px-6 py-20 text-white lg:px-8">
+        <section className="bg-gradient-to-br from-primary-dark to-primary px-6 py-24 text-white lg:px-8">
           <div className="mx-auto max-w-6xl">
-            <SectionLabel label="CAREERS" variant="light" />
-            <h1 className="mt-4 font-serif text-4xl font-semibold lg:text-5xl">
-              {t("title")}
+            <SectionLabel label={t("recruit.hubTagline")} variant="light" />
+            <h1 className="mt-5 whitespace-pre-line font-serif text-3xl font-semibold leading-[1.35] lg:text-5xl lg:leading-[1.25]">
+              {t("recruit.hubTitle")}
             </h1>
-            <p className="mt-6 max-w-3xl text-base leading-[1.9] text-white/85">
-              {t("subtitle")}
+            <p className="mt-7 max-w-3xl text-base leading-[1.95] text-white/90">
+              {t("recruit.hubLead")}
             </p>
           </div>
         </section>
 
-        {/* Why work here */}
+        {/* Hub cards */}
         <section className="px-6 py-20 lg:px-8">
           <div className="mx-auto max-w-6xl">
-            <h2 className="font-serif text-3xl font-semibold text-primary-dark">
-              {t("whyTitle")}
-            </h2>
-            <div className="mt-10 grid gap-5 sm:grid-cols-2">
-              {whyItems.map((item) => (
-                <div
-                  key={item.title}
-                  className="rounded-lg border border-border bg-bg-card p-6"
+            <div className="grid gap-5 sm:grid-cols-2">
+              {cards.map((card) => (
+                <Link
+                  key={card.key}
+                  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                  href={(HREFS[card.key] ?? "/careers") as any}
+                  className="group relative overflow-hidden rounded-lg border border-border bg-bg-card p-7 transition-all hover:-translate-y-0.5 hover:border-primary hover:shadow-md"
                 >
-                  <h3 className="text-base font-semibold text-primary-dark">
-                    {item.title}
-                  </h3>
+                  <span className="text-[11px] font-medium tracking-[0.2em] text-accent-warm">
+                    {card.tag}
+                  </span>
+                  <h2 className="mt-3 font-serif text-xl font-semibold text-primary-dark">
+                    {card.title}
+                  </h2>
                   <p className="mt-3 text-sm leading-[1.85] text-text-muted">
-                    {item.desc}
+                    {card.desc}
                   </p>
-                </div>
+                  <span className="mt-5 inline-flex items-center gap-1 text-xs font-medium tracking-wide text-primary transition-colors group-hover:text-accent-warm">
+                    {t("recruit.hubCardCta")}
+                  </span>
+                </Link>
               ))}
             </div>
           </div>
         </section>
 
-        {/* Positions */}
+        {/* About teaser */}
         <section className="bg-bg-warm px-6 py-20 lg:px-8">
-          <div className="mx-auto max-w-6xl">
-            <h2 className="font-serif text-3xl font-semibold text-primary-dark">
-              {t("positionsTitle")}
-            </h2>
-            <div className="mt-10 space-y-5">
-              {positions.map((p) => (
-                <article
-                  key={p.name}
-                  className="rounded-lg border border-border bg-bg-card p-7"
-                >
-                  <header className="flex flex-wrap items-baseline gap-3">
-                    <h3 className="font-serif text-xl font-semibold text-primary-dark">
-                      {p.name}
-                    </h3>
-                    <span className="rounded-full bg-primary-pale px-3 py-1 text-xs font-medium text-primary-dark">
-                      {p.type}
-                    </span>
-                    <span className="text-xs text-text-muted">
-                      {p.deadline}
-                    </span>
-                  </header>
-                  <p className="mt-4 text-sm leading-[1.85] text-text">
-                    {p.desc}
-                  </p>
-                  <h4 className="mt-5 mb-2 text-xs font-semibold uppercase tracking-wider text-text-muted">
-                    Requirements
-                  </h4>
-                  <ul className="space-y-1.5">
-                    {p.requirements.map((r) => (
-                      <li
-                        key={r}
-                        className="flex gap-2 text-sm leading-[1.7] text-text-muted before:mt-2.5 before:block before:h-1 before:w-1 before:shrink-0 before:rounded-full before:bg-primary"
-                      >
-                        {r}
-                      </li>
-                    ))}
-                  </ul>
-                </article>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Common conditions */}
-        <section className="px-6 py-20 lg:px-8">
           <div className="mx-auto max-w-4xl">
-            <h2 className="font-serif text-2xl font-semibold text-primary-dark">
-              {t("commonTitle")}
+            <SectionLabel label="ABOUT US" />
+            <h2 className="mt-4 font-serif text-2xl font-semibold text-primary-dark lg:text-3xl">
+              {t("recruit.hubAboutTitle")}
             </h2>
-            <dl className="mt-8 overflow-hidden rounded border border-border">
-              {commonRows.map(([k, v], i) => (
-                <div
-                  key={k}
-                  className={`grid grid-cols-1 gap-3 px-5 py-4 sm:grid-cols-[160px_1fr] sm:gap-6 ${
-                    i % 2 === 0 ? "bg-bg-card" : "bg-bg-warm"
-                  }`}
-                >
-                  <dt className="font-medium text-primary-dark">{k}</dt>
-                  <dd className="text-sm text-text-muted">{v}</dd>
-                </div>
-              ))}
-            </dl>
+            <p className="mt-5 text-base leading-[1.95] text-text">
+              {t("recruit.hubAboutText")}
+            </p>
+            <Link
+              href="/about"
+              className="mt-7 inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors hover:text-accent-warm"
+            >
+              {t("recruit.hubAboutCta")}
+            </Link>
           </div>
         </section>
 
-        {/* Apply CTA */}
+        {/* Entry CTA */}
         <section className="bg-gradient-to-br from-primary-dark via-primary to-primary-light px-6 py-20 text-center text-white lg:px-8">
           <div className="mx-auto max-w-3xl">
             <h2 className="font-serif text-3xl font-semibold lg:text-4xl">
@@ -153,24 +108,12 @@ export default async function CareersPage({
             <p className="mx-auto mt-5 text-base leading-[1.85] opacity-90">
               {t("applyDesc")}
             </p>
-            <p className="mt-6 text-sm opacity-85">
-              {t("applyEmailLabel")}{" "}
-              <a
-                href={`mailto:${t("applyEmail")}?subject=${encodeURIComponent("Career application — " + t("title"))}`}
-                className="font-medium text-gold underline underline-offset-4 hover:text-white"
-              >
-                {t("applyEmail")}
-              </a>
-            </p>
-            <ApplyByEmailButton
-              email={t("applyEmail")}
-              subject={`Career application — ${t("title")}`}
-              label={t("applyButton")}
-              copiedLabel={t("applyCopied")}
-            />
-            <p className="mx-auto mt-5 max-w-2xl text-xs leading-[1.85] text-white/70">
-              {t("applyHint")}
-            </p>
+            <Link
+              href="/careers/entry"
+              className="mt-8 inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/30 transition-all hover:-translate-y-0.5 hover:bg-[#C56544]"
+            >
+              {t("recruit.navEntry")} →
+            </Link>
           </div>
         </section>
       </main>

@@ -811,7 +811,105 @@
       "applyEmail": "gakuen@hirai-gakuen.ac.jp",
       "applyButton": "通过邮件应聘",
       "applyCopied": "邮箱已复制",
-      "applyHint": "点击按钮将自动复制邮箱地址并尝试唤起邮件客户端。如果未自动打开邮件 App,可直接将已复制的地址粘贴到您常用的邮箱(Gmail 等)中发送。"
+      "applyHint": "点击按钮将自动复制邮箱地址并尝试唤起邮件客户端。如果未自动打开邮件 App,可直接将已复制的地址粘贴到您常用的邮箱(Gmail 等)中发送。",
+      "recruit": {
+        "siteName": "RECRUIT",
+        "siteSub": "教职员招聘",
+        "navHub": "首页",
+        "navMessage": "代表寄语",
+        "navInterview": "教师访谈",
+        "navPositions": "招聘要项",
+        "navEntry": "应聘方式",
+        "hubTagline": "TEACHERS WANTED — 2026.10 开校",
+        "hubTitle": "和我们一起,支持留学生\n在日本迈出「下一步」。",
+        "hubLead": "2026 年 10 月,神奈川柔整针灸专门学校 日语学科即将开校。我们正在寻找愿意从开校第一天起,与拥有 40 年办学历史的学校法人平井学园一道,陪伴升学・就业方向留学生成长的伙伴。",
+        "hubCards": [
+          {
+            "key": "message",
+            "tag": "MESSAGE",
+            "title": "代表寄语",
+            "desc": "学校法人的发展历程,以及对新学科的期许。"
+          },
+          {
+            "key": "interview",
+            "tag": "INTERVIEW",
+            "title": "教师访谈",
+            "desc": "一线教师的真实声音,后续将陆续公开。"
+          },
+          {
+            "key": "positions",
+            "tag": "POSITIONS",
+            "title": "招聘要项",
+            "desc": "日语教员(专职・兼职)、生活指导、事务职员。"
+          },
+          {
+            "key": "entry",
+            "tag": "ENTRY",
+            "title": "应聘方式",
+            "desc": "请将简历附在邮件中发送。3 个工作日内回复。"
+          }
+        ],
+        "hubCardCta": "查看详情 →",
+        "hubAboutTitle": "关于我们",
+        "hubAboutText": "学校法人平井学园在神奈川县相模原市办学已逾 40 年,长期专注于医疗类专门教育。2026 年 10 月,我们将作为文部科学省认定的日语教育机构开设日语学科,为升学・就业方向留学生提供一站式支持。",
+        "hubAboutCta": "了解学园与设施 →",
+        "messagePageTitle": "代表寄语",
+        "messagePageLead": "和新的伙伴,一起办一个新的学科。",
+        "messageParagraphs": [
+          "学校法人平井学园自 1985 年神奈川柔道整复专门学校开校以来,一直深耕医疗类专门教育。多年的留学生接收经验让我们确信:从入学前的日语教育开始,提供「一站式」的衔接支援,既能真正帮助留学生本人完成挑战,也能为地方与产业的未来贡献力量。基于这一信念,我们将于 2026 年 10 月新设日语学科。",
+          "新学科希望同时培养两件事——支撑「升学・就业」这一下一步所需的日语能力,以及在日本生活的「生活力」。课堂之外,从升学面谈、生活咨询,到志愿活动、地区交流,整个学园都会陪伴每一位留学生。",
+          "我们想邀请的同伴,是把学习者视为「共同成长的伙伴」而非「教学对象」的人。比起经验本身,我们更看重对留学生的真诚态度,以及一起搭建新机制的意愿。如果您愿意和我们一起,把 2026 年 10 月的开校具体落到课堂里、办公室里、走廊里——非常欢迎您的来信。"
+        ],
+        "messageSignature": "学校法人 平井学园\n神奈川柔整针灸专门学校 日语学科 开校筹备处",
+        "interviewPageTitle": "教师访谈",
+        "interviewPageLead": "我们会在这里陆续公开一线教师的访谈,围绕教育理念、日常课堂、与学生的互动等真实呈现。",
+        "interviewComingSoonTag": "COMING SOON",
+        "interviewComingSoonTitle": "公开筹备中",
+        "interviewComingSoonDesc": "我们正在为参与开校的老师们制作访谈内容,准备就绪后将陆续在此页面公开。",
+        "interviewPlaceholders": [
+          {
+            "role": "日语教员(专职)",
+            "timing": "2026 年内 公开"
+          },
+          {
+            "role": "日语教员(专职)",
+            "timing": "2026 年内 公开"
+          },
+          {
+            "role": "生活指导担当",
+            "timing": "2026 年内 公开"
+          }
+        ],
+        "positionsPageTitle": "招聘要项",
+        "positionsPageLead": "面向 2026 年 10 月开校,我们正在招募多个岗位。应聘资格与岗位详情请参阅各职种说明。",
+        "entryPageTitle": "应聘方式",
+        "entryPageLead": "请将简历(附照片)以邮件附件形式发送至下方邮箱。我们将在 3 个工作日内回复。",
+        "entryFlowTitle": "从应聘到入职的流程",
+        "entryFlowSteps": [
+          {
+            "num": "STEP 1",
+            "title": "材料投递",
+            "desc": "请将简历(附照片)、工作经历书、教师资格证明文件复印件一并以邮件附件发送。"
+          },
+          {
+            "num": "STEP 2",
+            "title": "材料筛选",
+            "desc": "确认您的材料后,3 个工作日内告知筛选结果与下一步安排。"
+          },
+          {
+            "num": "STEP 3",
+            "title": "面试",
+            "desc": "于学园所在地进行面对面面试(可线上),就教育理念与授课方案交流。"
+          },
+          {
+            "num": "STEP 4",
+            "title": "录用・入职",
+            "desc": "发出录用通知后,确认劳动条件细节,办理入职。"
+          }
+        ],
+        "entryQuestionsTitle": "应聘前的咨询",
+        "entryQuestionsDesc": "应聘前的咨询也欢迎使用同一邮箱,我们会尽快回复。"
+      }
     },
     "faq": {
       "title": "常见问题",
