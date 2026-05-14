@@ -6,13 +6,22 @@ import NoticeBar from "@/components/NoticeBar";
 import SectionLabel from "@/components/SectionLabel";
 import CareersNav from "@/components/CareersNav";
 import ApplyByEmailButton from "@/components/ApplyByEmailButton";
+import type { Locale } from "@/i18n/routing";
+import { buildCareersMetadata, breadcrumbsLd } from "@/lib/careers-seo";
 
 export async function generateMetadata({
   params,
 }: PageProps<"/[locale]/careers/entry">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "contact.careers" });
-  return { title: t("recruit.entryPageTitle"), description: t("subtitle") };
+  const meta = await getTranslations({ locale, namespace: "meta" });
+  return buildCareersMetadata({
+    locale: locale as Locale,
+    sub: "entry",
+    title: t("recruit.entryPageTitle"),
+    description: t("recruit.entryPageLead"),
+    siteTitle: meta("siteTitle"),
+  });
 }
 
 type Step = { num: string; title: string; desc: string };
@@ -23,10 +32,22 @@ export default async function CareersEntryPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("contact.careers");
+  const tNav = await getTranslations("nav");
+  const tCommon = await getTranslations("common");
   const steps = t.raw("recruit.entryFlowSteps") as Step[];
+
+  const breadcrumbLd = breadcrumbsLd(locale as Locale, "entry", {
+    home: tCommon("home"),
+    careers: tNav("careers"),
+    current: t("recruit.navEntry"),
+  });
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <Header />
       <NoticeBar />
       <CareersNav active="entry" />

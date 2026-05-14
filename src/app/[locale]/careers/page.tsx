@@ -6,13 +6,26 @@ import NoticeBar from "@/components/NoticeBar";
 import SectionLabel from "@/components/SectionLabel";
 import CareersNav from "@/components/CareersNav";
 import { Link } from "@/i18n/navigation";
+import type { Locale } from "@/i18n/routing";
+import {
+  buildCareersMetadata,
+  breadcrumbsLd,
+  organizationLd,
+} from "@/lib/careers-seo";
 
 export async function generateMetadata({
   params,
 }: PageProps<"/[locale]/careers">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "contact.careers" });
-  return { title: t("title"), description: t("subtitle") };
+  const meta = await getTranslations({ locale, namespace: "meta" });
+  return buildCareersMetadata({
+    locale: locale as Locale,
+    sub: "hub",
+    title: t("title"),
+    description: t("subtitle"),
+    siteTitle: meta("siteTitle"),
+  });
 }
 
 type Card = { key: string; tag: string; title: string; desc: string };
@@ -30,10 +43,27 @@ export default async function CareersHubPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("contact.careers");
+  const tCommon = await getTranslations("common");
+  const meta = await getTranslations("meta");
+  const tNav = await getTranslations("nav");
   const cards = t.raw("recruit.hubCards") as Card[];
+
+  const orgLd = organizationLd(meta("siteTitle"), tCommon("address"));
+  const breadcrumbLd = breadcrumbsLd(locale as Locale, "hub", {
+    home: tCommon("home"),
+    careers: tNav("careers"),
+  });
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <Header />
       <NoticeBar />
       <CareersNav active="hub" />

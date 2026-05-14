@@ -6,14 +6,32 @@ import NoticeBar from "@/components/NoticeBar";
 import SectionLabel from "@/components/SectionLabel";
 import CareersNav from "@/components/CareersNav";
 import { Link } from "@/i18n/navigation";
+import type { Locale } from "@/i18n/routing";
+import {
+  buildCareersMetadata,
+  breadcrumbsLd,
+  jobPostingsLd,
+} from "@/lib/careers-seo";
 
 export async function generateMetadata({
   params,
 }: PageProps<"/[locale]/careers/positions">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "contact.careers" });
-  return { title: t("recruit.positionsPageTitle"), description: t("subtitle") };
+  const meta = await getTranslations({ locale, namespace: "meta" });
+  return buildCareersMetadata({
+    locale: locale as Locale,
+    sub: "positions",
+    title: t("recruit.positionsPageTitle"),
+    description: t("recruit.positionsPageLead"),
+    siteTitle: meta("siteTitle"),
+  });
 }
+
+// Posting / validity dates for JobPosting structured data.
+// Update these when refreshing listings — Google ranks fresher postings higher.
+const JOB_POSTED = "2026-04-01";
+const JOB_VALID_THROUGH = "2027-03-31";
 
 type Why = { title: string; desc: string };
 type Position = {
@@ -31,13 +49,41 @@ export default async function CareersPositionsPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("contact.careers");
+  const tCommon = await getTranslations("common");
+  const meta = await getTranslations("meta");
+  const tNav = await getTranslations("nav");
 
   const whyItems = t.raw("whyItems") as Why[];
   const positions = t.raw("positions") as Position[];
   const commonRows = t.raw("commonRows") as Row[];
 
+  const jobsLd = jobPostingsLd({
+    locale: locale as Locale,
+    positions,
+    siteTitle: meta("siteTitle"),
+    address: tCommon("address"),
+    datePosted: JOB_POSTED,
+    validThrough: JOB_VALID_THROUGH,
+  });
+  const breadcrumbLd = breadcrumbsLd(locale as Locale, "positions", {
+    home: tCommon("home"),
+    careers: tNav("careers"),
+    current: t("recruit.navPositions"),
+  });
+
   return (
     <>
+      {jobsLd.map((j, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(j) }}
+        />
+      ))}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <Header />
       <NoticeBar />
       <CareersNav active="positions" />
