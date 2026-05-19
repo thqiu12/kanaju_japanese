@@ -52,7 +52,7 @@ export default async function ProgramsPage({
             <h1 className="mt-4 font-serif text-4xl font-semibold text-white lg:text-5xl">
               {t("title")}
             </h1>
-            <p className="mt-4 max-w-3xl text-base text-white/85 lg:text-lg">
+            <p className="mt-4 max-w-3xl whitespace-pre-line text-base text-white/85 lg:text-lg">
               {t("subtitle")}
             </p>
           </div>

@@ -475,7 +475,7 @@
   },
   "programsPage": {
     "title": "Programs & Curriculum",
-    "subtitle": "All programs target CEFR-J B2 by graduation. The curriculum advances step-by-step from A1, with each level taught in 10-week units.",
+    "subtitle": "All programs target CEFR-J B2 by graduation.\nThe curriculum advances step-by-step from A1, with each level taught as a 10-week term.",
     "structureTitle": "Our Three Programs",
     "structureIntro": "Two daily sessions — Morning (09:00–12:30) and Afternoon (13:00–16:30). Total capacity 100 (5 classes).",
     "structure": {
@@ -1602,7 +1602,7 @@
       },
       "curriculum": {
         "title": "3. Curriculum Subjects and Content",
-        "intro": "Based on the CEFR-J framework, the Department offers a structured curriculum from A1 to B2. Each level is taught in 10-week units, building all five skills (listening, reading, speaking, writing, interaction) in balance.",
+        "intro": "Based on the CEFR-J framework, the Department offers a structured curriculum from A1 to B2. Each level is taught as a 10-week term, building all five skills (listening, reading, speaking, writing, interaction) in balance.",
         "table": {
           "head": [
             "Level",
