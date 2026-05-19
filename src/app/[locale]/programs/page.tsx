@@ -31,9 +31,6 @@ export default async function ProgramsPage({
     goal: string;
     material: string;
   }[];
-  const evaluation = t.raw("evaluation") as string[];
-  const grades = t.raw("grades") as [string, string][];
-
   return (
     <>
       <Header />
@@ -42,7 +39,7 @@ export default async function ProgramsPage({
         {/* Hero */}
         <section className="relative h-[400px] overflow-hidden bg-black">
           <Image
-            src="/photos/classroom-2.jpg"
+            src="/photos/building-exterior-2.jpg"
             alt=""
             fill
             priority
@@ -214,47 +211,6 @@ export default async function ProgramsPage({
           </div>
         </section>
 
-        {/* Evaluation & Grades */}
-        <section className="px-6 py-20 lg:px-8">
-          <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-2">
-            <div>
-              <h2 className="font-serif text-2xl font-semibold text-primary-dark">
-                {t("evaluationTitle")}
-              </h2>
-              <ul className="mt-6 space-y-2">
-                {evaluation.map((e) => (
-                  <li
-                    key={e}
-                    className="flex items-center gap-3 rounded border border-border bg-bg-card px-5 py-3 text-sm"
-                  >
-                    <span className="text-primary">◆</span>
-                    {e}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <h2 className="font-serif text-2xl font-semibold text-primary-dark">
-                {t("gradesTitle")}
-              </h2>
-              <div className="mt-6 overflow-hidden rounded border border-border">
-                {grades.map(([g, range], i) => (
-                  <div
-                    key={g}
-                    className={`grid grid-cols-[80px_1fr] gap-4 px-5 py-4 ${
-                      i % 2 === 0 ? "bg-bg-card" : "bg-bg-warm"
-                    }`}
-                  >
-                    <dt className="font-serif text-xl font-semibold text-primary">
-                      {g}
-                    </dt>
-                    <dd className="self-center text-sm text-text-muted">{range}</dd>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
       <Footer />
     </>

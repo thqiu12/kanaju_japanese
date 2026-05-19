@@ -234,7 +234,7 @@ export default async function AboutPage({
               </ul>
               <div className="relative h-[360px] overflow-hidden rounded-lg">
                 <Image
-                  src="/photos/classroom-4.jpg"
+                  src="/photos/building-exterior-2.jpg"
                   alt=""
                   fill
                   sizes="(min-width:1024px) 40vw, 100vw"

@@ -43,9 +43,11 @@ export default async function Footer() {
             <p className="mt-3 text-[13px] leading-relaxed">
               {t("footer.operator")}
               <br />
-              {t("common.address")}
+              {t("common.operatorAddress")}
               <br />
-              TEL: {t("common.tel")} / FAX: {t("common.fax")}
+              TEL: {t("common.tel")} ({t("common.telDirectLabel")}) / {t("common.telMain")} ({t("common.telMainLabel")})
+              <br />
+              FAX: {t("common.fax")}
             </p>
             <div className="mt-7 max-w-[320px] rounded-md bg-white p-4">
               <Image

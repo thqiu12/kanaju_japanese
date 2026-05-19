@@ -45,7 +45,7 @@ export default async function Hero() {
             </>
           )}
         </h1>
-        <p className="mt-6 max-w-2xl text-base font-light leading-[1.85] opacity-90 lg:text-lg">
+        <p className="mt-6 max-w-2xl whitespace-pre-line text-base font-light leading-[1.85] opacity-90 lg:text-lg">
           {t("hero.sub")}
         </p>
         <div className="mt-10 flex flex-wrap gap-4">

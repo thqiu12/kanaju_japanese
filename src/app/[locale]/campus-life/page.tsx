@@ -190,7 +190,7 @@ export default async function CampusLifePage({
               <div className="space-y-3">
                 <div className="relative h-[220px] overflow-hidden rounded-lg">
                   <Image
-                    src="/photos/classroom-3.jpg"
+                    src="/photos/building-exterior.jpg"
                     alt=""
                     fill
                     sizes="(min-width:1024px) 33vw, 100vw"

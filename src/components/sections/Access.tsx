@@ -28,7 +28,10 @@ export default async function Access() {
         <dl className="mt-10 space-y-4">
           <Row label={rows.address} value={rows.addressValue} />
           <Row label={rows.access} value={rows.accessValue} />
-          <Row label={rows.tel} value={t("common.tel")} />
+          <Row
+            label={rows.tel}
+            value={`${t("common.tel")} (${t("common.telDirectLabel")})\n${t("common.telMain")} (${t("common.telMainLabel")})`}
+          />
           <Row label={rows.fax} value={t("common.fax")} />
           <Row label={rows.email} value={t("common.email")} last />
         </dl>

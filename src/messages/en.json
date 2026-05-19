@@ -8,7 +8,11 @@
     "departmentName": "Department of Japanese Language",
     "operator": "Incorporated Educational Institution HIRAI-GAKUEN",
     "address": "6-7 Matsugae-cho (HIRAI-GAKUEN Kanagawa Jusei Shinkyu School, Building 3), Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN",
+    "operatorAddress": "7-5 Matsugae-cho, Minami-ku, Sagamihara, Kanagawa 252-0313, JAPAN",
     "tel": "+81-42-705-3076",
+    "telMain": "+81-42-740-7222",
+    "telDirectLabel": "Direct",
+    "telMainLabel": "Main",
     "fax": "+81-42-740-7221",
     "email": "gakuen@hirai-gakuen.ac.jp",
     "yen": "JPY",
@@ -43,7 +47,7 @@
     "titleAccent": "future",
     "titleSuffix": ",",
     "titleLine3": "begins in Japan.",
-    "sub": "Based in Sagamihara, Kanagawa, our Japanese Language Department prepares you for vocational-school admission and a career in Japan. As a MEXT-accredited school under a school corporation with 20+ years of history, we support each student's next step with care.",
+    "sub": "Based in Sagamihara, Kanagawa, our Japanese Language Department prepares you for vocational-school admission and a career in Japan.\nAs a MEXT-accredited Japanese language institution under a school corporation with 20+ years of history, we support each student's next step with care.",
     "ctaPrimary": "View Admissions",
     "ctaSecondary": "Our Three Programs",
     "certMarkTitle": "MEXT-Accredited",
@@ -97,7 +101,7 @@
         "name": "2-Year Program",
         "nameEn": "2-YEAR PROGRAM",
         "duration": "24 months",
-        "entryLevel": "A1.1 / 150+ hours of study",
+        "entryLevel": "A1.1",
         "exitLevel": "B2",
         "capacity": "40 seats",
         "fee": "939,000"
@@ -165,12 +169,8 @@
         "desc": "Three sessions per year covering everything you need: residence registration, bank accounts, garbage rules, traffic rules, emergency response, and more — explained carefully."
       },
       {
-        "title": "Part-Time Work Support",
-        "desc": "Help with the part-time work permit (Shikaku-gai Katsudō Kyoka). Introductions to legal part-time jobs (under 28 hrs/week), résumé writing, and interview practice."
-      },
-      {
         "title": "One-on-One Counseling (4×/year)",
-        "desc": "Four 15-minute life-counseling sessions plus 2 hours of learning-goal counseling each year. Health, worries, work — we talk it all through with each student."
+        "desc": "Four 15-minute life-counseling sessions plus 2 hours of learning-goal counseling each year. Health and worries — we talk it all through with each student."
       },
       {
         "title": "Mother-Tongue Supplementary Class",
@@ -392,11 +392,11 @@
     "support": [
       {
         "title": "Life Orientation",
-        "desc": "60 minutes, three times per year. Residence registration, bank accounts, garbage rules, traffic rules, emergency response, part-time work rules, and more."
+        "desc": "60 minutes, three times per year. Residence registration, bank accounts, garbage rules, traffic rules, emergency response, and more."
       },
       {
         "title": "Individual Life Counseling",
-        "desc": "15 minutes, four times per year. Health check-ins, worries, part-time work status."
+        "desc": "15 minutes, four times per year. Health check-ins, worries, life and study status."
       },
       {
         "title": "Individual Learning Counseling",
@@ -530,7 +530,7 @@
         ]
       ]
     },
-    "levelsTitle": "CEFR-Level Curriculum",
+    "levelsTitle": "CEFR-Level Curriculum based on the Reference Framework for Japanese Language Education",
     "levelsIntro": "Progressive advancement from A1. Each level: 10 weeks × 20 hours/week. All programs target B2.",
     "levels": {
       "head": [
@@ -946,7 +946,7 @@
             },
             {
               "q": "Can I apply with no prior Japanese study?",
-              "a": "The 2-Year Program starts at A1.1 (with 150+ hours of prior Japanese study). We recommend basic Japanese preparation beforehand — feel free to ask us for guidance."
+              "a": "The 2-Year Program starts at A1.1. We recommend basic Japanese preparation beforehand — feel free to ask us for guidance."
             },
             {
               "q": "What is the selection process?",
@@ -1234,7 +1234,7 @@
   },
   "about": {
     "title": "About the School",
-    "subtitle": "A locally-rooted vocational school with 20+ years of history — supporting every international student's next step.",
+    "subtitle": "A vocational school with 20+ years of history — supporting every international student's next step.",
     "philosophyTitle": "Educational Philosophy",
     "philosophy": "Through Japanese language education, students gain the linguistic ability and cultural understanding needed for vocational-school studies. At the same time, we cultivate the physical and mental well-being and daily-life habits needed to thrive in Japan, ultimately supporting each student's future career.",
     "purposeTitle": "Three Purposes",
@@ -1365,7 +1365,7 @@
       "japaneseLevelRows": [
         [
           "2-Year Program",
-          "A1.1 equivalent or 150+ hours of Japanese study"
+          "A1.1 equivalent"
         ],
         [
           "1-Year-9-Month Program",
@@ -1866,8 +1866,8 @@
         "external": "Community partnerships: Sagamihara disaster drills, cleanup volunteering, Sagamihara International Lounge cooperation, visits to welfare/medical/public facilities."
       },
       "career": {
-        "title": "9. Graduate Outcomes",
-        "intro": "Our graduates primarily advance to vocational schools in Kanagawa and Tokyo, pursuing careers in medical, welfare, business, IT, culinary, and many other fields.",
+        "title": "9. Anticipated Pathways (Reference)",
+        "intro": "Because the school opens in October 2026, we do not yet have graduate placement data. The list below shows vocational schools in Kanagawa and Tokyo — covering medical, welfare, business, IT, culinary, and other fields — that we anticipate our career guidance will support. Actual graduate-placement data will be published progressively from the 2027 academic year onward.",
         "schools": [
           "Kanagawa College of Economics",
           "Kashiwagi Business College",

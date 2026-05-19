@@ -22,7 +22,7 @@ export default async function Education() {
         <div className="mt-16 grid items-center gap-16 lg:grid-cols-[1fr_1.2fr]">
           <div className="relative h-[480px] overflow-hidden rounded-lg">
             <Image
-              src="/photos/classroom-1.jpg"
+              src="/photos/building-exterior-2.jpg"
               alt=""
               fill
               sizes="(min-width: 1024px) 40vw, 100vw"
