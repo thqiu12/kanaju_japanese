@@ -205,9 +205,6 @@ export default async function ProgramsPage({
                 </article>
               ))}
             </div>
-            <p className="mt-8 rounded border-l-4 border-accent-warm bg-bg-card px-6 py-4 text-sm leading-[1.85] text-text-muted">
-              {t("subjectsNote")}
-            </p>
           </div>
         </section>
 
