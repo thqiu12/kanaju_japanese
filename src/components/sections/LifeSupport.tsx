@@ -17,7 +17,7 @@ export default async function LifeSupport() {
         <h2 className="mt-4 font-serif text-[clamp(28px,4vw,44px)] font-semibold leading-tight tracking-tight">
           {t("lifeSupport.title")}
         </h2>
-        <p className="mt-6 max-w-3xl text-base leading-[1.9] text-white/78">
+        <p className="mt-6 max-w-3xl whitespace-pre-line text-base leading-[1.9] text-white/78">
           {t("lifeSupport.desc")}
         </p>
 
