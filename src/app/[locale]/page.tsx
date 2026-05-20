@@ -7,6 +7,7 @@ import StrongPoints from "@/components/sections/StrongPoints";
 import Programs from "@/components/sections/Programs";
 import Education from "@/components/sections/Education";
 import LifeSupport from "@/components/sections/LifeSupport";
+import Career from "@/components/sections/Career";
 import Flow from "@/components/sections/Flow";
 import Gallery from "@/components/sections/Gallery";
 import Access from "@/components/sections/Access";
@@ -32,6 +33,7 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
         <Programs />
         <Education />
         <LifeSupport />
+        <Career />
         <Flow />
         <Gallery />
         <Access />
