@@ -46,9 +46,11 @@ export default async function Header() {
                   className="group block whitespace-nowrap text-sm text-text transition-colors hover:text-accent-warm"
                 >
                   {item.label}
-                  <span className="mt-0.5 block whitespace-nowrap text-[10px] tracking-[0.1em] text-text-light">
-                    {item.sub}
-                  </span>
+                  {locale !== "en" && (
+                    <span className="mt-0.5 block whitespace-nowrap text-[10px] tracking-[0.1em] text-text-light">
+                      {item.sub}
+                    </span>
+                  )}
                 </Link>
               </li>
             ))}

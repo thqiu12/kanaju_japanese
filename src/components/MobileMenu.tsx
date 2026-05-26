@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
+import { useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 
 type NavItem = { href: string; label: string; sub: string };
@@ -10,6 +11,7 @@ export default function MobileMenu({ items }: { items: NavItem[] }) {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+  const locale = useLocale();
 
   useEffect(() => {
     setMounted(true);
@@ -104,9 +106,11 @@ export default function MobileMenu({ items }: { items: NavItem[] }) {
                         <span className="block text-base font-medium text-primary-dark">
                           {item.label}
                         </span>
-                        <span className="mt-0.5 block text-[10px] uppercase tracking-[0.15em] text-text-light">
-                          {item.sub}
-                        </span>
+                        {locale !== "en" && (
+                          <span className="mt-0.5 block text-[10px] uppercase tracking-[0.15em] text-text-light">
+                            {item.sub}
+                          </span>
+                        )}
                       </Link>
                     </li>
                   ))}
