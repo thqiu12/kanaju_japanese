@@ -26,10 +26,6 @@ export default async function Career() {
               {s}
             </li>
           ))}
-          <li className="flex items-center gap-2.5 rounded border border-primary/30 bg-primary-pale px-5 py-4 text-sm font-medium text-primary-dark">
-            <span className="text-xs">→</span>
-            {t("career.more")}
-          </li>
         </ul>
       </div>
     </section>
