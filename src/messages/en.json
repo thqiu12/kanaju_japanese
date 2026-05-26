@@ -624,36 +624,31 @@
         "name": "Upper-Beginner Kanji & Vocabulary",
         "level": "A2",
         "hours": "50 unit hours",
-        "goal": "Read and write common kanji and vocabulary. Research kanji seen around school and town, then present.",
-        "material": "15-Minutes-a-Day Kanji Practice (Beginner–Upper-Beginner)"
+        "goal": "Read and write common kanji and vocabulary. Research kanji seen around school and town, then present."
       },
       {
         "name": "Intermediate Integrated Japanese",
         "level": "B1",
         "hours": "120 unit hours",
-        "goal": "Express opinions backed by reasons and evidence. Topics: emergencies, local area, time management.",
-        "material": "Dekiru Nihongo (Intermediate) + Vocabulary & Expression Workbook"
+        "goal": "Express opinions backed by reasons and evidence. Topics: emergencies, local area, time management."
       },
       {
         "name": "Japanese Culture & Society",
         "level": "B1",
         "hours": "30 unit hours",
-        "goal": "Etiquette in public facilities, cultural comparison with home country. Multi-cuisine restaurant visits and factory tours.",
-        "material": "Cultural Experience in Japanese (Ch. 2-3)"
+        "goal": "Etiquette in public facilities, cultural comparison with home country. Multi-cuisine restaurant visits and factory tours."
       },
       {
         "name": "JLPT Preparation",
         "level": "B2",
         "hours": "20 unit hours",
-        "goal": "JLPT N2 grammar, vocabulary, reading, listening. Inferring test-question intent.",
-        "material": "First JLPT Practice Test N2"
+        "goal": "JLPT N2 grammar, vocabulary, reading, listening. Inferring test-question intent."
       },
       {
         "name": "Project Work",
         "level": "B2",
         "hours": "40 unit hours",
-        "goal": "Split into Medical/Welfare or General track; conduct professional interviews and public-facility field research.",
-        "material": "Task-Based Japanese (Intermediate 2 & 3 — Project sections)"
+        "goal": "Split into Medical/Welfare or General track; conduct professional interviews and public-facility field research."
       }
     ],
     "evaluationTitle": "Evaluation Methods",

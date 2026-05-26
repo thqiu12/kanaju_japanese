@@ -29,7 +29,6 @@ export default async function ProgramsPage({
     level: string;
     hours: string;
     goal: string;
-    material: string;
   }[];
   return (
     <>
@@ -198,9 +197,6 @@ export default async function ProgramsPage({
                   </header>
                   <div>
                     <p className="text-sm leading-[1.85] text-text">{s.goal}</p>
-                    <div className="mt-4 rounded bg-primary-pale px-4 py-2.5 text-xs text-primary-dark">
-                      📚 {s.material}
-                    </div>
                   </div>
                 </article>
               ))}
