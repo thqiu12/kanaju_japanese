@@ -208,7 +208,7 @@ export default async function ProgramsPage({
                       {s.hours}
                     </span>
                   </header>
-                  <p className="mt-5 text-sm leading-[1.85] text-text">
+                  <p className="mt-5 whitespace-pre-line text-sm leading-[1.85] text-text">
                     {s.goal}
                   </p>
                 </article>
