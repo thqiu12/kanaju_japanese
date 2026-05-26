@@ -1,10 +1,11 @@
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
 import MobileMenu from "./MobileMenu";
 
 export default async function Header() {
   const t = await getTranslations();
+  const locale = await getLocale();
 
   const navItems = [
     { href: "/about", label: t("nav.about"), sub: t("nav.aboutSub") },
@@ -29,9 +30,11 @@ export default async function Header() {
             {t("common.schoolName")}{" "}
             <span className="text-accent-warm">{t("common.departmentName")}</span>
           </span>
-          <span className="mt-0.5 hidden text-[10px] tracking-[0.1em] text-text-muted sm:block">
-            Department of Japanese Language · Kanagawa Jusei Shinkyu School
-          </span>
+          {locale !== "en" && (
+            <span className="mt-0.5 hidden text-[10px] tracking-[0.1em] text-text-muted sm:block">
+              Department of Japanese Language · Kanagawa Jusei Shinkyu School
+            </span>
+          )}
         </Link>
 
         <nav className="hidden lg:block" aria-label="Primary">
