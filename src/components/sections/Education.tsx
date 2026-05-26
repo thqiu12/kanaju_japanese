@@ -38,7 +38,7 @@ export default async function Education() {
                 <h4 className="text-lg font-semibold text-primary-dark">
                   {item.title}
                 </h4>
-                <p className="mt-2 text-sm leading-[1.85] text-text-muted">
+                <p className="mt-2 whitespace-pre-line text-sm leading-[1.85] text-text-muted">
                   {item.desc}
                 </p>
               </li>
