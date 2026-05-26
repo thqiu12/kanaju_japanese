@@ -1508,28 +1508,28 @@
       "refundIntro": "If you must cancel your enrollment due to unavoidable circumstances, refunds follow the policy below.",
       "refundRules": [
         {
-          "case": "Before entry — cancellation after COE application submission",
-          "rule": "Exam fee and admission fee are non-refundable. Tuition refunded (less wire fees) upon return of admission permit."
+          "case": "Before entry — cancellation after residency-status application",
+          "rule": "Regardless of whether the COE is issued, the exam fee and admission fee are non-refundable. Tuition is refunded (less wire fees) upon return of the admission permit."
         },
         {
-          "case": "Before entry — COE issued but no visa applied",
-          "rule": "Exam fee and admission fee are non-refundable. Tuition refunded upon return of COE and admission permit."
+          "case": "Before entry — COE issued but no visa applied for, no entry to Japan",
+          "rule": "Exam fee and admission fee are non-refundable. Tuition is refunded upon return of the COE and admission permit."
         },
         {
           "case": "Before entry — visa rejected",
-          "rule": "Exam fee and admission fee are non-refundable. Tuition refunded after verification."
+          "rule": "Exam fee and admission fee are non-refundable. Tuition is refunded once the visa rejection is confirmed."
         },
         {
-          "case": "Before entry — cancellation after visa issued",
-          "rule": "Exam fee and admission fee are non-refundable. Tuition refunded less a cancellation fee (max ¥15,000)."
+          "case": "Before entry — cancellation after visa was issued",
+          "rule": "Exam fee and admission fee are non-refundable. Once it is confirmed that the visa was unused and has lapsed, tuition is refunded less a cancellation fee (max ¥15,000)."
         },
         {
-          "case": "After entry — before classes start",
-          "rule": "Once exit from Japan and visa expiry are confirmed, tuition / activity / insurance / health fees refunded less a ¥15,000 cancellation fee."
+          "case": "After entry — cancellation before classes start",
+          "rule": "Once exit from Japan and lapse of residency status are confirmed, tuition / activity / insurance / health-management fees are refunded less a ¥15,000 cancellation fee."
         },
         {
-          "case": "After entry — after classes start",
-          "rule": "Tuition for the term after withdrawal refunded less a cancellation fee (20% or ¥50,000, whichever is lower)."
+          "case": "After entry — cancellation after classes start",
+          "rule": "Tuition for the term following submission of the withdrawal notice and after is refunded less a cancellation fee (20% or ¥50,000, whichever is lower)."
         },
         {
           "case": "Expulsion",
