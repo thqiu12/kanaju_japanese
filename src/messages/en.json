@@ -1442,44 +1442,43 @@
         {
           "title": "Overseas parent or relative as sponsor",
           "items": [
-            "Sponsor's Affidavit (school form)",
+            "Sponsor's Affidavit (school-specified form)",
             "Bank balance certificate (original)",
             "Bank passbook copies (past 3 years)",
             "Employment certificate / business permit / corporate registry",
             "Income certificate (original, past 3 years)",
             "Tax payment certificate (original, past 3 years)",
-            "Relationship document (kinship affidavit, birth certificate, etc.)"
+            "Document proving the applicant–sponsor relationship (kinship affidavit, birth certificate, etc.)"
           ]
         },
         {
           "title": "Relative residing in Japan as sponsor",
           "items": [
-            "Sponsor's Affidavit (school form)",
+            "Sponsor's Affidavit (school-specified form)",
             "Bank balance certificate (original)",
             "Bank passbook copies (past 3 years)",
             "Employment certificate / business permit / corporate registry",
-            "Income certificate (past 3 years) + tax or taxation certificate",
-            "Resident record (all household members)",
-            "Family register or kinship affidavit"
+            "Income certificate (past 3 years) / (tax payment certificate or taxation certificate)",
+            "Document proving the applicant–sponsor relationship (kinship affidavit, birth certificate, etc.)"
           ]
         },
         {
           "title": "Self-funded applicant",
           "items": [
-            "Sponsor's Affidavit (school form)",
+            "Sponsor's Affidavit (school-specified form)",
             "Bank balance certificate (original)",
             "Bank passbook copies (past 3 years)",
             "Employment certificate / business permit / corporate registry",
-            "Income certificate (past 3 years) + tax or taxation certificate",
+            "Income certificate (past 3 years) / (tax payment certificate or taxation certificate)",
             "Emergency contact (free format)"
           ]
         }
       ],
       "notes": [
-        "All documents must be originals dated within the past 3 months.",
-        "Forms must be filled out by the applicant / sponsor themselves.",
+        "All documents must be issued within 3 months of the application date and submitted as originals.",
+        "Forms must be filled out by the applicant or sponsor themselves.",
         "If you want certificates returned, please notify us at the time of application.",
-        "Foreign-language documents must include Japanese translations."
+        "Foreign-language documents must include a Japanese translation."
       ]
     },
     "feesPage": {
