@@ -1402,11 +1402,11 @@
       "applicant": [
         [
           "Application Form",
-          "Official form. Name must match passport exactly"
+          "School-specified form. Write your name exactly as on your passport."
         ],
         [
           "Résumé & Statement of Purpose",
-          "Official form. Fill out full education and work history with no gaps"
+          "School-specified form. Fill out full education and work history with no gaps."
         ],
         [
           "Final Diploma",
@@ -1418,23 +1418,23 @@
         ],
         [
           "Certificate of Enrollment",
-          "Original (if currently enrolled in high school/university)"
+          "Original — only if currently enrolled in high school / university"
         ],
         [
           "Current Transcript",
-          "Original (if currently enrolled in high school/university)"
+          "Original — only if currently enrolled in high school / university"
         ],
         [
-          "Japanese Study Certificate",
-          "Original, demonstrating required level/hours"
+          "Japanese Proficiency Certificate",
+          "Original, meeting the program's requirements"
         ],
         [
           "Passport Copy",
-          "Include entry/exit pages if you have visited Japan"
+          "If you have visited Japan before, also submit the entry/exit pages"
         ],
         [
           "Photos × 8",
-          "4cm × 3cm, taken within 3 months. Write name, nationality, and DOB on the back."
+          "4cm × 3cm, taken within 3 months. Write your name, nationality, and date of birth on the back."
         ]
       ],
       "guarantorTitle": "Financial Sponsor Documents",
