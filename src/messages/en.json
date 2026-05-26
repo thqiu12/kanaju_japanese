@@ -420,15 +420,15 @@
     "facilities": [
       {
         "name": "3 General Classrooms",
-        "desc": "Flexible layout for pair and group work"
+        "desc": "Flexible layout that supports pair work and group work"
       },
       {
         "name": "Self-Study Room",
-        "desc": "Space for outside-of-class learning"
+        "desc": "Dedicated space for self-directed study outside of class"
       },
       {
         "name": "Faculty Office / Admin Office",
-        "desc": "Staff easily accessible day-to-day"
+        "desc": "An environment where students can easily interact with faculty and staff"
       },
       {
         "name": "Student Counseling Room",
@@ -436,11 +436,11 @@
       },
       {
         "name": "Library",
-        "desc": "Japanese-learning materials and general books"
+        "desc": "Extensive collection of Japanese-learning materials and general books"
       },
       {
         "name": "Health Room",
-        "desc": "First-response space for when you're not feeling well"
+        "desc": "Equipped to respond to sudden illness"
       },
       {
         "name": "On-Site Clinic & Acupuncture",
@@ -448,7 +448,7 @@
       },
       {
         "name": "Bike Parking",
-        "desc": "For students who bike to school"
+        "desc": "Bike parking provided for students who commute by bicycle"
       }
     ],
     "neighborhoodTitle": "Around the School",
