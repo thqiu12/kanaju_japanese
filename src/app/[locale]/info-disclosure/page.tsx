@@ -107,6 +107,8 @@ export default async function InfoDisclosurePage({
             <DataTable
               head={curriculum.table.head}
               rows={curriculum.table.rows}
+              nowrapColumns={4}
+              colWidths={["64px", "120px", "88px", "112px"]}
             />
             <p className="mt-6 rounded bg-primary-pale px-5 py-4 text-sm leading-[1.85] text-primary-dark">
               {curriculum.subjects}

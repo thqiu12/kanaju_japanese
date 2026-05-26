@@ -110,12 +110,21 @@ export default async function ProgramsPage({
             </p>
             <div className="mt-10 overflow-x-auto rounded border border-border bg-bg-card">
               <table className="w-full text-sm">
+                <colgroup>
+                  <col className="w-[64px]" />
+                  <col className="w-[120px]" />
+                  <col className="w-[88px]" />
+                  <col className="w-[112px]" />
+                  <col />
+                </colgroup>
                 <thead>
                   <tr className="bg-primary text-white">
-                    {levels.head.map((h) => (
+                    {levels.head.map((h, j) => (
                       <th
                         key={h}
-                        className="border-r border-white/20 px-4 py-3 text-left font-medium last:border-r-0"
+                        className={`border-r border-white/20 px-4 py-3 text-left font-medium last:border-r-0 ${
+                          j < 4 ? "whitespace-nowrap" : ""
+                        }`}
                       >
                         {h}
                       </th>
@@ -134,6 +143,8 @@ export default async function ProgramsPage({
                         <td
                           key={j}
                           className={`border-r border-border px-4 py-3 leading-[1.7] last:border-r-0 ${
+                            j < 4 ? "whitespace-nowrap" : ""
+                          } ${
                             j === 0
                               ? "font-serif text-base font-semibold text-primary-dark"
                               : "text-text"
