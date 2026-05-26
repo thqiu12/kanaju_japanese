@@ -184,20 +184,22 @@ export default async function ProgramsPage({
               {subjects.map((s) => (
                 <article
                   key={s.name}
-                  className="grid gap-5 rounded-lg border border-border bg-bg-card p-7 lg:grid-cols-[1fr_2fr]"
+                  className="rounded-lg border border-border bg-bg-card p-7"
                 >
-                  <header>
-                    <div className="inline-block rounded-full bg-primary px-3 py-1 text-xs font-semibold text-white">
+                  <header className="flex flex-wrap items-center gap-3 border-b border-border pb-4">
+                    <span className="rounded-full bg-primary px-3 py-1 text-xs font-semibold text-white">
                       {s.level}
-                    </div>
-                    <h3 className="mt-3 font-serif text-lg font-semibold text-primary-dark">
+                    </span>
+                    <h3 className="font-serif text-lg font-semibold text-primary-dark">
                       {s.name}
                     </h3>
-                    <div className="mt-2 text-xs text-text-muted">{s.hours}</div>
+                    <span className="ml-auto text-xs text-text-muted">
+                      {s.hours}
+                    </span>
                   </header>
-                  <div>
-                    <p className="text-sm leading-[1.85] text-text">{s.goal}</p>
-                  </div>
+                  <p className="mt-5 text-sm leading-[1.85] text-text">
+                    {s.goal}
+                  </p>
                 </article>
               ))}
             </div>
