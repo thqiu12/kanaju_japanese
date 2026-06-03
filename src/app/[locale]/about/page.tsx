@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
 import SectionLabel from "@/components/SectionLabel";
+import FacultyGrid from "@/components/FacultyGrid";
 
 export async function generateMetadata({
   params,
@@ -22,6 +23,7 @@ export default async function AboutPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("about");
+  const tFaculty = await getTranslations("faculty");
 
   const purposes = t.raw("purposes") as { title: string; items: string[] }[];
   const goals = t.raw("goals") as string[];
@@ -191,8 +193,18 @@ export default async function AboutPage({
         <section id="faculty" className="scroll-mt-24 px-6 py-20 lg:px-8">
           <div className="mx-auto max-w-5xl">
             <h2 className="font-serif text-3xl font-semibold text-primary-dark">
-              {t("facultyTitle")}
+              {tFaculty("introTitle")}
             </h2>
+            <p className="mt-4 max-w-3xl text-base leading-[1.9] text-text-muted">
+              {tFaculty("introLead")}
+            </p>
+            <div className="mt-10">
+              <FacultyGrid />
+            </div>
+
+            <h3 className="mt-16 font-serif text-2xl font-semibold text-primary-dark">
+              {t("facultyTitle")}
+            </h3>
             <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {facultyRows.map(([role, count]) => (
                 <div

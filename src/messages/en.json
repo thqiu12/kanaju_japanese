@@ -18,6 +18,14 @@
     "yen": "JPY",
     "home": "Home"
   },
+  "faculty": {
+    "introTitle": "Meet Our Faculty & Staff",
+    "introLead": "Ahead of opening, our faculty and staff are preparing to support every international student in person.",
+    "roles": {
+      "fulltime": "Full-time Instructor",
+      "admin": "Administrative Office"
+    }
+  },
   "nav": {
     "about": "About",
     "aboutSub": "ABOUT",

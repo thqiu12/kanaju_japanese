@@ -18,6 +18,14 @@
     "yen": "円",
     "home": "ホーム"
   },
+  "faculty": {
+    "introTitle": "教員・スタッフ紹介",
+    "introLead": "開校に向けて、留学生一人ひとりに寄り添う教員・スタッフが準備を進めています。",
+    "roles": {
+      "fulltime": "専任教員",
+      "admin": "総務課"
+    }
+  },
   "nav": {
     "about": "学校紹介",
     "aboutSub": "ABOUT",

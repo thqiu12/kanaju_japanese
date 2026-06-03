@@ -18,6 +18,14 @@
     "yen": "日元",
     "home": "首页"
   },
+  "faculty": {
+    "introTitle": "教师・职员介绍",
+    "introLead": "面向开校，陪伴每一位留学生的教师与职员正在积极筹备。",
+    "roles": {
+      "fulltime": "专任教员",
+      "admin": "总务课"
+    }
+  },
   "nav": {
     "about": "学校介绍",
     "aboutSub": "ABOUT",
