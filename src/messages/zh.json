@@ -21,6 +21,11 @@
   "faculty": {
     "introTitle": "教师・职员介绍",
     "introLead": "面向开校，陪伴每一位留学生的教师与职员正在积极筹备。",
+    "pageTitle": "师资介绍",
+    "pageSubtitle": "为你介绍陪伴每一位留学生的日语学科教师与职员。",
+    "teamTitle": "团队共同支持",
+    "teamLead": "教师与职员相互配合，从学习与生活两方面支持留学生。",
+    "more": "查看师资介绍",
     "roles": {
       "kyomu": "教务主任",
       "fulltime": "专任教员",
@@ -880,7 +885,6 @@
           "我们想邀请的同伴,是把学习者视为「共同成长的伙伴」而非「教学对象」的人。比起经验本身,我们更看重对留学生的真诚态度,以及一起搭建新机制的意愿。如果您愿意和我们一起,把 2026 年 10 月的开校具体落到课堂里、办公室里、走廊里——非常欢迎您的来信。"
         ],
         "messageSignature": "学校法人 平井学园 理事长　薛 伟轩",
-        "messagePhotoCaption": "为开校做准备的教师与职员",
         "interviewPageTitle": "教师访谈",
         "interviewPageLead": "我们会在这里陆续公开一线教师的访谈,围绕教育理念、日常课堂、与学生的互动等真实呈现。",
         "interviewComingSoonTag": "COMING SOON",

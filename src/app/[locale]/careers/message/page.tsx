@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -62,25 +61,7 @@ export default async function CareersMessagePage({
           </div>
         </section>
 
-        <section className="px-6 pt-12 lg:px-8">
-          <figure className="mx-auto max-w-4xl">
-            <div className="relative aspect-[3/2] overflow-hidden rounded-lg">
-              <Image
-                src="/photos/faculty/team.jpg"
-                alt={t("recruit.messagePhotoCaption")}
-                fill
-                priority
-                sizes="(min-width:896px) 896px, 100vw"
-                className="object-cover"
-              />
-            </div>
-            <figcaption className="mt-3 text-center text-xs text-text-light">
-              {t("recruit.messagePhotoCaption")}
-            </figcaption>
-          </figure>
-        </section>
-
-        <section className="px-6 pb-20 pt-12 lg:px-8">
+        <section className="px-6 py-20 lg:px-8">
           <div className="mx-auto max-w-3xl space-y-7">
             {paragraphs.map((p, i) => (
               <p

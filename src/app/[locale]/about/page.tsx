@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
 import SectionLabel from "@/components/SectionLabel";
 import FacultyGrid from "@/components/FacultyGrid";
+import { Link } from "@/i18n/navigation";
 
 export async function generateMetadata({
   params,
@@ -200,6 +201,14 @@ export default async function AboutPage({
             </p>
             <div className="mt-10">
               <FacultyGrid />
+            </div>
+            <div className="mt-8">
+              <Link
+                href="/about/faculty"
+                className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary-pale px-6 py-3 text-sm font-medium text-primary-dark transition-colors hover:bg-primary hover:text-white"
+              >
+                {tFaculty("more")} →
+              </Link>
             </div>
 
             <h3 className="mt-16 font-serif text-2xl font-semibold text-primary-dark">

@@ -6,6 +6,7 @@ import NoticeBar from "@/components/NoticeBar";
 import SectionLabel from "@/components/SectionLabel";
 import CareersNav from "@/components/CareersNav";
 import FacultyGrid from "@/components/FacultyGrid";
+import FacultyTeam from "@/components/FacultyTeam";
 import type { Locale } from "@/i18n/routing";
 import { buildCareersMetadata, breadcrumbsLd } from "@/lib/careers-seo";
 
@@ -74,7 +75,17 @@ export default async function CareersInterviewPage({
               <FacultyGrid />
             </div>
 
-            <div className="mt-12 rounded-lg border border-dashed border-border bg-bg-card p-10 text-center">
+            <h2 className="mt-16 font-serif text-2xl font-semibold text-primary-dark">
+              {tFaculty("teamTitle")}
+            </h2>
+            <p className="mt-4 max-w-2xl text-base leading-[1.9] text-text-muted">
+              {tFaculty("teamLead")}
+            </p>
+            <div className="mt-10">
+              <FacultyTeam />
+            </div>
+
+            <div className="mt-16 rounded-lg border border-dashed border-border bg-bg-card p-10 text-center">
               <span className="inline-block rounded-full bg-primary-pale px-4 py-1.5 text-[11px] font-medium tracking-[0.2em] text-primary-dark">
                 {t("recruit.interviewComingSoonTag")}
               </span>

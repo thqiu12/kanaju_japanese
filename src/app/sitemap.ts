@@ -7,6 +7,7 @@ const SITE_URL = "https://jls.hirai-gakuen.ac.jp";
 const staticRoutes = [
   { path: "", priority: 1.0, freq: "weekly" as const },
   { path: "/about", priority: 0.8, freq: "monthly" as const },
+  { path: "/about/faculty", priority: 0.5, freq: "monthly" as const },
   { path: "/programs", priority: 0.9, freq: "monthly" as const },
   { path: "/campus-life", priority: 0.7, freq: "monthly" as const },
   { path: "/campus-life/neighborhood", priority: 0.4, freq: "monthly" as const },
