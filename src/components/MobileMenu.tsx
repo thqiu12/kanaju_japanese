@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useSyncExternalStore } from "react";
+import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { useLocale } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -11,12 +11,12 @@ export default function MobileMenu({ items }: { items: NavItem[] }) {
   const [open, setOpen] = useState(false);
   const locale = useLocale();
   const pathname = usePathname();
-  // True only after client hydration — guards the portal (no setState-in-effect).
-  const mounted = useSyncExternalStore(
-    () => () => {},
-    () => true,
-    () => false,
-  );
+  // Render the portal only after client mount (createPortal needs document).
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
 
   // Lock body scroll while open
   useEffect(() => {

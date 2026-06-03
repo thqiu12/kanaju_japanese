@@ -29,8 +29,10 @@ export function pageAlternates(locale: Locale, path: string) {
   for (const l of routing.locales) {
     languages[ALT_LANG_MAP[l]] = `${SITE_URL}/${l}${path}`;
   }
-  // x-default points to the Japanese version (master locale)
-  languages["x-default"] = `${SITE_URL}/ja${path}`;
+  // x-default points to the English version: the prospective audience is
+  // international students, so English is the most accessible fallback for
+  // visitors whose language doesn't match a specific alternate.
+  languages["x-default"] = `${SITE_URL}/en${path}`;
   return {
     canonical: `${SITE_URL}/${locale}${path}`,
     languages,
@@ -96,11 +98,12 @@ export function websiteLd(siteTitle: string, description: string) {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": `${SITE_URL}/#website`,
     name: siteTitle,
     description,
     url: SITE_URL,
     inLanguage: ["ja", "zh-CN", "en", "ne"],
-    publisher: { "@type": "EducationalOrganization", name: siteTitle },
+    publisher: { "@id": `${SITE_URL}/#organization` },
   };
 }
 
@@ -109,6 +112,7 @@ export function organizationLd(siteTitle: string, address: string) {
   return {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
+    "@id": `${SITE_URL}/#organization`,
     name: siteTitle,
     legalName: "学校法人 平井学園",
     url: SITE_URL,

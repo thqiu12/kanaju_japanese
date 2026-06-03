@@ -73,6 +73,7 @@ export async function generateMetadata({
         "zh-CN": "/zh",
         en: "/en",
         ne: "/ne",
+        "x-default": "/en",
       },
     },
     openGraph: {
