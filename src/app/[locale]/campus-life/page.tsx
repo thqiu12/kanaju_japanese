@@ -33,10 +33,10 @@ export default async function CampusLifePage({
     caption: string;
   }[];
   const neighborhoodFiles = [
-    "/photos/neighborhood/station-north.jpg",
     "/photos/neighborhood/station-south.jpg",
     "/photos/neighborhood/station-rotary.jpg",
-    "/photos/neighborhood/station-train.jpg",
+    "/photos/neighborhood/thousand-road.jpg",
+    "/photos/neighborhood/station-street.jpg",
     "/photos/neighborhood/shopping-street.jpg",
     "/photos/neighborhood/local-shops.jpg",
   ];
