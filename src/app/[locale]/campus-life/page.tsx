@@ -49,7 +49,7 @@ export default async function CampusLifePage({
         {/* Hero */}
         <section className="relative h-[420px] overflow-hidden bg-black">
           <Image
-            src="/photos/entrance-ceremony.jpg"
+            src="/photos/classroom-3.jpg"
             alt=""
             fill
             priority
