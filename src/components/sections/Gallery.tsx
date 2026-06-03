@@ -32,7 +32,7 @@ export default async function Gallery() {
         </p>
 
         <div className="mt-12 grid h-auto gap-3 lg:h-[520px] lg:grid-cols-[2fr_1fr_1fr] lg:grid-rows-2">
-          {tiles.map((tile, i) => (
+          {tiles.map((tile) => (
             <div
               key={tile.src}
               className={`relative h-[200px] overflow-hidden rounded ${

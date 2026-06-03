@@ -15,7 +15,7 @@ export default async function CTA() {
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/40 transition-all hover:-translate-y-0.5 hover:bg-[#C56544]"
+            className="inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/40 transition-all hover:-translate-y-0.5 hover:bg-accent-warm-dark"
           >
             {t("cta.primary")} →
           </Link>

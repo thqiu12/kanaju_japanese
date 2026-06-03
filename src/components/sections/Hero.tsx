@@ -51,7 +51,7 @@ export default async function Hero() {
         <div className="mt-10 flex flex-wrap gap-4">
           <Link
             href="/admissions"
-            className="inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/35 transition-all hover:-translate-y-0.5 hover:bg-[#C56544]"
+            className="inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/35 transition-all hover:-translate-y-0.5 hover:bg-accent-warm-dark"
           >
             {t("hero.ctaPrimary")} →
           </Link>
@@ -62,6 +62,10 @@ export default async function Hero() {
             {t("hero.ctaSecondary")}
           </Link>
         </div>
+        <p className="mt-5 flex items-center gap-2 text-xs tracking-wide text-white/80">
+          <span className="block h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+          {t("hero.ctaNote")}
+        </p>
       </div>
 
       <div className="absolute bottom-8 left-1/2 z-[2] -translate-x-1/2 text-center text-[11px] tracking-[0.3em] text-white/90">

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import type { Locale } from "@/i18n/routing";
+import { buildPageMetadata } from "@/lib/seo";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
@@ -11,7 +13,7 @@ export async function generateMetadata({
 }: PageProps<"/[locale]/faq">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "contact.faq" });
-  return { title: t("title"), description: t("subtitle") };
+  return buildPageMetadata({ locale: locale as Locale, path: "/faq", title: t("title"), description: t("subtitle") });
 }
 
 type Item = { q: string; a: string };
@@ -100,7 +102,7 @@ export default async function FaqPage({
             </p>
             <Link
               href="/contact"
-              className="mt-8 inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/30 transition-all hover:-translate-y-0.5 hover:bg-[#C56544]"
+              className="mt-8 inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/30 transition-all hover:-translate-y-0.5 hover:bg-accent-warm-dark"
             >
               {t("ctaButton")} →
             </Link>

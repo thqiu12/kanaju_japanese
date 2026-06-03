@@ -22,7 +22,7 @@ export default function NewsCard({
   return (
     <Link
       href={`/news/${news.slug}` as never}
-      className="group block overflow-hidden rounded-lg border border-border bg-bg-card transition-all hover:-translate-y-0.5 hover:border-primary hover:shadow-[0_8px_24px_rgba(14,160,130,0.1)]"
+      className="group block overflow-hidden rounded-lg border border-border bg-bg-card transition-all hover:-translate-y-0.5 hover:border-primary hover:shadow-[0_12px_32px_rgba(14,160,130,0.12)]"
     >
       <article className="flex h-full flex-col p-6">
         <div className="flex items-center justify-between text-xs">

@@ -40,7 +40,7 @@ export default async function Programs() {
           {items.map((item) => (
             <article
               key={item.month}
-              className="overflow-hidden rounded-lg border border-border bg-bg-card transition-all hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(14,160,130,0.12)]"
+              className="overflow-hidden rounded-lg border border-border bg-bg-card transition-all hover:-translate-y-1 hover:shadow-[0_12px_32px_rgba(14,160,130,0.12)]"
             >
               <div className="bg-primary-dark p-7 text-white">
                 <div className="text-[11px] tracking-[0.2em] text-white/70">

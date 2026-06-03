@@ -6,7 +6,8 @@ import NoticeBar from "@/components/NoticeBar";
 import NewsCard from "@/components/NewsCard";
 import PageHero from "@/components/PageHero";
 import { fetchNewsList } from "@/lib/news";
-import { routing } from "@/i18n/routing";
+import { routing, type Locale } from "@/i18n/routing";
+import { buildPageMetadata } from "@/lib/seo";
 
 export const revalidate = 300; // ISR — revalidate every 5 minutes
 
@@ -15,7 +16,7 @@ export async function generateMetadata({
 }: PageProps<"/[locale]/news">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "news" });
-  return { title: t("title"), description: t("subtitle") };
+  return buildPageMetadata({ locale: locale as Locale, path: "/news", title: t("title"), description: t("subtitle") });
 }
 
 export default async function NewsIndexPage({

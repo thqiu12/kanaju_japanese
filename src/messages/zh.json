@@ -64,6 +64,7 @@
     "sub": "从神奈川相模原出发，陪你走完专门学校升学到日本就业的每一步。\n作为文部科学省的认定日语教育机构，拥有 20 年以上办学历史的学校法人，会用心支持每一位留学生迈出「下一步」。",
     "ctaPrimary": "查看入学指南",
     "ctaSecondary": "三大升学课程",
+    "ctaNote": "每年4月・7月・10月三次入学｜各课程名额有限，建议尽早咨询。",
     "certMarkTitle": "文部科学省",
     "certMarkSubtitle": "认定日语教育机构",
     "certMarkEn": "Nationally Accredited · Study in Japan",
@@ -475,7 +476,7 @@
     "neighborhoodPhotos": [
       { "caption": "小田急相模原站 南口" },
       { "caption": "站前广场" },
-      { "caption": "サウザンロード商店街" },
+      { "caption": "千道商店街" },
       { "caption": "站前街景" },
       { "caption": "站前商店街" },
       { "caption": "周边的商店" }

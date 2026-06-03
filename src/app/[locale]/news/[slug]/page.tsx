@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
@@ -6,7 +7,8 @@ import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
 import { Link } from "@/i18n/navigation";
 import { fetchNewsBySlug, fetchAllNewsSlugs, formatNewsDate } from "@/lib/news";
-import { routing } from "@/i18n/routing";
+import { routing, type Locale } from "@/i18n/routing";
+import { buildPageMetadata } from "@/lib/seo";
 
 export const revalidate = 300;
 
@@ -28,10 +30,13 @@ export async function generateMetadata({
       : routing.defaultLocale,
   );
   if (!news) return { title: "Not Found" };
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
+    path: `/news/${slug}`,
     title: news.title,
     description: news.title,
-  };
+    image: news.thumbnail?.url,
+  });
 }
 
 export default async function NewsDetailPage({
@@ -90,10 +95,12 @@ export default async function NewsDetailPage({
 
           {news.thumbnail && (
             <div className="mt-8 overflow-hidden rounded-lg">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src={news.thumbnail.url}
-                alt=""
+                alt={news.title}
+                width={news.thumbnail.width ?? 1200}
+                height={news.thumbnail.height ?? 675}
+                sizes="(min-width: 768px) 768px, 100vw"
                 className="h-auto w-full"
               />
             </div>

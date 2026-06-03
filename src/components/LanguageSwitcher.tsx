@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useTransition } from "react";
+import { useState, useTransition } from "react";
 import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import {
@@ -16,10 +16,6 @@ export default function LanguageSwitcher() {
   const pathname = usePathname();
   const [isPending, startTransition] = useTransition();
   const [pendingLocale, setPendingLocale] = useState<Locale | null>(null);
-
-  useEffect(() => {
-    if (!isPending) setPendingLocale(null);
-  }, [isPending]);
 
   const switchLocale = (next: Locale) => {
     if (next === locale || isPending) return;
@@ -38,7 +34,7 @@ export default function LanguageSwitcher() {
     >
       {routing.locales.map((code) => {
         const active = code === locale;
-        const loading = pendingLocale === code;
+        const loading = isPending && pendingLocale === code;
         return (
           <button
             key={code}

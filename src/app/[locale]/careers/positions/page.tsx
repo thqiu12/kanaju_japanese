@@ -191,7 +191,7 @@ export default async function CareersPositionsPage({
             <div className="mt-10 text-center">
               <Link
                 href="/careers/entry"
-                className="inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium text-white tracking-wide shadow-lg shadow-accent-warm/30 transition-all hover:-translate-y-0.5 hover:bg-[#C56544]"
+                className="inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium text-white tracking-wide shadow-lg shadow-accent-warm/30 transition-all hover:-translate-y-0.5 hover:bg-accent-warm-dark"
               >
                 {t("recruit.navEntry")} →
               </Link>

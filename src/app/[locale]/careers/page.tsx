@@ -140,7 +140,7 @@ export default async function CareersHubPage({
             </p>
             <Link
               href="/careers/entry"
-              className="mt-8 inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/30 transition-all hover:-translate-y-0.5 hover:bg-[#C56544]"
+              className="mt-8 inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/30 transition-all hover:-translate-y-0.5 hover:bg-accent-warm-dark"
             >
               {t("recruit.navEntry")} →
             </Link>

@@ -45,7 +45,7 @@ export default function ApplyByEmailButton({
       type="button"
       onClick={handleClick}
       aria-live="polite"
-      className="mt-8 inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/30 transition-all hover:-translate-y-0.5 hover:bg-[#C56544]"
+      className="mt-8 inline-flex items-center gap-2 rounded bg-accent-warm px-8 py-4 text-sm font-medium tracking-wide shadow-lg shadow-accent-warm/30 transition-all hover:-translate-y-0.5 hover:bg-accent-warm-dark"
     >
       {copied ? (
         <>

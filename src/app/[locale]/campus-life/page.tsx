@@ -1,18 +1,25 @@
 import type { Metadata } from "next";
+import type { Locale } from "@/i18n/routing";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
-import SectionLabel from "@/components/SectionLabel";
+import PageHero from "@/components/PageHero";
 import { Link } from "@/i18n/navigation";
+import { buildPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
 }: PageProps<"/[locale]/campus-life">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "campusLife" });
-  return { title: t("title"), description: t("subtitle") };
+  return buildPageMetadata({
+    locale: locale as Locale,
+    path: "/campus-life",
+    title: t("title"),
+    description: t("subtitle"),
+  });
 }
 
 export default async function CampusLifePage({
@@ -48,26 +55,12 @@ export default async function CampusLifePage({
       <NoticeBar />
       <main className="flex-1 bg-bg">
         {/* Hero */}
-        <section className="relative h-[420px] overflow-hidden bg-black">
-          <Image
-            src="/photos/classroom-3.jpg"
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover brightness-[0.55]"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-primary-dark/40 to-primary-dark/85" />
-          <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col justify-center px-6 lg:px-8">
-            <SectionLabel label="CAMPUS LIFE" variant="light" />
-            <h1 className="mt-4 font-serif text-4xl font-semibold text-white lg:text-5xl">
-              {t("title")}
-            </h1>
-            <p className="mt-4 max-w-3xl text-base text-white/85 lg:text-lg">
-              {t("subtitle")}
-            </p>
-          </div>
-        </section>
+        <PageHero
+          label="CAMPUS LIFE"
+          title={t("title")}
+          subtitle={t("subtitle")}
+          image="/photos/classroom-3.jpg"
+        />
 
         {/* Annual events / 4 seasons */}
         <section className="px-6 py-20 lg:px-8">
@@ -83,7 +76,7 @@ export default async function CampusLifePage({
               {seasons.map((s) => (
                 <div
                   key={s.season}
-                  className="relative overflow-hidden rounded-lg border border-border bg-gradient-to-br from-primary-pale to-bg-card p-7 transition-shadow hover:shadow-[0_8px_24px_rgba(14,160,130,0.1)]"
+                  className="relative overflow-hidden rounded-lg border border-border bg-gradient-to-br from-primary-pale to-bg-card p-7 transition-shadow hover:shadow-[0_12px_32px_rgba(14,160,130,0.12)]"
                 >
                   <div className="text-xs uppercase tracking-[0.3em] text-primary">
                     {s.title}
@@ -148,7 +141,7 @@ export default async function CampusLifePage({
               {support.map((s) => (
                 <div
                   key={s.title}
-                  className="rounded-lg border border-border bg-bg-card p-6 transition-all hover:border-primary hover:shadow-[0_8px_24px_rgba(14,160,130,0.1)]"
+                  className="rounded-lg border border-border bg-bg-card p-6 transition-all hover:border-primary hover:shadow-[0_12px_32px_rgba(14,160,130,0.12)]"
                 >
                   <h3 className="flex items-center gap-3 text-base font-semibold text-primary-dark before:block before:h-px before:w-6 before:bg-primary">
                     {s.title}

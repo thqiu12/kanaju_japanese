@@ -1,4 +1,4 @@
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
@@ -14,6 +14,8 @@ import Access from "@/components/sections/Access";
 import CTA from "@/components/sections/CTA";
 import NewsHome from "@/components/sections/NewsHome";
 import { routing } from "@/i18n/routing";
+import { organizationLd } from "@/lib/careers-seo";
+import { websiteLd } from "@/lib/seo";
 
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
@@ -22,8 +24,21 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
     ? (locale as (typeof routing.locales)[number])
     : routing.defaultLocale;
 
+  const tMeta = await getTranslations("meta");
+  const tCommon = await getTranslations("common");
+  const orgLd = organizationLd(tMeta("siteTitle"), tCommon("address"));
+  const siteLd = websiteLd(tMeta("siteTitle"), tMeta("siteDescription"));
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(siteLd) }}
+      />
       <Header />
       <NoticeBar />
       <main className="flex-1">

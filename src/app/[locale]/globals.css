@@ -10,6 +10,7 @@
   /* Warm CTA / accents */
   --color-accent: #c9a55c;
   --color-accent-warm: #d97757;
+  --color-accent-warm-dark: #c56544;
   --color-gold: #ffd879;
   /* Cert mark reserved */
   --color-cert-red: #992d2d;
@@ -31,6 +32,7 @@
   --color-primary-pale: var(--color-primary-pale);
   --color-accent: var(--color-accent);
   --color-accent-warm: var(--color-accent-warm);
+  --color-accent-warm-dark: var(--color-accent-warm-dark);
   --color-gold: var(--color-gold);
   --color-cert-red: var(--color-cert-red);
   --color-bg: var(--color-bg);
@@ -49,6 +51,20 @@
 
 * {
   box-sizing: border-box;
+}
+
+/* Keyboard focus ring — visible for tab navigation, suppressed for mouse
+   (focus-visible). Applies site-wide to links, buttons and form controls. */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
 /* Note: scroll-behavior intentionally omitted on html — Next.js App Router

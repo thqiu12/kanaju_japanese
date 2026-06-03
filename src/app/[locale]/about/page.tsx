@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { Locale } from "@/i18n/routing";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import Header from "@/components/Header";
@@ -6,14 +7,21 @@ import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
 import SectionLabel from "@/components/SectionLabel";
 import FacultyGrid from "@/components/FacultyGrid";
+import PageHero from "@/components/PageHero";
 import { Link } from "@/i18n/navigation";
+import { buildPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
 }: PageProps<"/[locale]/about">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "about" });
-  return { title: t("title"), description: t("subtitle") };
+  return buildPageMetadata({
+    locale: locale as Locale,
+    path: "/about",
+    title: t("title"),
+    description: t("subtitle"),
+  });
 }
 
 type Row = [string, string];
@@ -39,26 +47,12 @@ export default async function AboutPage({
       <NoticeBar />
       <main className="flex-1 bg-bg">
         {/* Hero */}
-        <section className="relative h-[420px] overflow-hidden bg-black">
-          <Image
-            src="/photos/principal-speech.jpg"
-            alt=""
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover brightness-50"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-primary-dark/40 to-primary-dark/80" />
-          <div className="relative z-10 mx-auto flex h-full max-w-6xl flex-col justify-center px-6 lg:px-8">
-            <SectionLabel label="ABOUT" variant="light" />
-            <h1 className="mt-4 font-serif text-4xl font-semibold text-white lg:text-5xl">
-              {t("title")}
-            </h1>
-            <p className="mt-4 max-w-2xl text-base text-white/85 lg:text-lg">
-              {t("subtitle")}
-            </p>
-          </div>
-        </section>
+        <PageHero
+          label="ABOUT"
+          title={t("title")}
+          subtitle={t("subtitle")}
+          image="/photos/principal-speech.jpg"
+        />
 
         {/* Philosophy */}
         <section id="philosophy" className="scroll-mt-24 px-6 py-20 lg:px-8">

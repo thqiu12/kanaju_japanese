@@ -1,26 +1,21 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import { useLocale } from "next-intl";
-import { Link, usePathname } from "@/i18n/navigation";
+import { Link } from "@/i18n/navigation";
 
 type NavItem = { href: string; label: string; sub: string };
 
 export default function MobileMenu({ items }: { items: NavItem[] }) {
   const [open, setOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
-  const pathname = usePathname();
   const locale = useLocale();
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  // Close on route change
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
+  // True only after client hydration — guards the portal (no setState-in-effect).
+  const mounted = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
 
   // Lock body scroll while open
   useEffect(() => {
@@ -101,6 +96,7 @@ export default function MobileMenu({ items }: { items: NavItem[] }) {
                       <Link
                         // eslint-disable-next-line @typescript-eslint/no-explicit-any
                         href={item.href as any}
+                        onClick={() => setOpen(false)}
                         className="block rounded px-4 py-3 transition-colors hover:bg-primary-pale"
                       >
                         <span className="block text-base font-medium text-primary-dark">
