@@ -36,6 +36,9 @@ export default async function CampusLifePage({
     "/photos/neighborhood/station-north.jpg",
     "/photos/neighborhood/station-south.jpg",
     "/photos/neighborhood/station-rotary.jpg",
+    "/photos/neighborhood/station-train.jpg",
+    "/photos/neighborhood/shopping-street.jpg",
+    "/photos/neighborhood/local-shops.jpg",
   ];
 
   return (

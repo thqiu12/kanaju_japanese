@@ -464,7 +464,10 @@
     "neighborhoodPhotos": [
       { "caption": "小田急相模原駅 北口" },
       { "caption": "小田急相模原駅 南口" },
-      { "caption": "駅前ロータリー" }
+      { "caption": "駅前ロータリー" },
+      { "caption": "小田急小田原線" },
+      { "caption": "駅前の商店街" },
+      { "caption": "周辺の商店" }
     ]
   },
   "programsPage": {

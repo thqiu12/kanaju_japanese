@@ -464,7 +464,10 @@
     "neighborhoodPhotos": [
       { "caption": "小田急相模原站 北口" },
       { "caption": "小田急相模原站 南口" },
-      { "caption": "站前广场" }
+      { "caption": "站前广场" },
+      { "caption": "小田急小田原线" },
+      { "caption": "站前商店街" },
+      { "caption": "周边的商店" }
     ]
   },
   "programsPage": {
