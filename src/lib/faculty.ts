@@ -19,4 +19,5 @@ export const FACULTY: FacultyMember[] = [
   { photo: "/photos/faculty/sato.jpg", name: "佐藤 先生", roleKey: "kyomu" },
   { photo: "/photos/faculty/koyama.jpg", name: "小山 先生", roleKey: "fulltime" },
   { photo: "/photos/faculty/matsui.jpg", name: "松井 さん", roleKey: "admin" },
+  { photo: "/photos/faculty/morooka.jpg", name: "師岡 さん", roleKey: "admin" },
 ];

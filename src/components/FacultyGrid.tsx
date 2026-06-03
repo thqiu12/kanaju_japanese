@@ -10,7 +10,7 @@ import { FACULTY } from "@/lib/faculty";
 export default async function FacultyGrid() {
   const t = await getTranslations("faculty");
   return (
-    <div className="grid gap-5 sm:grid-cols-3">
+    <div className="grid grid-cols-2 gap-5 lg:grid-cols-4">
       {FACULTY.map((m) => (
         <figure
           key={m.photo}
