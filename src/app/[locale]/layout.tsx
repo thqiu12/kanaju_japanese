@@ -82,9 +82,9 @@ export async function generateMetadata({
       type: "website",
       images: [
         {
-          url: "/photos/building-exterior.jpg",
-          width: 1200,
-          height: 630,
+          url: "/photos/building-exterior-2.jpg",
+          width: 1920,
+          height: 1280,
           alt: t("siteTitle"),
         },
       ],
@@ -93,7 +93,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: t("siteTitle"),
       description: t("siteDescription"),
-      images: ["/photos/building-exterior.jpg"],
+      images: ["/photos/building-exterior-2.jpg"],
     },
   };
 }

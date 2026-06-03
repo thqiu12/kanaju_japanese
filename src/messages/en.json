@@ -453,24 +453,10 @@
     "neighborhoodTitle": "Around the School",
     "neighborhoodIntro": "The nearest station is Odakyū-Sagamihara on the Odakyū Odawara Line — about 45 minutes to Shinjuku, excellent access. The campus is a 7-minute walk from the station, and the area around both the station and the school is packed with supermarkets, convenience stores, restaurants, pharmacies, banks and the post office — everything an international student needs day-to-day, all within walking distance.",
     "neighborhoodPhotos": [
-      {
-        "caption": "Odakyū-Sagamihara Station — North entrance",
-        "author": "Nyao148",
-        "license": "CC BY-SA 3.0"
-      },
-      {
-        "caption": "Odakyū-Sagamihara Station — South entrance",
-        "author": "Nyao148",
-        "license": "CC BY-SA 3.0"
-      },
-      {
-        "caption": "Station-front rotary",
-        "author": "Canola Oil (キャノーラ油)",
-        "license": "CC BY-SA 4.0"
-      }
-    ],
-    "neighborhoodCreditPrefix": "Photo",
-    "neighborhoodCreditNote": "Neighborhood photos are reused from Wikimedia Commons under the licenses noted on each image."
+      { "caption": "Odakyū-Sagamihara Station — North entrance" },
+      { "caption": "Odakyū-Sagamihara Station — South entrance" },
+      { "caption": "Station-front rotary" }
+    ]
   },
   "programsPage": {
     "title": "Programs & Curriculum",

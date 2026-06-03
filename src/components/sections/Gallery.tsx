@@ -16,7 +16,7 @@ export default async function Gallery() {
     { src: "/photos/entrance-ceremony.jpg", caption: captions.ceremony, big: true },
     { src: "/photos/interview-practice.jpg", caption: captions.interview },
     { src: "/photos/admission-day.jpg", caption: captions.admission },
-    { src: "/photos/building-exterior-2.jpg", caption: captions.classroom },
+    { src: "/photos/classroom-2.jpg", caption: captions.classroom },
     { src: "/photos/building-entrance.jpg", caption: captions.entrance },
   ];
 

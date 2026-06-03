@@ -453,24 +453,10 @@
     "neighborhoodTitle": "周边环境",
     "neighborhoodIntro": "最近车站为小田急小田原线「小田急相模原站」，前往新宿约 45 分钟，交通便利。从车站步行 7 分钟即可到达学校，车站前及学校周边的超市、便利店、餐饮、药店、银行、邮局等留学生日常所需一应俱全，全部都在步行可达范围内。",
     "neighborhoodPhotos": [
-      {
-        "caption": "小田急相模原站 北口",
-        "author": "Nyao148",
-        "license": "CC BY-SA 3.0"
-      },
-      {
-        "caption": "小田急相模原站 南口",
-        "author": "Nyao148",
-        "license": "CC BY-SA 3.0"
-      },
-      {
-        "caption": "站前广场",
-        "author": "キャノーラ油",
-        "license": "CC BY-SA 4.0"
-      }
-    ],
-    "neighborhoodCreditPrefix": "摄影",
-    "neighborhoodCreditNote": "周边照片来自 Wikimedia Commons。"
+      { "caption": "小田急相模原站 北口" },
+      { "caption": "小田急相模原站 南口" },
+      { "caption": "站前广场" }
+    ]
   },
   "programsPage": {
     "title": "课程・教学大纲",

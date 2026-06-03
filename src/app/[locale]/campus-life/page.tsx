@@ -31,8 +31,6 @@ export default async function CampusLifePage({
   const facilities = t.raw("facilities") as { name: string; desc: string }[];
   const neighborhoodPhotos = t.raw("neighborhoodPhotos") as {
     caption: string;
-    author: string;
-    license: string;
   }[];
   const neighborhoodFiles = [
     "/photos/neighborhood/station-north.jpg",
@@ -190,7 +188,7 @@ export default async function CampusLifePage({
               <div className="space-y-3">
                 <div className="relative h-[220px] overflow-hidden rounded-lg">
                   <Image
-                    src="/photos/building-exterior.jpg"
+                    src="/photos/classroom-2.jpg"
                     alt=""
                     fill
                     sizes="(min-width:1024px) 33vw, 100vw"
@@ -199,7 +197,7 @@ export default async function CampusLifePage({
                 </div>
                 <div className="relative h-[220px] overflow-hidden rounded-lg">
                   <Image
-                    src="/photos/dojo.jpg"
+                    src="/photos/library.jpg"
                     alt=""
                     fill
                     sizes="(min-width:1024px) 33vw, 100vw"
@@ -236,20 +234,14 @@ export default async function CampusLifePage({
                       className="object-cover"
                     />
                   </div>
-                  <figcaption className="space-y-1 px-5 py-4">
+                  <figcaption className="px-5 py-4">
                     <div className="text-sm font-medium text-primary-dark">
                       {p.caption}
-                    </div>
-                    <div className="text-[11px] text-text-light">
-                      {t("neighborhoodCreditPrefix")}: {p.author} · {p.license}
                     </div>
                   </figcaption>
                 </figure>
               ))}
             </div>
-            <p className="mt-6 text-[11px] text-text-light">
-              {t("neighborhoodCreditNote")}
-            </p>
           </div>
         </section>
       </main>

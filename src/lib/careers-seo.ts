@@ -81,9 +81,9 @@ export function buildCareersMetadata({
       type: "website",
       images: [
         {
-          url: "/photos/building-exterior.jpg",
-          width: 1200,
-          height: 630,
+          url: "/photos/building-exterior-2.jpg",
+          width: 1920,
+          height: 1280,
           alt: siteTitle,
         },
       ],
@@ -92,7 +92,7 @@ export function buildCareersMetadata({
       card: "summary_large_image",
       title: fullTitle,
       description,
-      images: ["/photos/building-exterior.jpg"],
+      images: ["/photos/building-exterior-2.jpg"],
     },
   };
 }
