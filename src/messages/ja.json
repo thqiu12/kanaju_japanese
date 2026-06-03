@@ -461,6 +461,12 @@
     ],
     "neighborhoodTitle": "周辺環境",
     "neighborhoodIntro": "最寄りは小田急小田原線「小田急相模原駅」新宿まで約45分と好アクセス。駅から徒歩7分の好立地で、駅前や学校周辺にはスーパー・コンビニ・飲食店・薬局・銀行・郵便局など、留学生の生活に必要なものがすべて徒歩圏内に揃っています。",
+    "neighborhoodMore": "周辺環境をもっと見る",
+    "nbGalleryTitle": "周辺環境ギャラリー",
+    "nbGallerySubtitle": "小田急相模原駅と学校周辺の街並みを写真でご紹介します。",
+    "nbStationTitle": "駅・駅周辺",
+    "nbAreaTitle": "学校周辺の街並み",
+    "nbBack": "学生生活へ戻る",
     "neighborhoodPhotos": [
       { "caption": "小田急相模原駅 南口" },
       { "caption": "駅前ロータリー" },

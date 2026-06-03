@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
 import SectionLabel from "@/components/SectionLabel";
+import { Link } from "@/i18n/navigation";
 
 export async function generateMetadata({
   params,
@@ -244,6 +245,15 @@ export default async function CampusLifePage({
                   </figcaption>
                 </figure>
               ))}
+            </div>
+
+            <div className="mt-10">
+              <Link
+                href="/campus-life/neighborhood"
+                className="inline-flex items-center gap-2 rounded-full border border-primary/40 bg-primary-pale px-6 py-3 text-sm font-medium text-primary-dark transition-colors hover:bg-primary hover:text-white"
+              >
+                {t("neighborhoodMore")} →
+              </Link>
             </div>
           </div>
         </section>

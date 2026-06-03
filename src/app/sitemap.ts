@@ -9,6 +9,7 @@ const staticRoutes = [
   { path: "/about", priority: 0.8, freq: "monthly" as const },
   { path: "/programs", priority: 0.9, freq: "monthly" as const },
   { path: "/campus-life", priority: 0.7, freq: "monthly" as const },
+  { path: "/campus-life/neighborhood", priority: 0.4, freq: "monthly" as const },
   { path: "/admissions", priority: 0.9, freq: "monthly" as const },
   { path: "/faq", priority: 0.6, freq: "monthly" as const },
   { path: "/news", priority: 0.7, freq: "weekly" as const },
