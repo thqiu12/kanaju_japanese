@@ -22,7 +22,7 @@ export default async function FacultyGrid() {
               alt={m.name}
               fill
               sizes="(min-width:640px) 33vw, 100vw"
-              className="object-cover object-top"
+              className="object-cover"
             />
           </div>
           <figcaption className="px-5 py-4">
