@@ -3,13 +3,14 @@
 import { useEffect, useState, useSyncExternalStore } from "react";
 import { createPortal } from "react-dom";
 import { useLocale } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 
 type NavItem = { href: string; label: string; sub: string };
 
 export default function MobileMenu({ items }: { items: NavItem[] }) {
   const [open, setOpen] = useState(false);
   const locale = useLocale();
+  const pathname = usePathname();
   // True only after client hydration — guards the portal (no setState-in-effect).
   const mounted = useSyncExternalStore(
     () => () => {},
@@ -28,18 +29,22 @@ export default function MobileMenu({ items }: { items: NavItem[] }) {
     }
   }, [open]);
 
-  // Close on Escape or browser navigation (back/forward)
+  // Close on Escape
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
-    const onPop = () => setOpen(false);
     window.addEventListener("keydown", onKey);
-    window.addEventListener("popstate", onPop);
-    return () => {
-      window.removeEventListener("keydown", onKey);
-      window.removeEventListener("popstate", onPop);
-    };
+    return () => window.removeEventListener("keydown", onKey);
   }, [open]);
+
+  // Close on any route change — covers in-menu link clicks, programmatic
+  // router.push, locale switching, redirects and browser back/forward.
+  // Reacting to the URL is a deliberate sync with an external system (the
+  // router), so the set-state-in-effect heuristic is intentionally suppressed.
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setOpen(false);
+  }, [pathname, locale]);
 
   return (
     <>

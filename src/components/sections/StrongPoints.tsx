@@ -40,7 +40,7 @@ export default async function StrongPoints() {
                   {isCert ? (
                     <Image
                       src="/cert/mark-symbol.png"
-                      alt=""
+                      alt={t("noticeBar.tag")}
                       width={48}
                       height={48}
                       className="h-full w-full object-contain"

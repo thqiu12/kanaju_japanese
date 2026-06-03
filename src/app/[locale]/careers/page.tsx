@@ -10,9 +10,8 @@ import type { Locale } from "@/i18n/routing";
 import {
   buildCareersMetadata,
   breadcrumbsLd,
-  organizationLd,
 } from "@/lib/careers-seo";
-import { jsonLdScript } from "@/lib/seo";
+import { jsonLdScript, organizationLd } from "@/lib/seo";
 
 export async function generateMetadata({
   params,

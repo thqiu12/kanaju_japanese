@@ -93,18 +93,30 @@ export default async function NewsDetailPage({
             </h1>
           </header>
 
-          {news.thumbnail && (
-            <div className="mt-8 overflow-hidden rounded-lg">
-              <Image
-                src={news.thumbnail.url}
-                alt={news.title}
-                width={news.thumbnail.width ?? 1200}
-                height={news.thumbnail.height ?? 675}
-                sizes="(min-width: 768px) 768px, 100vw"
-                className="h-auto w-full"
-              />
-            </div>
-          )}
+          {news.thumbnail &&
+            (news.thumbnail.width && news.thumbnail.height ? (
+              <div className="mt-8 overflow-hidden rounded-lg">
+                <Image
+                  src={news.thumbnail.url}
+                  alt={news.title}
+                  width={news.thumbnail.width}
+                  height={news.thumbnail.height}
+                  sizes="(min-width: 768px) 768px, 100vw"
+                  className="h-auto w-full"
+                />
+              </div>
+            ) : (
+              // Unknown dimensions: don't assert an aspect ratio — render the
+              // source image as-is rather than forcing a guessed 16:9 box.
+              <div className="mt-8 overflow-hidden rounded-lg">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={news.thumbnail.url}
+                  alt={news.title}
+                  className="h-auto w-full"
+                />
+              </div>
+            ))}
 
           <div
             className="news-content mt-10 leading-[1.95] text-text"

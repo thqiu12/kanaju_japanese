@@ -14,8 +14,7 @@ import Access from "@/components/sections/Access";
 import CTA from "@/components/sections/CTA";
 import NewsHome from "@/components/sections/NewsHome";
 import { routing } from "@/i18n/routing";
-import { organizationLd } from "@/lib/careers-seo";
-import { websiteLd, jsonLdScript } from "@/lib/seo";
+import { websiteLd, jsonLdScript, organizationLd } from "@/lib/seo";
 
 export default async function HomePage({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;

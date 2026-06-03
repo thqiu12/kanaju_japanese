@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { routing, type Locale } from "@/i18n/routing";
 
-const SITE_URL = "https://jls.hirai-gakuen.ac.jp";
+export const SITE_URL = "https://jls.hirai-gakuen.ac.jp";
 
-const OG_LOCALE: Record<Locale, string> = {
+export const OG_LOCALE: Record<Locale, string> = {
   ja: "ja_JP",
   zh: "zh_CN",
   en: "en_US",
@@ -101,5 +101,26 @@ export function websiteLd(siteTitle: string, description: string) {
     url: SITE_URL,
     inLanguage: ["ja", "zh-CN", "en", "ne"],
     publisher: { "@type": "EducationalOrganization", name: siteTitle },
+  };
+}
+
+/** Site-wide EducationalOrganization JSON-LD (used on the home page). */
+export function organizationLd(siteTitle: string, address: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    name: siteTitle,
+    legalName: "学校法人 平井学園",
+    url: SITE_URL,
+    logo: `${SITE_URL}/cert/mark-full.jpg`,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: address,
+      addressLocality: "Sagamihara",
+      addressRegion: "Kanagawa",
+      postalCode: "252-0313",
+      addressCountry: "JP",
+    },
+    sameAs: ["https://hirai-gakuen.ac.jp"],
   };
 }

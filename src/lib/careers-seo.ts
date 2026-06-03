@@ -1,21 +1,6 @@
 import type { Metadata } from "next";
-import { routing, type Locale } from "@/i18n/routing";
-
-const SITE_URL = "https://jls.hirai-gakuen.ac.jp";
-
-const OG_LOCALE: Record<Locale, string> = {
-  ja: "ja_JP",
-  zh: "zh_CN",
-  en: "en_US",
-  ne: "ne_NP",
-};
-
-const ALT_LANG_MAP: Record<Locale, string> = {
-  ja: "ja",
-  zh: "zh-CN",
-  en: "en",
-  ne: "ne",
-};
+import type { Locale } from "@/i18n/routing";
+import { SITE_URL, OG_LOCALE, pageAlternates } from "./seo";
 
 export type CareersSubpage =
   | "hub"
@@ -31,20 +16,6 @@ const SUBPATH: Record<CareersSubpage, string> = {
   positions: "/careers/positions",
   entry: "/careers/entry",
 };
-
-function buildAlternates(locale: Locale, sub: CareersSubpage) {
-  const path = SUBPATH[sub];
-  const languages: Record<string, string> = {};
-  for (const l of routing.locales) {
-    languages[ALT_LANG_MAP[l]] = `${SITE_URL}/${l}${path}`;
-  }
-  // x-default points to the Japanese version (master locale)
-  languages["x-default"] = `${SITE_URL}/ja${path}`;
-  return {
-    canonical: `${SITE_URL}/${locale}${path}`,
-    languages,
-  };
-}
 
 /**
  * Build per-page metadata for a /careers/* page.
@@ -70,7 +41,7 @@ export function buildCareersMetadata({
   return {
     title,
     description,
-    alternates: buildAlternates(locale, sub),
+    alternates: pageAlternates(locale, SUBPATH[sub]),
     robots: { index: true, follow: true },
     openGraph: {
       title: fullTitle,
@@ -134,26 +105,6 @@ function detectEmploymentType(typeLabel: string): string[] {
     out.add("PART_TIME");
   if (out.size === 0) out.add("FULL_TIME");
   return [...out];
-}
-
-export function organizationLd(siteTitle: string, address: string) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    name: siteTitle,
-    legalName: "学校法人 平井学園",
-    url: SITE_URL,
-    logo: `${SITE_URL}/cert/mark-full.jpg`,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: address,
-      addressLocality: "Sagamihara",
-      addressRegion: "Kanagawa",
-      postalCode: "252-0313",
-      addressCountry: "JP",
-    },
-    sameAs: ["https://hirai-gakuen.ac.jp"],
-  } satisfies JsonLdValue;
 }
 
 export function breadcrumbsLd(
