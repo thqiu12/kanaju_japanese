@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
 import NewsCard from "@/components/NewsCard";
-import SectionLabel from "@/components/SectionLabel";
+import PageHero from "@/components/PageHero";
 import { fetchNewsList } from "@/lib/news";
 import { routing } from "@/i18n/routing";
 
@@ -35,17 +35,12 @@ export default async function NewsIndexPage({
       <Header />
       <NoticeBar />
       <main className="flex-1 bg-bg">
-        <section className="bg-gradient-to-br from-primary-dark to-primary px-6 py-20 text-white lg:px-8">
-          <div className="mx-auto max-w-6xl">
-            <SectionLabel label="NEWS & TOPICS" variant="light" />
-            <h1 className="mt-4 font-serif text-4xl font-semibold lg:text-5xl">
-              {t("title")}
-            </h1>
-            <p className="mt-6 max-w-3xl text-base leading-[1.9] text-white/85">
-              {t("subtitle")}
-            </p>
-          </div>
-        </section>
+        <PageHero
+          label="NEWS & TOPICS"
+          title={t("title")}
+          subtitle={t("subtitle")}
+          image="/photos/classroom-2.jpg"
+        />
 
         <section className="px-6 py-20 lg:px-8">
           <div className="mx-auto max-w-6xl">

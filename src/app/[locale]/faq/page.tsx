@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import NoticeBar from "@/components/NoticeBar";
-import SectionLabel from "@/components/SectionLabel";
+import PageHero from "@/components/PageHero";
 import { Link } from "@/i18n/navigation";
 
 export async function generateMetadata({
@@ -44,17 +44,13 @@ export default async function FaqPage({
       <NoticeBar />
       <main className="flex-1 bg-bg">
         {/* Hero */}
-        <section className="bg-gradient-to-br from-primary-dark to-primary px-6 py-20 text-white lg:px-8">
-          <div className="mx-auto max-w-5xl">
-            <SectionLabel label="FAQ" variant="light" />
-            <h1 className="mt-4 font-serif text-4xl font-semibold lg:text-5xl">
-              {t("title")}
-            </h1>
-            <p className="mt-6 max-w-3xl text-base leading-[1.9] text-white/85">
-              {t("subtitle")}
-            </p>
-          </div>
-        </section>
+        <PageHero
+          label="FAQ"
+          title={t("title")}
+          subtitle={t("subtitle")}
+          image="/photos/library.jpg"
+          maxWidth="max-w-5xl"
+        />
 
         {/* Categories */}
         <section className="px-6 py-20 lg:px-8">
