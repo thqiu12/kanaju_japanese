@@ -12,6 +12,7 @@ import {
   breadcrumbsLd,
   jobPostingsLd,
 } from "@/lib/careers-seo";
+import { jsonLdScript } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -77,12 +78,12 @@ export default async function CareersPositionsPage({
         <script
           key={i}
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(j) }}
+          dangerouslySetInnerHTML={{ __html: jsonLdScript(j) }}
         />
       ))}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(breadcrumbLd) }}
       />
       <Header />
       <NoticeBar />

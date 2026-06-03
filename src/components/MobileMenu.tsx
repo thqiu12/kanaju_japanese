@@ -28,12 +28,17 @@ export default function MobileMenu({ items }: { items: NavItem[] }) {
     }
   }, [open]);
 
-  // Close on Escape
+  // Close on Escape or browser navigation (back/forward)
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    const onPop = () => setOpen(false);
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    window.addEventListener("popstate", onPop);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      window.removeEventListener("popstate", onPop);
+    };
   }, [open]);
 
   return (

@@ -82,6 +82,15 @@ export async function buildPageMetadata({
   };
 }
 
+/**
+ * Serialize a JSON-LD object for injection via dangerouslySetInnerHTML.
+ * Escapes `<` to `<` so a value containing `</script>` can never break
+ * out of the surrounding <script> tag.
+ */
+export function jsonLdScript(data: unknown): string {
+  return JSON.stringify(data).replace(/</g, "\\u003c");
+}
+
 /** Site-wide WebSite JSON-LD for the home page. */
 export function websiteLd(siteTitle: string, description: string) {
   return {

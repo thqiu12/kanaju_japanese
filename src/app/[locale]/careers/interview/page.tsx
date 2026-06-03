@@ -9,6 +9,7 @@ import FacultyGrid from "@/components/FacultyGrid";
 import FacultyTeam from "@/components/FacultyTeam";
 import type { Locale } from "@/i18n/routing";
 import { buildCareersMetadata, breadcrumbsLd } from "@/lib/careers-seo";
+import { jsonLdScript } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -45,7 +46,7 @@ export default async function CareersInterviewPage({
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(breadcrumbLd) }}
       />
       <Header />
       <NoticeBar />

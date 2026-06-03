@@ -8,6 +8,7 @@ import CareersNav from "@/components/CareersNav";
 import ApplyByEmailButton from "@/components/ApplyByEmailButton";
 import type { Locale } from "@/i18n/routing";
 import { buildCareersMetadata, breadcrumbsLd } from "@/lib/careers-seo";
+import { jsonLdScript } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -46,7 +47,7 @@ export default async function CareersEntryPage({
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdScript(breadcrumbLd) }}
       />
       <Header />
       <NoticeBar />
