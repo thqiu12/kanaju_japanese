@@ -78,7 +78,16 @@ export async function submitContactForm(
 
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
-    // Dev mode without key — log the payload so devs can verify.
+    // In production a missing key must NEVER look like success — that would
+    // silently drop a real inquiry. Fail visibly so the visitor knows to reach
+    // out another way. In development, log the payload and fake success so the
+    // form stays testable without credentials.
+    if (process.env.NODE_ENV === "production") {
+      console.error(
+        "[contact-form] RESEND_API_KEY is not set in production — inquiry was NOT delivered.",
+      );
+      return { status: "error", message: "Failed to send. Try again later." };
+    }
     console.warn(
       "[contact-form] RESEND_API_KEY missing — payload would have been:",
       { subject, name, email, country, topic, preferredLang, message },

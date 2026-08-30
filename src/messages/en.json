@@ -1,4 +1,9 @@
 {
+  "notFound": {
+    "title": "Page not found",
+    "desc": "The page you're looking for may have been moved or removed. Please start again from the homepage.",
+    "home": "Back to home"
+  },
   "meta": {
     "siteTitle": "Department of Japanese Language, Kanagawa Jusei Shinkyu School",
     "siteDescription": "A MEXT-accredited Japanese language school operated by HIRAI-GAKUEN, located in Sagamihara, Kanagawa. We support international students from Japanese language study through vocational-school admission to careers in Japan."
