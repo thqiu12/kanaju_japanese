@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { routing, type Locale } from "@/i18n/routing";
+import { SITE_URL } from "./site";
 
-export const SITE_URL = "https://jls.hirai-gakuen.ac.jp";
+export { SITE_URL };
 
 export const OG_LOCALE: Record<Locale, string> = {
   ja: "ja_JP",

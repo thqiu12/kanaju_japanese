@@ -1,8 +1,7 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { fetchAllNewsSlugs } from "@/lib/news";
-
-const SITE_URL = "https://jls.hirai-gakuen.ac.jp";
+import { SITE_URL } from "@/lib/site";
 
 const staticRoutes = [
   { path: "", priority: 1.0, freq: "weekly" as const },

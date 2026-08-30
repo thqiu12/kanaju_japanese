@@ -11,6 +11,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -65,7 +66,7 @@ export async function generateMetadata({
       template: `%s | ${t("siteTitle")}`,
     },
     description: t("siteDescription"),
-    metadataBase: new URL("https://jls.hirai-gakuen.ac.jp"),
+    metadataBase: new URL(SITE_URL),
     alternates: {
       canonical: `/${locale}`,
       languages: {
