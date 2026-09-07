@@ -19,7 +19,7 @@
     "telDirectLabel": "प्रत्यक्ष",
     "telMainLabel": "मुख्य",
     "fax": "+८१-४२-७४०-७२२१",
-    "email": "gakuen@hirai-gakuen.ac.jp",
+    "email": "info03@hirai-gakuen.ac.jp",
     "yen": "येन",
     "home": "होम"
   },
@@ -711,7 +711,7 @@
       },
       {
         "name": "इमेल",
-        "value": "gakuen@hirai-gakuen.ac.jp",
+        "value": "info03@hirai-gakuen.ac.jp",
         "desc": "२४/७ खुला। ३ कार्य दिनभित्र जवाफ।"
       },
       {
@@ -839,7 +839,7 @@
       "applyTitle": "आवेदन / सोधपुछ",
       "applyDesc": "कृपया इमेलमा बायोडाटा र कभर लेटर पठाउनुहोस्। ३ कार्य दिनभित्र जवाफ।",
       "applyEmailLabel": "इमेल:",
-      "applyEmail": "gakuen@hirai-gakuen.ac.jp",
+      "applyEmail": "info03@hirai-gakuen.ac.jp",
       "applyButton": "इमेलमार्फत आवेदन दिनुहोस्",
       "applyCopied": "इमेल ठेगाना कपी भयो!",
       "applyHint": "बटन थिच्दा इमेल ठेगाना क्लिपबोर्डमा कपी हुनेछ र पूर्वनिर्धारित मेल एप खोल्न प्रयास हुनेछ। यदि कुनै एप नखुलेमा, कपी गरिएको ठेगाना आफ्नो मेल सेवा (Gmail आदि) मा टाँस्नुहोस्।",
@@ -1600,7 +1600,7 @@
           ],
           [
             "इमेल",
-            "gakuen@hirai-gakuen.ac.jp"
+            "info03@hirai-gakuen.ac.jp"
           ],
           [
             "उद्घाटन मिति",

@@ -3,7 +3,7 @@
 import { Resend } from "resend";
 
 const SCHOOL_EMAIL =
-  process.env.SCHOOL_CONTACT_EMAIL ?? "gakuen@hirai-gakuen.ac.jp";
+  process.env.SCHOOL_CONTACT_EMAIL ?? "info03@hirai-gakuen.ac.jp";
 const FROM_EMAIL = process.env.RESEND_FROM_EMAIL ?? "noreply@hirai-gakuen.ac.jp";
 
 export type ContactState = {

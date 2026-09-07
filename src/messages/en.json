@@ -19,7 +19,7 @@
     "telDirectLabel": "Direct",
     "telMainLabel": "Main",
     "fax": "+81-42-740-7221",
-    "email": "gakuen@hirai-gakuen.ac.jp",
+    "email": "info03@hirai-gakuen.ac.jp",
     "yen": "JPY",
     "home": "Home"
   },
@@ -711,7 +711,7 @@
       },
       {
         "name": "Email",
-        "value": "gakuen@hirai-gakuen.ac.jp",
+        "value": "info03@hirai-gakuen.ac.jp",
         "desc": "24/7. We reply within 3 business days."
       },
       {
@@ -839,7 +839,7 @@
       "applyTitle": "Apply / Inquire",
       "applyDesc": "Please send your résumé and cover letter by email. We respond within 3 business days.",
       "applyEmailLabel": "Email:",
-      "applyEmail": "gakuen@hirai-gakuen.ac.jp",
+      "applyEmail": "info03@hirai-gakuen.ac.jp",
       "applyButton": "Apply via Email",
       "applyCopied": "Email address copied!",
       "applyHint": "Clicking the button copies the email address to your clipboard and attempts to open your default mail app. If no app opens, paste the copied address into your preferred mail service (Gmail, etc.).",
@@ -1600,7 +1600,7 @@
           ],
           [
             "Email",
-            "gakuen@hirai-gakuen.ac.jp"
+            "info03@hirai-gakuen.ac.jp"
           ],
           [
             "Opening Date",
