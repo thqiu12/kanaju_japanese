@@ -2,8 +2,8 @@
 
 import { Resend } from "resend";
 
-const SCHOOL_EMAIL =
-  process.env.SCHOOL_CONTACT_EMAIL ?? "info03@hirai-gakuen.ac.jp";
+// 問い合わせの転送先は info03@ に固定（環境変数では上書きしない）。
+const SCHOOL_EMAIL = "info03@hirai-gakuen.ac.jp";
 const FROM_EMAIL = process.env.RESEND_FROM_EMAIL ?? "noreply@hirai-gakuen.ac.jp";
 
 export type ContactState = {
